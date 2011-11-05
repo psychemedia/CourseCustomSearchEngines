@@ -6,3 +6,6 @@
 
 ## baseLinkExtractor.py
 A minimal script that demonstrates how links can be extracted from an OU Structured Authoring XML document and used to generate an Google Custom Search Engine Annotations file XML document.
+
+## linkExtractor.py
+Start to explore in a little more detail what issues there may be with extracting links from multiple course documents and using them within the CSE annotations file. 
