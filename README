@@ -1,0 +1,8 @@
+# ESTEEM PROJECT (GOOGLE CUSTOM COURSE SEARCH ENGINES)
+## Tony Hirst, a.j.hirst, Dept of Communication and Systems
+
+
+# FILES
+
+## baseLinkExtractor.py
+A minimal script that demonstrates how links can be extracted from an OU Structured Authoring XML document and used to generate an Google Custom Search Engine Annotations file XML document.
