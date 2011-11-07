@@ -13,6 +13,15 @@
 ### do we want to use different weights in the CSE for different links? How might we determine such weights?
 ### how should we handle links that point to eg libezproxified DOIs?
 
+## The script in part relies on conventions in markup that are used to express the standardised format of the T151 course model.
+## In particular, study weeks contain topic explorations, each of which has a common structure that we draw on:
+### - questions used to frame a topic exploration
+### - resources organised by type to support the topic exploration
+
+##FURTHER IDEAS
+### Add links shared via t151 tag on delicious to the CSE in a 'Student Recommended' tab 
+### Add in links shared via a Google Reader feed to the CSE
+
 # DEPENDENCIES
 ## We're going to load files in from a course related directory
 import os
@@ -65,6 +74,17 @@ def flatten(el):
         result.append(sel.tail or "")
     return "".join(result)
 
+#Quick and dirty handler for saving XML trees as files
+def xmlFileSave(fn,xml):
+	# Output
+	txt = etree.tostring(xml, pretty_print=True)
+	#print txt
+	fout=open(fn,'wb+')
+	fout.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
+	fout.write(txt)
+	fout.close()
+
+
 #GENERATE A FREEMIND MINDMAP FROM A SINGLE T151 SA DOCUMENT
 def freemindRoot(page):
 	tree = etree.parse('/'.join([SA_XMLfiledir,page]))
@@ -79,17 +99,14 @@ def freemindRoot(page):
 	title=flatten(courseRoot.find('CourseTitle'))
 	root.set("TEXT",title)
 	
+	#For each SA doc, we need to handle it separately
 	for page in listing:
 		print page
+		#Week 0 and Week 10 are special cases and don't follow the standard teaching week layout
 		if page!='t151Week0.xml' and page!='t151Week10.xml':
 			tree = etree.parse('/'.join([SA_XMLfiledir,page]))
 			courseRoot = tree.getroot()
 			generateFreeMindLinksMapFromDoc(courseRoot,root)
-			#f=open('tmp/test_'+page.split('.')[0]+'.mm','wb+')
-			#txt=etree.tostring(mm, pretty_print=True)
-			#f.write(txt)
-			#f.close()
-
 	return mm
 
 def generateFreeMindLinksMapFromDoc(courseRoot,root):
@@ -102,6 +119,8 @@ def generateFreeMindLinksMapFromDoc(courseRoot,root):
 	mmweek.set("FOLDED","true")
 	print 'looking for topics'
 	topics=week.findall('.//Section')
+	#Weeks are generally split into two topic explorations per week.
+	#Handle each topic exploration separately
 	for topic in topics:
 		print 'trying topics'
 		title=flatten(topic.find('.//Title'))
@@ -148,6 +167,10 @@ def handleMMlinks(courseRoot,resources):
 	#print txt
 
 
+#ADD IN LINKS TO THE CSE FROM AN EXTERNAL FEED
+def grabFeedLinks(feed):
+	pass
+
 #GENERATE THE GOOGLE CSE ANNOTATIONS FILE
 
 ## For each link in a list, add it to the annotations tree
@@ -182,6 +205,9 @@ def getDomains(links,domainList={}):
 				domainList[netloc]={'domain':netloc,'cseInclude':'http://'+netloc+'/*','count':1}
 	return domainList
 
+
+
+######################## DO THE BUSINESS....
 ## Create an XML tree for the Annotations
 cseAnnotations = etree.Element("Annotations")
 
@@ -190,6 +216,7 @@ listing = os.listdir(SA_XMLfiledir)
 
 print 'Got listing'
 ## For each file, parse it as an XML doc, grab the links, and add them to the annotations list
+##TO DO - this really needs tidying into a function
 for page in listing:
 	print page
 	tree = etree.parse('/'.join([SA_XMLfiledir,page]))
@@ -204,21 +231,11 @@ cseAnnotations = addLinksToAnnotationsXML(cseAnnotations,externalLinks,cselabel)
 domainsList=getDomains(externalLinks)
 print domainsList
 
-# Output
-fon='test.xml'
-txt = etree.tostring(cseAnnotations, pretty_print=True)
-print txt
-fout=open(fon,'wb+')
-fout.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
-fout.write(txt)
-fout.close()
+xmlFileSave('tmp/testAnnotations.xml',cseAnnotations)
 
-# TEST Freemind Mindmap generator
+# Freemind Mindmap generator
 ## I want to get a feel for the structure around the links, and a mindmap visualisation might help with this
 ## In addition, the mimdmap view may be a useful spinoff...
 mm=freemindRoot('t151Week10.xml')
 
-f=open('tmp/test_full.mm','wb+')
-txt=etree.tostring(mm, pretty_print=True)
-f.write(txt)
-f.close()
+xmlFileSave('tmp/test_full.mm',mm)
