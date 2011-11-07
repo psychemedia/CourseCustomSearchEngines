@@ -398,6 +398,7 @@ def createQuestionQueryTags(cc,topic,qn,questiontags=None):
 	if questiontags is None: questiontags = []
 	topicID=topic.split(' ')[2]
 	questiontags=createGenericQueryTags(cc,'topic '+topicID+' q'+str(qn),questiontags)
+	questiontags=createGenericQueryTags(cc,'topic '+topicID,questiontags)
 	return questiontags
 	
 def createPromotions(promotions,courseRoot,cselabel):
