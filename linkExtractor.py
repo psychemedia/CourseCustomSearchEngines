@@ -20,6 +20,8 @@ import os
 from lxml import etree
 ## When we test URLs, we might as well be able to parse them comprehensively
 from urlparse import urlparse
+# We may find it handy to generate timestamps...
+import time
 
 #CONFIGURATION
 ## There's a little bit of config information we need
@@ -51,7 +53,101 @@ def addExternalLink(linkslist,link):
 	else:
 		linkslist[url]={'count':1,'desc':[desc]}
 	return linkslist
+
+# UTILITIES
+
+#lxml flatten routine - grab text from across subelements
+#via http://stackoverflow.com/questions/5757201/help-or-advice-me-get-started-with-lxml/5899005#5899005
+def flatten(el):           
+    result = [ (el.text or "") ]
+    for sel in el:
+        result.append(flatten(sel))
+        result.append(sel.tail or "")
+    return "".join(result)
+
+#GENERATE A FREEMIND MINDMAP FROM A SINGLE T151 SA DOCUMENT
+def freemindRoot(page):
+	tree = etree.parse('/'.join([SA_XMLfiledir,page]))
+	courseRoot = tree.getroot()
+	mm=etree.Element("map")
+	mm.set("version", "0.9.0")
+	root=etree.SubElement(mm,"node")
+	root.set("CREATED",str(int(time.time())))
+	root.set("STYLE","fork")
+	#We probably need to bear in mind escaping the text strings?
+	#courseRoot: The course title is not represented consistently in the T151 SA docs, so we need to flatten it
+	title=flatten(courseRoot.find('CourseTitle'))
+	root.set("TEXT",title)
 	
+	for page in listing:
+		print page
+		if page!='t151Week0.xml' and page!='t151Week10.xml':
+			tree = etree.parse('/'.join([SA_XMLfiledir,page]))
+			courseRoot = tree.getroot()
+			generateFreeMindLinksMapFromDoc(courseRoot,root)
+			#f=open('tmp/test_'+page.split('.')[0]+'.mm','wb+')
+			#txt=etree.tostring(mm, pretty_print=True)
+			#f.write(txt)
+			#f.close()
+
+	return mm
+
+def generateFreeMindLinksMapFromDoc(courseRoot,root):
+
+	weektitle=courseRoot.find('.//Unit/Session/Title')
+	week=courseRoot.find('.//Unit/Session')
+	
+	mmweek=etree.SubElement(root,"node")
+	mmweek.set("TEXT",flatten(weektitle))
+	mmweek.set("FOLDED","true")
+	print 'looking for topics'
+	topics=week.findall('.//Section')
+	for topic in topics:
+		print 'trying topics'
+		title=flatten(topic.find('.//Title'))
+		if title.startswith('Topic'):
+			resources=etree.SubElement(mmweek,"node")
+			resources.set("TEXT",title)
+			resources.set("FOLDED","true")
+			handleMMquestions(topic,resources)
+			handleMMlinks(topic,resources)
+
+def handleMMquestions(courseRoot,resources):
+	qsection = courseRoot.find(".//SubSection")
+	title=flatten(qsection[0])
+	if title.startswith('Questions'):
+		currResource=etree.SubElement(resources,"node")
+		currResource.set("TEXT","Questions")
+		currResource.set("FOLDED","true")
+		qqsection=qsection.find('NumberedList')
+		print qqsection
+		if qqsection!=None:
+			for question in qqsection.iter('ListItem'):
+				qResource=etree.SubElement(currResource,"node")
+				qtext=flatten(question)
+				qResource.set("TEXT",qtext)
+	
+def handleMMlinks(courseRoot,resources):
+	#Find the resources section; we're relying on all sorts of conventions here so this is likely to be brittle
+	resourceLists = courseRoot.findall(".//InternalSection")
+
+	for rl in resourceLists:
+		title=flatten(rl[0])
+		print title
+		currResource=etree.SubElement(resources,"node")
+		currResource.set("TEXT",title)
+		currResource.set("FOLDED","true")
+		links=rl.findall('.//ListItem/a')
+		for link in links:
+			linkResource=etree.SubElement(currResource,"node")
+			linkResource.set("LINK",link.get('href'))
+			#Once again, the SA doc is a mess. Sometimes there's a font tag, sometimes there isn't
+			linktext=flatten(link)
+			linkResource.set("TEXT",linktext)
+	#txt = etree.tostring(mm, pretty_print=True)
+	#print txt
+
+
 #GENERATE THE GOOGLE CSE ANNOTATIONS FILE
 
 ## For each link in a list, add it to the annotations tree
@@ -110,9 +206,19 @@ print domainsList
 
 # Output
 fon='test.xml'
-str = etree.tostring(cseAnnotations, pretty_print=True)
-print str
+txt = etree.tostring(cseAnnotations, pretty_print=True)
+print txt
 fout=open(fon,'wb+')
 fout.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
-fout.write(str)
+fout.write(txt)
 fout.close()
+
+# TEST Freemind Mindmap generator
+## I want to get a feel for the structure around the links, and a mindmap visualisation might help with this
+## In addition, the mimdmap view may be a useful spinoff...
+mm=freemindRoot('t151Week10.xml')
+
+f=open('tmp/test_full.mm','wb+')
+txt=etree.tostring(mm, pretty_print=True)
+f.write(txt)
+f.close()
