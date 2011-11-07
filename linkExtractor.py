@@ -39,7 +39,9 @@ import time
 ## There's a little bit of config information we need
 
 ## The label of the custom search engine we want the annotations file to apply to
-cselabel="_cse_bf8jg9spayc"
+
+cseid="bf8jg9spayc"
+cselabel="_cse_"+cseid
 
 ## The directory the course XML files are in (separate directory for each course for now) 
 SA_XMLfiledir='data/'
@@ -195,6 +197,122 @@ def handleMMlinks(topicRoot,resources):
 			linktext=flatten(link)
 			linkResource.set("TEXT",linktext)
 
+
+#GENERATE THE GOOGLE CSE CONTEXT FILE
+def cseStyleFile(cseContext):
+	lookAndFeel=etree.SubElement(cseContext, "LookAndFeel")
+	lookAndFeel.set('code','2')
+	lookAndFeel.set('nonprofit','true')
+	lookAndFeel.set('googlebranding','watermark')
+	lookAndFeel.set('element_layout','1')
+	lookAndFeel.set('theme','3')
+	lookAndFeel.set('custom_theme','true')
+	lookAndFeel.set('text_font','sans-serif')
+	lookAndFeel.set('enable_cse_thumbnail','true')
+	
+	etree.SubElement(lookAndFeel, "Logo")
+	
+	colors=etree.SubElement(lookAndFeel, "Colors")
+	colors.set('url','#815FA7')
+	colors.set('background','#ffffff')
+	colors.set('border','#ffffff')
+	colors.set('title','#0066CC')
+	colors.set('text','#454545')
+	colors.set('visited','#0066CC')
+	colors.set('title_hover','#0066CC')
+	colors.set('title_active','#0066CC')
+	
+	promotions=etree.SubElement(lookAndFeel, "Promotions")
+	promotions.set('title_color',"#0066CC")
+	promotions.set('title_visited_color',"#0066CC")
+	promotions.set('url_color',"#815FA7")
+	promotions.set('background_color',"#CBE8B4")
+	promotions.set('border_color',"#94CC7A")
+	promotions.set('snippet_color',"#454545")
+	promotions.set('title_hover_color',"#0066CC")
+	promotions.set('title_active_color',"#0066CC")
+    
+	searchcontrols=etree.SubElement(lookAndFeel, "SearchControls")
+	searchcontrols.set('input_border_color',"#94CC7A")
+	searchcontrols.set('button_border_color',"#94CC7A")
+	searchcontrols.set('button_background_color',"#AADA92")
+	searchcontrols.set('tab_border_color',"#A9DA92")
+	searchcontrols.set('tab_background_color',"#FFFFFF")
+	searchcontrols.set('tab_selected_border_color',"#A9DA92")
+	searchcontrols.set('tab_selected_background_color',"#A9DA92")
+
+	results=etree.SubElement(lookAndFeel, "Results")
+	results.set('border_color',"#AADDEE")
+	results.set('border_hover_color',"#A9DA92")
+	results.set('background_color',"#FFFFFF")
+	results.set('background_hover_color',"#FFFFFF")
+
+def cseParams(cseContext):
+	cseContext.set('id',cseid)
+	cseContext.set('creator','')
+	cseContext.set('volunteers',"true")
+	cseContext.set('keywords','')
+	cseContext.set('language','en')
+	cseContext.set('visible',"true")
+	cseContext.set('encoding',"UTF-8")
+
+def addNodeText(el,node,text):
+	title=etree.SubElement(el, node)
+	title.text=text
+
+def facetLabel(el,name,mode,rewriteText):
+	label=etree.SubElement(el, "Label")
+	label.set('name',name)
+	label.set('mode',mode)
+	rewrite=etree.SubElement(label, "Rewrite")
+	rewrite.text=rewriteText
+
+def facetAdd(cseContext,tag,mode,rewriteText,title):
+	facet=etree.SubElement(cseContext, "Facet")
+	facetItem=etree.SubElement(facet, "FacetItem")
+	facetLabel(facetItem,tag,mode,rewriteText)
+	addNodeText(facetItem,'Title',title)
+	
+def cseContextFile(page):
+	##Elements of the context file will require explicit configuration
+	cseContext=etree.Element("CustomSearchEngine")
+	cseParams(cseContext)
+	
+	tree = etree.parse('/'.join([SA_XMLfiledir,page]))
+	courseRoot = tree.getroot()
+	title=courseRoot.find('CourseTitle').text
+	cc=courseRoot.find('CourseCode').text
+	
+	el_title=etree.SubElement(cseContext, "Title")
+	el_title.text='['+cc+'] '+title+' CSE'
+	el_desc=etree.SubElement(cseContext, "Description")
+	el_desc.text='Custom Search Engine to support the Open University Course '+cc
+	
+	context=etree.SubElement(cseContext, "Context")
+	
+	#What sort of heuristics might we suggest for faceting?
+	
+	facetAdd(context,'digital_worlds_blog','FILTER','http://digitalworlds.wordpress.com','Digital Worlds blog')
+	facetAdd(context,"digital_worlds_references","FILTER",'','Digital Worlds references')
+	facetAdd(context,"t151_course_resource","FILTER",'',"Course Resources")
+	
+	bglabels=etree.SubElement(context, "BackgroundLabels")
+	incLabel=etree.SubElement(bglabels, "Label")
+	incLabel.set('name','_cse_'+cseid)
+	incLabel.set('mode','FILTER')
+	excLabel=etree.SubElement(bglabels, "Label")
+	excLabel.set('name','_cse_exclude_'+cseid)
+	excLabel.set('mode','ELIMINATE')
+
+	
+	cseStyleFile(cseContext)
+	sls=etree.SubElement(cseContext, "SubscribedLinks")
+	sl=etree.SubElement(sls, "SubscribedLink")
+	sl.set('creator',"009190243792682903990" )
+	
+	etree.SubElement(cseContext, "AdSense")
+	etree.SubElement(cseContext, "EnterpriseAccount")
+	return cseContext
 
 #ADD IN LINKS TO THE CSE FROM AN EXTERNAL FEED
 def grabFeedLinks(feed):
@@ -412,3 +530,6 @@ for page in listing:
 		createPromotions(promotions,root,cselabel)
 
 xmlFileSave('tmp/test_promotions.xml',promotions)
+
+cseContext=cseContextFile('t151Week10.xml')
+xmlFileSave('tmp/testContext.xml',cseContext)
