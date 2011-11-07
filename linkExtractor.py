@@ -1,3 +1,6 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
+          
 # ESTEEM PROJECT (GOOGLE CUSTOM COURSE SEARCH ENGINES) DELIVERABLE
 ## Tony Hirst, a.j.hirst, Dept of Communication and Systems
 
@@ -45,6 +48,9 @@ SA_XMLfiledir='data/'
 ## [via Colin Chambers]
 ## eg http://learn.open.ac.uk/mod/oucontent/view.php?id=526433&content=1
 
+## Use an OU Logo to bolster the promoted links
+OU_LOGO_URL='http://kmi.open.ac.uk/images/ou-logo.gif'
+
 #BUILD A LIST OF EXTERNAL LINKS
 # We may get the same link referenced in several places, so build up a list of unique links
 # At the moment, I'll key the dict with the URL, but an MD5 hash may be more convenient?
@@ -80,12 +86,14 @@ def xmlFileSave(fn,xml):
 	txt = etree.tostring(xml, pretty_print=True)
 	#print txt
 	fout=open(fn,'wb+')
-	fout.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
+	#fout.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
 	fout.write(txt)
 	fout.close()
 
 
 #GENERATE A FREEMIND MINDMAP FROM A SINGLE T151 SA DOCUMENT
+## The structure of the T151 course lends itself to a mindmap/tree style visualisation
+## Essentially what we are doing here is recreating an outline view of the course that was originally used in the course design phase
 def freemindRoot(page):
 	tree = etree.parse('/'.join([SA_XMLfiledir,page]))
 	courseRoot = tree.getroot()
@@ -131,8 +139,9 @@ def generateFreeMindLinksMapFromDoc(courseRoot,root):
 			handleMMquestions(topic,resources)
 			handleMMlinks(topic,resources)
 
-def handleMMquestions(courseRoot,resources):
-	qsection = courseRoot.find(".//SubSection")
+# We might as well include the questions in the mindmap view, as they unpack nicely...
+def handleMMquestions(topicRoot,resources):
+	qsection = topicRoot.find(".//SubSection")
 	title=flatten(qsection[0])
 	if title.startswith('Questions'):
 		currResource=etree.SubElement(resources,"node")
@@ -146,9 +155,9 @@ def handleMMquestions(courseRoot,resources):
 				qtext=flatten(question)
 				qResource.set("TEXT",qtext)
 	
-def handleMMlinks(courseRoot,resources):
+def handleMMlinks(topicRoot,resources):
 	#Find the resources section; we're relying on all sorts of conventions here so this is likely to be brittle
-	resourceLists = courseRoot.findall(".//InternalSection")
+	resourceLists = topicRoot.findall(".//InternalSection")
 
 	for rl in resourceLists:
 		title=flatten(rl[0])
@@ -163,8 +172,6 @@ def handleMMlinks(courseRoot,resources):
 			#Once again, the SA doc is a mess. Sometimes there's a font tag, sometimes there isn't
 			linktext=flatten(link)
 			linkResource.set("TEXT",linktext)
-	#txt = etree.tostring(mm, pretty_print=True)
-	#print txt
 
 
 #ADD IN LINKS TO THE CSE FROM AN EXTERNAL FEED
@@ -191,6 +198,8 @@ def addLinksToAnnotationsXML(annotations,links,cselabel):
 			annotation.set("score", "1")
 			label = etree.SubElement(annotation, "Label")
 			label.set("name", cselabel)
+			label = etree.SubElement(annotation, "Label")
+			label.set("name", "t151_course_resource")
 		else:
 			print '... and ignoring it...'
 	return annotations
@@ -205,6 +214,137 @@ def getDomains(links,domainList={}):
 				domainList[netloc]={'domain':netloc,'cseInclude':'http://'+netloc+'/*','count':1}
 	return domainList
 
+
+# GENERATE GOOGLE CSE PROMOTIONS FILE
+## The scoping of Python functions caught me out here... I wonder how many times I fall foul of this elsewhere?
+## http://stackoverflow.com/questions/959113/python-function-calls-are-bleeding-scope-stateful-failing-to-initialize-parame
+def checkDesc(desc):
+	if len(desc)>199:
+		desc=desc[:195]+' ...'
+	#This is flakey as anything? How do we handle Unicode so Google importer is kept happy?
+	desc=desc.replace(u'‘',"'")
+	desc=desc.replace(u'’',"'")
+	desc=desc.replace(u"\u00A0"," ")
+	return desc
+
+def checkQueryTags(tags):
+	while len(tags)>499:
+		tags=tags[:tags.rfind(',')]
+	return tags
+
+def createGenericQueryTags(cc,item,tags=None):
+	if tags is None: tags = []
+	tags.append(item.lower())
+	tags.append(cc.upper()+' '+item.lower())
+	tags.append(cc.lower()+' '+item.lower())
+	return tags
+
+def createWeekQueryTags(cc,week,weektags=None):
+	if weektags is None: weektags = []
+	weektags=createGenericQueryTags(cc,week,weektags)
+	return weektags
+	
+def createTopicQueryTags(cc,topic,topictags=None):
+	if topictags is None: topictags = []	
+	topictags=createGenericQueryTags(cc,topic,topictags)
+	##This is dangerous, and relies on a convention of "Topic Exploration NX"
+	topicparts=topic.split(' ')
+	topictags=createGenericQueryTags(cc,topicparts[2],topictags)
+	topictags=createGenericQueryTags(cc,'topic '+topicparts[2],topictags)
+	topictags=createGenericQueryTags(cc,'topic'+topicparts[2],topictags)
+	return topictags
+
+def createQuestionQueryTags(cc,topic,qn,questiontags=None):
+	if questiontags is None: questiontags = []
+	topicID=topic.split(' ')[2]
+	questiontags=createGenericQueryTags(cc,'topic '+topicID+' q'+str(qn),questiontags)
+	return questiontags
+	
+def createPromotions(promotions,courseRoot,cselabel):
+	##The Promotions file provides a set of promoted links that appear at the top of the search results listing for a particular search query
+	## the aim is to try to aut-generate sensible cribs for students based on calendar and topic searches
+	week=courseRoot.find('.//Unit/Session')
+	cc=courseRoot.find('.//CourseCode').text
+	##So what promotions might we add?
+	##The first promotion just identifies what the weeks topics are about?
+	promotion=etree.SubElement(promotions,"Promotion")
+	promotion.set('image_url',OU_LOGO_URL)
+	weektitle=flatten(courseRoot.find('.//Unit/Session/Title'))
+	promotion.set('title',weektitle)
+	promotion.set('id',cc+'_'+weektitle.replace(' ',''))
+	qtags=checkQueryTags(','.join(createWeekQueryTags(cc,weektitle)))
+	promotion.set('queries',qtags)
+	#I'm really not sure what we can plausibly set as a URL here?
+	promotion.set('url','http://www.open.ac.uk')
+	topics=week.findall('.//Section')
+	desc=''
+	#Weeks are generally split into two topic explorations per week.
+	#Summarise the week by the topics it includes
+	for topic in topics:
+		title=flatten(topic.find('.//Title'))
+		## The original doc includes Unicode characters that don't seem to to play nicely...
+		## There's probably a better way of handling this, but I'm just a hack it and see type of programmer!
+		title=title.replace(u'–','-')
+		if title.startswith('Topic'):
+			desc=desc+title+' '
+	desc=checkDesc(desc)
+	promotion.set('description',desc)
+	
+	##The second promotion type briefly describes a given topic
+	for topic in topics:
+		title=flatten(topic.find('.//Title'))
+		title=title.replace(u'–','')
+		if title.startswith('Topic'):
+			promotion=etree.SubElement(promotions,"Promotion")
+			promotion.set('image_url',OU_LOGO_URL)
+			##What URL should we set here?
+			promotion.set('url','http://www.open.ac.uk')
+			##Probably need to find a better way of parsing the topic number and title out...
+			topictxt=' '.join(title.split(' ')[:3])
+			print topictxt
+			promotion.set('title',topictxt)
+			promotion.set('id',cc+'_'+topictxt.replace(' ',''))
+			#At the moment the desc is the theme of the explorations. Maybe also give a list of how many questions?
+			desc=checkDesc(' '.join(title.split(' ')[3:]))
+			promotion.set('description',desc)
+			topicdesc=desc
+			qtags=checkQueryTags(','.join(createTopicQueryTags(cc,topictxt)))
+			promotion.set('queries',qtags)
+			
+			##The third promotion type identifies the first 196 chars of each question
+			qsection = topic.find(".//SubSection")
+			title=flatten(qsection[0])
+			if title.startswith('Questions'):
+				qqsection=qsection.find('NumberedList')
+				if qqsection!=None:
+					qn=0
+					for question in qqsection.iter('ListItem'):
+						qn=qn+1
+						qpromotion=etree.SubElement(promotions,"Promotion")
+						qpromotion.set('image_url',OU_LOGO_URL)
+						##What URL should we set here?
+						qpromotion.set('url','http://www.open.ac.uk')
+						##Probably need to find a better way of parsing the topic number and title out...
+						qpromotion.set('title',topictxt+' Question '+str(qn))
+						qpromotion.set('id',cc+'_'+topictxt.replace(' ','')+'_'+str(qn))
+						qtext=flatten(question)
+						desc=checkDesc(qtext)
+						qpromotion.set('description',desc)
+						qtags=checkQueryTags(','.join(createQuestionQueryTags(cc,topictxt,qn)))
+						qpromotion.set('queries',qtags)
+					#if there are questions, update the topic description
+					topicdesc=topicdesc+' ('+str(qn)+' questions)'
+					promotion.set('description',checkDesc(topicdesc))
+			
+	'''
+	id="t151_start" 
+        queries="t151, T151, start, start t151, start T151, T151 start, t151 start, about, about t151, t151 about" 
+        title="T151 Getting Started" 
+        url="http://ouseful.open.ac.uk/T151"
+        description="Welcome to T151. To start the course, read through the Getting Started guide then come back and enter: t151 topic1a"
+        image_url="http://kmi.open.ac.uk/images/ou-logo.gif"
+    '''
+	
 
 
 ######################## DO THE BUSINESS....
@@ -239,3 +379,14 @@ xmlFileSave('tmp/testAnnotations.xml',cseAnnotations)
 mm=freemindRoot('t151Week10.xml')
 
 xmlFileSave('tmp/test_full.mm',mm)
+
+##Promotions file generator
+promotions=etree.Element("Promotions")
+for page in listing:
+	print page
+	if page!='t151Week0.xml' and page!='t151Week10.xml':
+		tree = etree.parse('/'.join([SA_XMLfiledir,page]))
+		root = tree.getroot()
+		createPromotions(promotions,root,cselabel)
+
+xmlFileSave('tmp/test_promotions.xml',promotions)
