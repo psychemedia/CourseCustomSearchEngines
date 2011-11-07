@@ -125,6 +125,7 @@ def generateFreeMindLinksMapFromDoc(courseRoot,root):
 	mmweek=etree.SubElement(root,"node")
 	mmweek.set("TEXT",flatten(weektitle))
 	mmweek.set("FOLDED","true")
+	
 	print 'looking for topics'
 	topics=week.findall('.//Section')
 	#Weeks are generally split into two topic explorations per week.
@@ -137,8 +138,29 @@ def generateFreeMindLinksMapFromDoc(courseRoot,root):
 			resources.set("TEXT",title)
 			resources.set("FOLDED","true")
 			handleMMquestions(topic,resources)
+			#My observations
+			handleMMmyobservations(topic,resources)
 			handleMMlinks(topic,resources)
 
+# Freemind supports "richcontent" notes, which are essentially HTML documents
+## This means we can consider bringing in some of the additional text from the SA doc into the minmap as notes...
+def handleMMmyobservations(topicRoot,resources):
+	sections=topicRoot.findall(".//SubSection")
+	for section in sections:
+		title=flatten(section[0])
+		if title.startswith('My '):
+			currResource=etree.SubElement(resources,"node")
+			currResource.set("TEXT","My Observations")
+			richcontent=etree.SubElement(currResource,"richcontent")
+			richcontent.set("TYPE","NOTE")
+			html=etree.SubElement(richcontent,"html")
+			tmp=etree.SubElement(richcontent,"head")
+			body=etree.SubElement(richcontent,"body")
+			for p in section.iter("Paragraph"):
+				para=etree.SubElement(body,"p")
+				#This is a fudge: should really retain things like anchor/link tags
+				para.text=flatten(p)
+	
 # We might as well include the questions in the mindmap view, as they unpack nicely...
 def handleMMquestions(topicRoot,resources):
 	qsection = topicRoot.find(".//SubSection")
