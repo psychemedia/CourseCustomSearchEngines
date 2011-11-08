@@ -7,6 +7,8 @@
 ## A script to generate Google Custom Search Engine Annotations file
 ## from external pointing links contained within OU VLE course webpages
 
+## As an added bonus, also create a Freemind mindmap file from appropriately stuctured SA docs
+
 ## This script starts to raise and explore some of the issues involved as we scrape links from across a course.
 ## For example:
 ### how should we handle duplicate links?
@@ -39,9 +41,12 @@ import time
 ## There's a little bit of config information we need
 
 ## The label of the custom search engine we want the annotations file to apply to
-
 cseid="bf8jg9spayc"
 cselabel="_cse_"+cseid
+
+#If you want to make use of promotions, I think you need to identify the creator/owner of the
+# Promotions file in the CSE Context file
+PromotionsCreatorID="009190243792682903990"
 
 ## The directory the course XML files are in (separate directory for each course for now) 
 SA_XMLfiledir='data/'
@@ -70,6 +75,13 @@ def addExternalLink(linkslist,link):
 	else:
 		linkslist[url]={'count':1,'desc':[desc]}
 	return linkslist
+
+def mergeExternalAndDomainLinks(externalLinks,domainLinks):
+	mergedLinks=externalLinks
+	for link in domainLinks:
+		if link not in mergedLinks:
+			mergedLinks[link]={'count':1,'desc':['Domain: '+link]}
+	return mergedLinks
 
 # UTILITIES
 
@@ -304,11 +316,12 @@ def cseContextFile(page):
 	excLabel.set('name','_cse_exclude_'+cseid)
 	excLabel.set('mode','ELIMINATE')
 
-	
+
+	## I think we need to set the subscribed links ID in order to render the promotions?	
 	cseStyleFile(cseContext)
 	sls=etree.SubElement(cseContext, "SubscribedLinks")
 	sl=etree.SubElement(sls, "SubscribedLink")
-	sl.set('creator',"009190243792682903990" )
+	sl.set('creator',PromotionsCreatorID)
 	
 	etree.SubElement(cseContext, "AdSense")
 	etree.SubElement(cseContext, "EnterpriseAccount")
@@ -475,27 +488,19 @@ def createPromotions(promotions,courseRoot,cselabel):
 						qpromotion.set('queries',qtags)
 					#if there are questions, update the topic description
 					topicdesc=topicdesc+' ('+str(qn)+' questions)'
-					promotion.set('description',checkDesc(topicdesc))
-			
-	'''
-	id="t151_start" 
-        queries="t151, T151, start, start t151, start T151, T151 start, t151 start, about, about t151, t151 about" 
-        title="T151 Getting Started" 
-        url="http://ouseful.open.ac.uk/T151"
-        description="Welcome to T151. To start the course, read through the Getting Started guide then come back and enter: t151 topic1a"
-        image_url="http://kmi.open.ac.uk/images/ou-logo.gif"
-    '''
-	
+					promotion.set('description',checkDesc(topicdesc))	
 
 
 ######################## DO THE BUSINESS....
-## Create an XML tree for the Annotations
-cseAnnotations = etree.Element("Annotations")
 
 ## Grab a listing of the SA files in the target directory
 listing = os.listdir(SA_XMLfiledir)
 
-print 'Got listing'
+## Create an XML tree for the CSE Annotations file
+## In the simplest case, where we just grab external links from wherever we find them,
+## the annotations file generator should work for any course.
+## However, if we want to make use of rather more structured tagging, we'll need to carefuly watch SA doc structures
+cseAnnotations = etree.Element("Annotations")
 ## For each file, parse it as an XML doc, grab the links, and add them to the annotations list
 ##TO DO - this really needs tidying into a function
 for page in listing:
@@ -505,23 +510,19 @@ for page in listing:
 	links = root.findall(".//a[@href]")
 	for link in links:
 		externalLinks=addExternalLink(externalLinks,link)
-	
-cseAnnotations = addLinksToAnnotationsXML(cseAnnotations,externalLinks,cselabel)
-
 #There may be occasions where we want to add the domains?
 domainsList=getDomains(externalLinks)
 print domainsList
+mergeExternalAndDomainLinks(externalLinks,domainsList)
 
+cseAnnotations = addLinksToAnnotationsXML(cseAnnotations,externalLinks,cselabel)
+
+#However, for now, we do nothing with the domains list...
 xmlFileSave('tmp/testAnnotations.xml',cseAnnotations)
 
-# Freemind Mindmap generator
-## I want to get a feel for the structure around the links, and a mindmap visualisation might help with this
-## In addition, the mimdmap view may be a useful spinoff...
-mm=freemindRoot('t151Week10.xml')
-
-xmlFileSave('tmp/test_full.mm',mm)
-
 ##Promotions file generator
+## The current iteration of the promotions file generator draws heavily on the very particular structure of T151 SA docs
+## It is unlikely to work with SA docs from other courses.
 promotions=etree.Element("Promotions")
 for page in listing:
 	print page
@@ -529,8 +530,19 @@ for page in listing:
 		tree = etree.parse('/'.join([SA_XMLfiledir,page]))
 		root = tree.getroot()
 		createPromotions(promotions,root,cselabel)
+xmlFileSave('tmp/testPromotions.xml',promotions)
 
-xmlFileSave('tmp/test_promotions.xml',promotions)
-
+## Context file generator
+### The context file may require some configuration details
+### At the moment, some of this config info is buried in the code:-(
+### Ideally, the context file generator should work for any course in the simplest case
+### However, if we make used of structured tagging/refinements, there'll be dependencies on Context in Annotation labelling
 cseContext=cseContextFile('t151Week10.xml')
 xmlFileSave('tmp/testContext.xml',cseContext)
+
+# Freemind Mindmap generator
+## I want to get a feel for the structure around the links, and a mindmap visualisation might help with this
+## In addition, the mimdmap view may be a useful spinoff...
+## The mindmap generator is unlikely to work for any courses other than T151, which has a very particular document structure.
+mm=freemindRoot('t151Week10.xml')
+xmlFileSave('tmp/test_full.mm',mm)
