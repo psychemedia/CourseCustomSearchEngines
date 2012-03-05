@@ -5,7 +5,10 @@
 # FILES
 
 ## baseLinkExtractor.py
-A minimal script that demonstrates how links can be extracted from an OU Structured Authoring XML document and used to generate an Google Custom Search Engine Annotations file XML document.
+A minimal script that demonstrates how links can be extracted from an OU Structured Authoring XML document and used to generate a Google Custom Search Engine Annotations file XML document.
 
 ## linkExtractor.py
 Start to explore in a little more detail what issues there may be with extracting links from multiple course documents and using them within the CSE annotations file. 
+
+# SAPROC directories
+As well as generating custom search engine config files, we can create mindmap files to present an annotatable navigation surface across course units. The mm_*.py files are hand tweaked scripts to parse different course units. (Experience suggests that OU_SA attributes are not used consistently across course materials, maybe as a result of different courses uses different versions of the OU_SA_XML tool.
