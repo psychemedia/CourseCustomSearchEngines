@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="1.2" TextType="CompleteItem" ACSTemplate="DS_TEST" xsi:noNamespaceSchemaLocation="http://openlearn.open.ac.uk/local/schemas/OUIntermediateSchema.xsd" id="X-T175_2"><CourseCode>T175</CourseCode><CourseTitle>Networked Living - Exploring Information and Communication Technologies</CourseTitle><ItemID/><ItemTitle>ICTs in everyday life</ItemTitle>
+	<FrontMatter>
+		
+		
+		
+		
+		<Imprint>
+			<Standard>
+				<GeneralInfo>
+					<Paragraph/>
+				</GeneralInfo>
+				<Address>
+					<AddressLine>The Open University, Walton Hall, Milton Keynes MK7 6AA</AddressLine>
+				</Address>
+				<FirstPublished><Paragraph>First published 2005</Paragraph></FirstPublished>
+<Copyright><Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph></Copyright>
+				<Rights>
+					<Paragraph/>
+				</Rights>
+				<Edited><Paragraph>Edited and designed by the Open University</Paragraph></Edited>
+				<Typeset><Paragraph>Typeset in Europe by the Alden Group, Oxford</Paragraph></Typeset>
+				<Printed><Paragraph>Printed and bound in the United Kingdom by Thanet Limited, Margate</Paragraph></Printed>
+				<ISBN>0 7492 0237 8</ISBN>
+				<Edition/>
+			</Standard>
+		
+		</Imprint>
+			
+		
+		<Introduction>
+			<Title>Introduction</Title>
+			<Paragraph>This unit is from our archive and it is an adapted extract from<i> Networked living: exploring information and communication technologies</i> (T175) which is no longer in presentation. If you wish to study formally at The Open University, you may wish to explore the courses we offer in this<a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm"> curriculum area.</a> 
+
+</Paragraph>
+		<Paragraph>Whether we are aware of it or not, we are surrounded by networks through which information flows constantly. Our notions of time and location are changing &#x2013; the world seems to have become a &#x2018;global village&#x2019; where distance is no longer a barrier to commercial or social contact. If we live in Britain or other parts of the westernised world, it's difficult to imagine being without all the networked infrastructure that plays a crucial part in our daily lives. This unit is about how this infrastructure of information and communication technologies (ICTs) permeates our lives.</Paragraph>
+		
+		
+
+		</Introduction>
+		<LearningOutcomes>
+			<Paragraph>By the time you have completed this unit you should:</Paragraph>
+			<LearningOutcome>know the meaning of all the terms highlighted in the text;</LearningOutcome>
+			<LearningOutcome>understand the concept of the &#x2018;network society&#x2019;;</LearningOutcome>
+			<LearningOutcome>have an awareness of how ICTs impact on your everyday life.</LearningOutcome>
+		</LearningOutcomes>
+	</FrontMatter>
+	<Unit>
+		<UnitID>T175_2</UnitID>
+		<UnitTitle>ICTs in everyday life</UnitTitle>
+		
+			<Session id="sec001">
+				<Title>1 The network society</Title>
+				<Section id="sec001_001">
+					<Title>1.1 Data and information</Title>
+					<Paragraph>Although this unit is about ICTs, the technologies you'll be learning about do not actually handle information. Instead they handle data. In everyday language the terms &#x2018;data&#x2019; and &#x2018;information&#x2019; are often used interchangeably, but it is important to understand the difference when you are studying ICTs.</Paragraph>
+					<Paragraph>
+						<b>Data</b> is a representation of information so that it can be conveyed, manipulated or stored. <b>Information</b> is the meaning that people give to data in particular contexts. So data can't really be considered information until it is given meaning and is interpreted.</Paragraph>
+				</Section>
+				<Section id="sec001_002">
+					<Title>1.2 What are ICTs?</Title>
+					<Paragraph>Before we go any further, it is useful to have a working understanding of the term &#x2018;ICT&#x2019;. What exactly do we mean by &#x2018;information and communication technologies&#x2019;? This can be very difficult to define and explain, but here is a simple definition.</Paragraph>
+					<Paragraph>
+						<b>Information and communication technologies (ICTs)</b> are the technologies used in the conveying, manipulation and storage of data by electronic means.</Paragraph>
+					<Paragraph>Let us give you some examples. In a landline telephone system, messages are conveyed as signals on wires. The message is conveyed electronically. Manipulation of data takes place when you speak into the phone &#x2013; your words are transformed into electronic signals. The data is then conveyed through the phone system, stored briefly for further processing on the way, and transformed back into words at the other end. In a mobile phone system, messages are also stored and manipulated but in this case they are conveyed by electromagnetic means such as radio waves, which are wireless.</Paragraph>
+					<Activity id="act001_001"><Heading>
+							<b>Activity 1</b>
+						</Heading><Question>
+							<Paragraph>Using the explanation of ICTs given above, would you say that the technologies used for email communication are ICTs?</Paragraph>
+						</Question><Answer>
+							<!--<SubHeading>
+								<b>Comment</b>
+							</SubHeading>-->
+							<Paragraph>When you send an email the contents are transformed into electronic signals that pass through various computer networks to reach the destination computer. The signals are then transformed back into characters on the screen.</Paragraph>
+							<Paragraph>In this example, the information is conveyed by electronic means, and it is also manipulated and stored &#x2013; so email does indeed fit our definition of an ICT.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>Other examples of ICT systems include the internet, mobile phone systems, broadcast radio and TV systems, but ICTs are essential to many other day-to-day activities. Consider for example a visit to a supermarket. Checkout staff use an ICT system to scan bar codes and obtain prices. ICT systems also allow management to monitor stock levels and sales trends.</Paragraph>
+				</Section>
+				<Section id="sec001_003">
+					<Title>1.3 Technology and society</Title>
+					<Paragraph>ICT systems are increasingly embedded in many aspects of our daily lives. But ICTs don't just exist in a vacuum &#x2013; they have an impact on society, and society has an effect on them. They also have economic and political implications.</Paragraph>
+					<Paragraph>The end of the twentieth century and the beginning of the twenty-first century are often compared to other historical periods of great technological change such as the Industrial Revolution. This is because of the huge changes that are happening in many aspects of life. The terms <b>information society</b> and <b>network society</b> have been used to analyse the social and economic changes that are taking place in conjunction with technological developments. These ideas are used by policy makers to drive forward changes in our technological infrastructure. For example, the UK government's vision is that many public services will be accessible online, and billions of pounds have been spent to get computers into schools and local communities. The language used by politicians has drawn strongly on the inevitability of technological change and the need to be at the forefront of these changes in order to secure future prosperity.</Paragraph>
+					<Paragraph>One of the discussions about ICTs concerns whether changes in society are driven by technological development, or whether technologies are actually influenced and shaped by the society that produces them. This is a complex debate but an interesting idea to think about. On the one hand, if technologies are shaped by social conditions, then they will inevitably reflect the values and norms of the particular society in which they are created. On the other hand, if we believe technology determines the way society develops, then we might feel very helpless and fatalistic. You could also think about this on a personal level. In your everyday life, you will probably have experienced technological change as something that you have no control over &#x2013; something that happens to you. For example, a new computer arrives in your office and you are required to learn how to use it, whether you like it or not. Often you have no influence or control over how technology intrudes into your life. In commercial terms this is sometimes described as either a &#x2018;technology push&#x2019; or, conversely, a &#x2018;market pull&#x2019;.</Paragraph>
+					<Paragraph>Yet technologies are also shaped by the people who design and create them. Societies and individuals can also control or influence how technologies are used. New mobile phones with added features seem to appear every month and relentless advertising tries to persuade us that we need to have the latest version. However, as the consumer you do have ultimate control over whether you choose to buy one or not.</Paragraph>
+					<Paragraph>Unintended uses sometimes develop for technologies. A classic example is the SMS/text messaging facility on mobile phones. Originally this was just a minor feature and was not expected by the manufacturers to be used by phone owners at all. Yet it resulted in a whole new method of communication and form of popular culture, different ways of interacting with radio and television, and even a new language form (texting). ICTs also have to be seen in a political context &#x2013; those with power (often governments) can influence how technologies are taken up, for example by funding the development of broadband network infrastructure or indeed by restricting this growth.</Paragraph>
+					<Paragraph>Our views about technology are influenced by many factors, often by what is presented in the media.</Paragraph>
+					<Paragraph>Think about how people viewed technology in the past. In the 1960s, the cartoon series <i>The Jetsons</i> had a mechanical maid called Rosie the Robot. Images of the future at this time often included robots, androids or machines that looked like humans, some of which have materialised while others remain in the realms of science fiction. Now, domestic technologies such as dishwashers, microwaves and washing machines have become taken for granted in most UK households, but they are very different from the humanoid robots some people imagined.</Paragraph>
+					<Activity id="act001_002"><Heading>
+							<b>Activity 2</b>
+						</Heading><Question>
+							<Paragraph>In the following extract, which was written in 2004, Ian Pearson, BT's &#x2018;futurologist&#x2019;, makes a prediction about everyday life in 2010.</Paragraph>
+							<Paragraph>Read the article, keeping in mind the following questions: How accurately do you think it predicts the future? Have any of his predictions come true yet?</Paragraph>
+							<Quote id="quo001_001">
+								<Heading>
+									<b>The Future of Everyday Life in 2010</b>
+								</Heading>
+								<Paragraph>[&#x2026;]</Paragraph>
+								<Paragraph>By 2010, some of today's industries will be dead, mostly those with &#x2018;agent&#x2019; in the title, replaced by computer programmes running for free. Many tasks in every job will be automated in much the same way. Computers will become intelligent personal assistants, greatly boosting our productivity. Most things that we thought need human creativity can even be automated. Computers already write good music for instance. What will be left are those areas of work that need the human touch. We will quickly move through the information economy into the care economy, exploring what it is we want from each other when we can automate most of the physical and mental bits of our work.</Paragraph>
+								<Paragraph>[&#x2026;]</Paragraph>
+								<Paragraph>Equipment for the roaming worker will have access to the network via satellite or terrestrial systems. People will control computers and services simply by talking in everyday language. Computers will understand all major languages and understand what the user means most of the time, asking clarification questions to resolve any ambiguities or omissions. They will be able to read out documents or messages after sorting out what is important from the junk. Where appropriate, images can be displayed on imaginary screens floating in space. Users would simply wear lightweight glasses with projectors built into each arm and semi-reflective lens to give full 3 dimensional pictures. Active contact lenses that use laser beams drawing pictures straight onto the wearer's retinas would be in late stages of development by 2010. We could expect to have robocop style information in our field of view, overlaid on the real world. Finding somewhere will mean following the arrow floating in front of you. Satellite positioning and navigation will do all the hard work. Later still, we will see video relayed to computers that recognise people in our field of view, telling us who they are and a little about them if we want. The embarrassment of forgetting someone's name or where you met them will be history.</Paragraph>
+								<Paragraph>[&#x2026;]</Paragraph>
+								<Paragraph>Network based life will affect home too. A selection of screens hanging on walls may display works of art, static or moving. Or they may act as virtual fish tanks, or virtual windows looking out onto a Bahamas beach. Or you may have a cup of coffee with a distant friend, with life sized video images. The coffee may well be made and brought to you by a robot, even by 2010. Other insect-like robots might be keeping the carpets clean, trimming the grass, tidying up, or monitoring household security. But the most widespread use of robotics in the home by 2010 will be as pets. We may have cute, cuddly robots that look like kittens, teddy bears or R2D2 according to taste. They will wander around doing cute things, respond to their names, do tricks, speak and make appropriate facial expressions. They will understand simple instructions and conversation. Best of all, they may have a radio link to a smart computer elsewhere in the house that will give them even more functionality remotely. So the pet itself may be little more than a walking robot with video cameras for eyes, microphones for ears and a speaker in its mouth. But with this radio link it will be able to act as an interface to the global superhighway and all that it holds. You could tell the pet what you want to do and it will arrange it, or rather its big brother under the stairs will arrange it.</Paragraph>
+								<Paragraph>[&#x2026;]</Paragraph>
+								
+							<Paragraph>Ian Pearson, 2004</Paragraph></Quote>
+						</Question><Answer>
+							<SubHeading>
+								<b>Possible responses</b>
+							</SubHeading>
+							<Paragraph>
+								<b>How accurately do you think it predicts the future?</b>
+							</Paragraph>
+							<Paragraph>It seems to me that the author is making quite sweeping statements aimed at portraying a Utopian vision of the future. The second paragraph shown here seems quite feasible, although voice recognition software hasn't improved as quickly as people expected. Some of the ideas seem to come straight from science fiction films, but this might be because that is what other people think the future will be like.</Paragraph>
+							<Paragraph>
+								<b>Have any of his predictions come true yet?</b>
+							</Paragraph>
+							<Paragraph>Robotic pets are already available, but not very widely adopted. And there are already wearable devices such as glasses with built-in video screens.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>Predicting the future is always a difficult business and we should not take this too seriously. However, most technological change does not happen overnight. As you work through the rest of this unit, you will develop your understanding of the basic principles and processes involved in ICT systems. This will put you in a better position to distinguish between fact and science fiction.</Paragraph>
+				</Section>
+			</Session>
+			<Session id="sec002">
+				<Title>2 Your networked life</Title>
+				<Section id="sec002_001">
+					<Title>2.1 Networked devices you use every day</Title>
+				<Paragraph>The next activity aims to get you thinking a bit more about how ICT systems form part of your own life and to make you more aware of how you are living in a networked world. ICT systems are embedded in many everyday experiences and we have become so used to this that we hardly notice that we are using them.</Paragraph>
+				<Activity id="act001_003"><Heading>Activity 3</Heading><Question>
+						<Paragraph>Think about a typical day and list the different ways in which you communicate, or are communicated with, using technology. What communication devices (pieces of equipment) or networked systems can you think of that are involved?</Paragraph>
+						<Paragraph>For example, when you send an email from home the communication devices and systems would include your computer, plus your telephone or cable line, plus the internet.</Paragraph>
+						<Paragraph>Write your answers in a table format, as shown in the following example (Table 1).</Paragraph>
+						<Table id="tab001_001">
+							<TableHead>
+								Table 1
+							</TableHead>
+							<tbody>
+								
+									<tr>
+										<th>
+											<b>Examples of communication using technology</b>
+										</th>
+										<th>
+											<b>Devices or systems used</b>
+										</th>
+									</tr>
+									<tr>
+										<td>sending an email from home</td>
+										<td>computer, telephone/cable line, internet</td>
+									</tr>
+								
+							</tbody>
+							<SourceReference/>
+						</Table>
+					</Question><Answer>
+						<SubHeading>My examples</SubHeading>
+						<Paragraph>
+							<CrossRef idref="tab002_002">Table 2</CrossRef> contains some examples of the kinds of things I came up with and the sort of detail I was able to give about the devices and systems. I expect your list will be a bit different. Notice how important networks are in all of my examples. Was the same true for yours?</Paragraph>
+						<Table id="tab002_002">
+							<TableHead>
+								Table 2 
+
+							</TableHead>
+							<tbody>
+								
+									<tr>
+										<th>
+											<b>Examples of communication using technology</b>
+										</th>
+										<th>
+											<b>Devices or systems used</b>
+										</th>
+									</tr>
+									<tr>
+										<td>Reading train information at a station</td>
+										<td>Electronic noticeboard to display information.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>Some sort of networked information system in the station &#x2013; all the noticeboards are updated at the same time.</td>
+									</tr>
+									<tr>
+										<td>Getting into my office building</td>
+										<td>Bar code on swipe card, card reader at the door.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>Network to central computer to verify that I am authorised to enter.</td>
+									</tr>
+									<tr>
+										<td>Emailing a colleague from my work computer</td>
+										<td>Network linking my computer to my colleague's computer.</td>
+									</tr>
+									<tr>
+										<td>Making a phone call from a landline telephone</td>
+										<td>Handset and telephone line to local exchange.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>Network of telephone exchanges.</td>
+									</tr>
+									<tr>
+										<td>Sending a text message on my mobile phone</td>
+										<td>Mobile phone.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>Wireless connection into mobile phone network.</td>
+									</tr>
+									<tr>
+										<td>Playing a computer game with others online from my home computer</td>
+										<td>Personal computer, telephone line and modem or other network connection.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>The internet that links my computer to other players&#x2019; computers.</td>
+									</tr>
+									<tr>
+										<td>Finding out my bank balance from an ATM machine</td>
+										<td>Bank card and PIN, ATM machine.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>Bank network linking ATMs and central computers holding customer data.</td>
+									</tr>
+									<tr>
+										<td>Watching TV</td>
+										<td>TV set, remote control (to switch on and change channels), aerial (or antenna) or cable link to receive signals from the TV broadcasters.</td>
+									</tr>
+									<tr>
+										<td/>
+										<td>Broadcasting network that transmits signals from TV station.</td>
+									</tr>
+								
+							</tbody>
+							<SourceReference/>
+						</Table>
+					</Answer></Activity>
+				</Section>
+				<Section id="sec002_002">
+					<Title>2.2 ICT systems in everyday life</Title>
+					
+					<Paragraph>In<CrossRef idref="act001_003"> Activity 3</CrossRef> you identified some of the ICT systems and devices that you use for communication, which are part of your immediate environment. These devices do not operate in isolation but need to be part of an information and communication system &#x2013; linked to other devices with the capability to transfer data between them. All the examples above are therefore associated with networks of one kind or another.</Paragraph>
+					<Paragraph>Here are some examples of situations where ICTs are having an impact on our everyday lives.</Paragraph>
+					<SubSection id="sec002_002_001">
+						<Title>2.2.1 Finance</Title>
+						<Paragraph>Every time you use a debit or credit card the shop till uses a terminal connected to other computers via a network. Your identification details are automatically transferred from your card to your bank or credit card company for verification, and your balance adjusted accordingly. This also applies if you are shopping online, or over the phone (when booking a cinema ticket, for example). ATMs (also known as cashpoints) allow you to check your bank balance or withdraw cash from wherever you are in the world. The machines are networked to a central computer, which has records of your account in a filing system known as a <b>database</b>. Many banks also provide banking services via the internet, minimising the need for customers to visit a branch.</Paragraph>
+						<Paragraph>Financial services have undergone huge changes in recent years as a result of the development of ICT systems. This has led to the need for increased security procedures to combat new types of fraud. It has also led to changes in many areas of commerce; for example, the role of travel agents has changed as more people book their own holidays directly online.</Paragraph>
+						<Paragraph>Some types of business have disappeared completely as online and computer-based information have taken their place. For example, you rarely see door-to-door insurance salesmen these days! Similarly, new types of business have been created, such as online auctions like eBay. Existing business types have been transformed through the use of ICT systems, for example the development of online booksellers such as Amazon.</Paragraph>
+					</SubSection>
+					<SubSection id="sec002_002_002">
+						<Title>2.2.2 The internet</Title>
+						<Paragraph>As well as impacting on the commercial world, the internet has had an enormous impact on all areas of life. While there are still people in many parts of the world who do not have access to an internet connection, the majority of people in the developed world now have access either at home or at work, and have the opportunity to use online information resources, or communicate with others using email, instant messaging or discussion groups. New online communities have developed and existing communities have created new ways of communicating. However, issues of identity and security have become a concern. New technologies have engendered new types of crime, including identity theft and financial frauds. These problems have fostered the development of new security technologies.</Paragraph>
+						<Paragraph>The internet has become a major factor in enabling information sharing and has had a huge impact on the availability of information of all kinds. Material on the internet reflects widely differing viewpoints and sources: from official news bulletins to unofficial rumours, and from commercial megastores to community portals. The internet has revolutionised the way information can be published, raising questions about the authority and regulation of content. Because of the way the internet has been designed, no individual government, company or person has control over it.</Paragraph>
+					</SubSection>
+					<SubSection id="sec002_002_003">
+						<Title>2.2.3 Entertainment</Title>
+						<Paragraph>The world of entertainment is constantly evolving with the advent of new technologies. Digital broadcasting has changed the way we experience television, with more interactive programming and participation. Digital cameras, printers and scanners have enabled more people to experiment with image production. Computer gaming has been an important influence in the development of graphical interfaces. Technology has been at the forefront of changes in the production and distribution of music, as well as in the ways in which people can access and listen to music.</Paragraph>
+					</SubSection>
+					<SubSection id="sec002_002_004">
+						<Title>2.2.4 Public services</Title>
+						<Paragraph>In the UK, in many NHS trusts, patient records are easily shared between departments within a hospital. These electronic patient records may soon be transferable across the whole health service, so that medical staff can access them from any part of the NHS. In some places, especially remote rural areas, doctors may be able to make use of computer networks to make a diagnosis if they are unable to see the patient in person.</Paragraph>
+						<Paragraph>Passenger information is increasingly available via networked computers: for example train timetables, information in stations and airports, real-time information over the internet. Networked communication systems are also crucial in the control of transport systems, from traffic lights and pedestrian crossings to air traffic control and train signals.</Paragraph>
+						<Paragraph>Many government services in the UK are now available online. For example, you can renew or apply for a passport, book a driving test, claim benefits, fill in your tax return &#x2013; you can even report suspect activity to MI5! Local authorities provide information services online, and there are numerous opportunities to learn online such as the many courses available with The Open University.</Paragraph>
+					</SubSection>
+				</Section>
+				<Section id="sec002_003">
+					<Title>2.3 ICTs and you</Title>
+					<Paragraph>Sometimes it's useful to stop and think a bit about your own experiences and focus on your own views. This can help you understand issues in more depth. For example, when studying the impact of ICTs on everyday life, your own experiences are a useful resource.</Paragraph>
+					<Activity id="act001_004"><Heading>
+							<b>Activity 4</b>
+						</Heading><Question>
+							<Paragraph>Think of ways in which your own life has changed as a result of the introduction of ICTs. This could be at work, in your education, in your leisure-time activities, or in your own home. Are all of these changes things that you have welcomed? Or are there areas where you would have preferred things to stay the same?</Paragraph>
+						</Question><Answer>
+							<SubHeading>
+								<b>My responses</b>
+							</SubHeading>
+							<Paragraph>I'm aware of how different things are for my children. For example, when they are doing homework they will regularly search for information on the internet, rather than using textbooks as I did when I was at school. It means they can get what they need quickly, although I am sometimes concerned that what they find may not be the most accurate or authoritative source on a topic.</Paragraph>
+							<Paragraph>For myself the internet has been very beneficial. I am able to work from home using my PC and internet connection, which means I can cut down on travelling time because I don't have to be in the office every day. But I have to watch my work&#x2013;life balance, as my alternative &#x2018;office&#x2019; is always open!</Paragraph>
+						</Answer></Activity>
+					<Paragraph>So far in this section we have been looking at the ICT systems that are part of your everyday life, including those in your own home. One of the difficulties that can emerge with the development of so many new technologies is the issue of coordinating and controlling all these systems. One solution to this is a concept called the &#x2018;smart home&#x2019;.</Paragraph>
+				</Section>
+				<Section id="sec002_004">
+					<Title>2.4 ICT systems at home</Title>
+					<Paragraph>Most homes in the UK contain a variety of systems for entertainment, lighting, security, heating and so on. The idea of a <b>smart home</b> is to integrate the control of these systems. So, for example, if you are away from home and want to make sure the house is warm for when you get back, you could call the house and switch the central heating on.</Paragraph>
+					<Paragraph>We aren't going to go into any more detail about how the smart home works, but the following activity uses some of the data from a survey about smart homes for you to develop your skills in interpreting data. We will look at how a survey like this can be interpreted.</Paragraph>
+					<SAQ id="saq001_001">
+						<Heading>
+							<b>Activity 5</b>
+						</Heading>
+						<Question>
+							<Paragraph>Using the graph in <CrossRef idref="fig001_001">Figure 1</CrossRef>, answer the following questions:</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>What percentage of people thought that being able to control devices in the home when they were out would be useful to them?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What percentage didn't think safety or security were important?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Did more people like or dislike the idea of one remote control to control everything in the home? Why do you think people might not like this idea?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>If you were responsible for marketing smart homes, which of these factors (control, safety/security, single remote) do you think you would be emphasising?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Would you like to live in a smart home? Why? Or why not?</Paragraph>
+								</ListItem>
+							</NumberedList>
+							<Figure id="fig001_001">
+								<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_2\1.0\t175_002i.jpg" alt="Graph showing the results of a survey showing how many people would value different Smart Home technologies in their homes." height="" webthumbnail="true" x_imagesrc="t175_002i.jpg" x_imagewidth="555" x_imageheight="332" x_smallsrc="t175_002i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_2\1.0\t175_002i.small.jpg" x_smallwidth="450" x_smallheight="269"/>
+								<Caption>
+									Figure 1 Results of a survey on smart home features (Source: Pragnell, November 2000) [Note that the bottom entry does not total 100%]</Caption>
+									<Alternative>Figure 1</Alternative>
+								<Description>Graph showing the results of a survey showing how many people would value different Smart Home technologies in their homes.</Description>
+							</Figure>
+						</Question>
+						<Answer>
+							<SubHeading>
+								<b>Answers</b>
+							</SubHeading>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>59% &#x2013; I included those who strongly agreed as well as those who agreed with the first statement (19% plus 40%).</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>17% &#x2013; I included those who strongly disagreed and those who disagreed with the second statement (4% plus 13%).</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>46% liked the idea of one remote control, while 41% disliked the idea &#x2013; so there was not a lot of difference. Perhaps some people were worried that it would be easy to lose or that a single control would be too complex and therefore difficult to operate.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>I'd probably be emphasising safety and security as 70% of the respondents thought these were important factors.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>I'd like the convenience but I'd have to be sure that everything was going to work. I think I'd be a bit concerned about the house taking over control of my life!</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer>
+					</SAQ>
+					<Paragraph>If you want to find out more details about this smart home project you can visit www.jrf.org.uk/housingandcare/smarthomes/default.asp (link accessed 6 September 2006).
+					</Paragraph>
+<!--<Box id="box00a">
+  <Heading>Do this</Heading> 
+  <Paragraph>Now you have completed this unit, you might like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+  <Paragraph>Post a message to the unit forum.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Review or add to your Learning Journal.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Rate this unit.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>
+<Box id="box00b">
+  <Heading>Try this</Heading> 
+  <Paragraph>You might also like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+<Paragraph>Find out more about the related Open University course</Paragraph>
+  </ListItem>
+<ListItem>
+  <Paragraph>Book a FlashMeeting to talk live with other learners</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Create a Knowledge Map to summarise this topic.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>-->
+  
+                
+			</Section>
+		</Session>
+		
+		<Session id="ses003">
+<Title>Next steps</Title>
+<Paragraph>After completing this unit you may wish to study another OpenLearn Study Unit or find out more about this topic. Here are some suggestions:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1512">Introducing ICT systems (T175_3) </a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1514">ICTs: Technology news (T175_4) </a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/openlearn/science-maths-technology">Science, Maths and Technology</a></ListItem>
+</UnNumberedList>
+<Paragraph>If you wish to study formally at The Open University, you may wish to explore the courses we offer in this curriculum area:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/course/tu100.htm">My digital life (TU100) </a></ListItem>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm">Computing and ICT</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or find out about studying and developing your skills with The Open University:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/">OU study explained</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/skillsforstudy">Skills for study</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or you might like to:</Paragraph>
+<UnNumberedList>
+<ListItem>Post a message to the <a href="http://openlearn.open.ac.uk/mod/forumng/view.php?id=396333">unit forum</a>, to share your thoughts about the unit or talk to other OpenLearners</ListItem>
+<ListItem>Review or add to your <a href="http://openlearn.open.ac.uk/mod/oublog/view.php?">Learning Journal</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/blocks/rate_course/rate.php?courseid=1666">Rate this unit</a></ListItem>
+</UnNumberedList>
+</Session>
+
+		<BackMatter>
+		<References>
+			<Reference>Pearson, I. (2004) <i>The Future of Everyday Life in 2010</i>, British Telecommunications plc. [online]
+					www.bt.com/sphere/insights/pearson/everyday.htm, accessed 6 September 2006.    
+				</Reference>
+			<Reference>Pragnell, M., Spence, L, and Moore R. (November, 2000) <i>The Market Potential for Smart Homes</i>, N40, Joseph Rowntree Foundation [online], York Publishing Services
+					www.jrf.org.uk/knowledge/findings/housing/n40.asp, accessed 6 September 2006     
+				</Reference>
+		</References>
+		<Acknowledgements>
+			<Heading>
+				<b>Acknowledgements</b>
+			</Heading>
+			<Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph>
+			<Paragraph>Grateful acknowledgement is made to the following sources for permission to reproduce material within this product.</Paragraph>
+			<SubHeading>Text</SubHeading>
+			<Paragraph>Pearson, I. (2004) &#x2018;The Future of Everyday Life in 2010&#x2019;, British Telecommunications plc.</Paragraph>
+			<Paragraph>
+				www.bt.com/sphere/insights/pearson/everyday.htm, accessed 6 September 2006.    
+			</Paragraph>
+			<SubHeading>
+				<b>Figures</b>
+			</SubHeading>
+			<Paragraph>
+			
+					Figure 1  From the<i> Findings The market potential for Smart Homes</i> published in 2000 by the Joseph Rowntree Foundation. Reproduced by permission of the Joseph Rowntree Foundation.</Paragraph>
+			<Paragraph>
+				www.jrf.org.uk/knowledge/findings/housing/n40.asp, accessed 6 September 2006.     
+			</Paragraph>
+			
+			<Heading>Don't miss out</Heading>
+<Paragraph>1. Join the 200,000 students currently studying with<a href="http://www3.open.ac.uk/study/"> The Open University</a>.</Paragraph>
+<Paragraph>2. Enjoyed this? Browse through our host of free course materials on <a href="http://openlearn.open.ac.uk"> LearningSpace</a>.</Paragraph>
+<Paragraph>3. Or browse more topics on <a href="http://www.open.ac.uk/openlearn"> OpenLearn</a>.
+</Paragraph>
+
+		</Acknowledgements>
+	</BackMatter>
+	</Unit>
+	
+<settings>
+                <numbering>
+                    <Session autonumber="false"/>
+                    <Section autonumber="false"/>
+                    <SubSection autonumber="false"/>
+                    <SubSubSection autonumber="false"/>
+                    <Activity autonumber="false"/>
+                    <Exercise autonumber="false"/>
+                    <Box autonumber="false"/>
+                    <CaseStudy autonumber="false"/>
+                    <Quote autonumber="false"/>
+                    <Extract autonumber="false"/>
+                    <Dialogue autonumber="false"/>
+                    <ITQ autonumber="false"/>
+                    <Reading autonumber="false"/>
+                    <StudyNote autonumber="false"/>
+                    <Example autonumber="false"/>
+                    <Verse autonumber="false"/>
+                    <SAQ autonumber="false"/>
+                    <KeyPoints autonumber="false"/>
+                    <ComputerDisplay autonumber="false"/>
+                    <ProgramListing autonumber="false"/>
+                    <Summary autonumber="false"/>
+                    <Tables autonumber="false"/>
+                    <Figures autonumber="false"/>
+                    <MediaContent autonumber="false"/>
+                  </numbering>
+                <discussion_alias>Discussion</discussion_alias>
+                <session_prefix>Session</session_prefix>
+            </settings></Item>

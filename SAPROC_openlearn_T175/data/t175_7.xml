@@ -1,0 +1,727 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="1.2" TextType="CompleteItem" ACSTemplate="DS_TEST" xsi:noNamespaceSchemaLocation="http://openlearn.open.ac.uk/local/schemas/OUIntermediateSchema.xsd" id="X-T175_7"><CourseCode>T175</CourseCode><CourseTitle>Networked living: Exploring information and communication technologies</CourseTitle><ItemID/><ItemTitle>Presenting information</ItemTitle>
+	<FrontMatter>
+		
+		
+		
+		
+		
+		<Imprint>
+			<Standard>
+				<GeneralInfo>
+					<Paragraph/>
+				</GeneralInfo>
+				<Address>
+					<AddressLine>The Open University, Walton Hall, Milton Keynes MK7 6AA</AddressLine>
+				</Address>
+<FirstPublished><Paragraph>2003</Paragraph></FirstPublished><Copyright><Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph></Copyright> 
+<Rights><Paragraph/></Rights>
+				<Edited><Paragraph/></Edited>
+				<Typeset><Paragraph/></Typeset>
+				<Printed><Paragraph/></Printed>
+				<ISBN/>
+				<Edition/>
+			</Standard>
+		</Imprint>
+		
+		<Introduction>
+			<Title>Introduction</Title>
+	<Paragraph>Requires that Windows desktop be used in parallel with reading the book.</Paragraph>
+			<Paragraph>Tables and charts are a great way to present numerical information in a clear and concise form. This unit explains how to use the Windows calculator to carry out basic operations and calculate percentages. You will then learn how to use charts and tables to represent and interpret information.T</Paragraph>
+					<Paragraph>This unit is an adapted extract from the Open University course <a href="http://www3.open.ac.uk/study/undergraduate/course/t175.htm"><i>Networked living: Exploring information and communication technologies</i> (T175)
+</a></Paragraph>
+		</Introduction>
+		<LearningOutcomes>
+			<Paragraph>After finishing this unit you should be able to:</Paragraph>
+			<LearningOutcome>use the Windows calculator to carry out basic operations and calculate percentages;</LearningOutcome>
+			<LearningOutcome>interpret and use information presented in tables and charts;</LearningOutcome>
+			<LearningOutcome>be able to round numbers appropriately.</LearningOutcome>
+		</LearningOutcomes>
+	</FrontMatter>
+	<Unit>
+		<UnitID>T175_7</UnitID>
+		<UnitTitle>Presenting information</UnitTitle>
+		
+		
+		
+		
+		<Session id="ses001">
+			<Title>1 Overview</Title>
+			<Section id="sec001_001">
+				<Title>1.1The Windows calculator</Title>
+				<SubSection id="sec001_001_001">
+					<Title>1.1.1 Operating the Windows calculator</Title>
+					<Paragraph>The Windows calculator is supplied with the Windows operating system. This section provides you with basic instructions for its use, and a few practice activities. The Windows calculator also provides a help menu that you can use.</Paragraph>
+					</SubSection>
+					
+					
+					<SubSection id="sec001_001_002">
+					
+											<Title>1.1.2 Launching the Windows scientific calculator</Title>
+						<Paragraph>From the Start menu on your Windows desktop choose &#x2018;Programs&#x2019;, then &#x2018;Accessories&#x2019; and then &#x2018;Calculator&#x2019; (if &#x2018;Calculator&#x2019; doesn't appear on the menu, click the double down arrows at the bottom).</Paragraph>
+						<Paragraph>If this is the first time you have used the Windows calculator then it is possible that only the standard view of the calculator will be displayed, but you will need to use the scientific view. To display this, click on the View menu in the calculator's menu bar and select &#x2018;Scientific&#x2019;. This will display the full scientific calculator shown in <CrossRef idref="fig001_001">Figure 1</CrossRef>.</Paragraph>
+						<Figure id="fig001_001">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175b1p2s4_f17.jpg" alt="This figure shows the Windows scientific calculator. Under the header bar is a small toolbar with Edit, View and Help drop down menus. Next is the space where calculations selected in the calculator buttons are shown. Below that are a number of buttons allowing the choice of number system (such as binary or decimal, degrees or radians). Then the main calculator buttons are laid out in columns. To the left are scientific functions such as log and sin. To the right are numerals 0 &#x2013; 9, plus, minus and so on." height="" x_imagesrc="t175b1p2s4_f17.jpg" x_imagewidth="511" x_imageheight="328"/>
+							<Caption>
+								Figure 1 The Windows scientific calculator</Caption>
+								<Alternative>Figure 1</Alternative>
+							<Description>This figure shows the Windows scientific calculator. Under the header bar is a small toolbar with Edit, View and Help drop down menus. Next is the space where calculations selected in the calculator buttons are shown. Below that are a number of buttons allowing the choice of number system (such as binary or decimal, degrees or radians). Then the main calculator buttons are laid out in columns. To the left are scientific functions such as log and sin. To the right are numerals 0 &#x2013; 9, plus, minus and so on.</Description>
+						</Figure>
+					</SubSection>
+					
+					<SubSection id="sec001_001_003">
+						<Title>1.1.3 Keeping the calculator running on your Windows desktop</Title>
+						<Paragraph>When performing a number of calculations whilst using other programs on your computer, it's convenient to keep the calculator running in the background.</Paragraph>
+						<Paragraph>To do this click on the &#x2018;Minimise&#x2019; button of the calculator's window (the leftmost button in the top right corner). When you are ready to start working with the calculator again, click the &#x2018;Calculator&#x2019; button in the Windows taskbar. (The taskbar is usually at the bottom of the screen; it contains the &#x2018;Start&#x2019; button.)</Paragraph>
+					</SubSection>
+					
+					
+					
+					
+					<SubSection id="sec001_001_004">
+						<Title>1.1.4 Simple arithmetic operations</Title>
+						<Paragraph>To perform a simple arithmetic calculation:</Paragraph>
+						<NumberedList>
+							<ListItem>
+								<Paragraph>Enter the first number in the calculation (for example &#x2018;123&#x2019;) using one of the following methods:</Paragraph>
+								<BulletedSubsidiaryList>
+									<SubListItem>
+										<Paragraph>Using your computer keyboard's numeric keypad, which (if you have one) is on the right of your computer keyboard. Check to see whether the Num Lock indicator light is on and if it is not press the NUM LOCK key.</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>Using your computer keyboard's numeric keys, which are immediately above the letters on your keyboard.</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>Clicking on the numbers on the on-screen calculator keypad.</Paragraph>
+									</SubListItem>
+								</BulletedSubsidiaryList>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Click / to divide, * to multiply, &#x2212; to subtract or + to add, or enter these symbols from your computer keyboard. Note that you won't see the symbol on the calculator's display area.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Enter the next number in the calculation. For example, enter &#x2018;3&#x2019;.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Click &#x2018;<b>=</b>&#x2019; or enter the &#x2018;<b>=</b>&#x2019; symbol from your computer keyboard.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>The answer to your calculation is displayed in the calculator's window. For the example &#x2018;123 / 3 =&#x2019; the answer displayed should be 41.</Paragraph>
+							</ListItem>
+						</NumberedList>
+					</SubSection>
+					
+					
+					<SubSection id="sec001_001_005">
+						<Title>1.1.5 Clearing the previous calculation</Title>
+						<Paragraph>To clear the previous calculation, click the &#x2018;C&#x2019; button.</Paragraph>
+						<Paragraph>Provided that no operation has been performed on an entered number, an incorrect entry can be deleted one digit at a time by clicking the &#x2018;Backspace&#x2019; button. (This is labelled &#x2018;Back&#x2019; on some versions of the Windows calculator.)</Paragraph>
+					</SubSection>
+					
+					
+					
+					<SubSection id="sec001_001_006">
+						<Title>1.1.6 Multiple operations</Title>
+						<Paragraph>Sometimes you may wish to perform several operations in one step (for example: 35 / 10&#x2212;3).</Paragraph>
+						<Paragraph>When you enter a number of operations one after the other, before clicking the &#x2018;=key&#x2019;, the Windows calculator will evaluate the combination of operations in a particular order. This corresponds to the order used for any calculation that involves several arithmetic operations. Multiplication and division are evaluated first, then addition and subtraction.</Paragraph>
+						<Paragraph>In the example given above, this would result in dividing 35 by 10 (giving 3.5) and then subtracting 3 from the result, giving an answer of 0.5.</Paragraph>
+						<Paragraph>But maybe this wasn't what was intended? Maybe you had wanted to subtract 3 from 10 (giving 7) first and then divide 35 by this result, giving an answer of 5.</Paragraph>
+						<Paragraph>To force the calculator to perform certain operations before others you can place these operations in brackets. (You can use the bracket keys &#x2018;(&#x2019; and &#x2018;)&#x2019; on your computer keyboard or on the calculator.)</Paragraph>
+						<Activity id="act004_020"><Heading>Activity 1 (self-assessment)</Heading><Question>
+								<Paragraph>Using the Windows calculator, evaluate:</Paragraph>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>35 / 10 &#x2013; 3 =</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>35 / (10 &#x2013; 3) =</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Answer>
+								<!--<SubHeading>Comment</SubHeading>-->
+								<Paragraph>You should have obtained different answers for these two calculations:</Paragraph>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>0.5</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>5</Paragraph>
+									</ListItem>
+								</NumberedList>
+								<Paragraph>If you didn't then it is probably because you were not entering the brackets correctly. Perhaps you forgot the closing bracket or the equals sign after the bracket?</Paragraph>
+								<Paragraph>For the first calculation no brackets were needed, because division is always evaluated before subtraction. For the second calculation, the brackets force the calculator to carry out the subtraction first.</Paragraph>
+							</Answer></Activity>
+						<Activity id="act004_021"><Heading>Activity 2 (self-assessment)</Heading><Question>
+								<Paragraph>Write down how you would use brackets to do the following calculations, then carry out the calculation using the Windows calculator. (Remember to clear the previous calculation before entering a new one.)</Paragraph>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>Add together 6 and 8 and multiply the result by 9.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Add 8 to 56 then divide the result by 8.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Subtract 81 from 129 and multiply the result by 16.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Add together 8 and 15 and divide 46 by the result.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Answer>
+						<!--		<SubHeading>Comment</SubHeading>-->
+								<NumberedList>
+									<ListItem>
+										<Paragraph>(6+8)&#xD7;9=126</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>(8+56) / 8=8</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>(129 &#x2013; 81)&#xD7;16=768</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>46 / (8+15)=2</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Answer></Activity>
+					</SubSection>
+					
+					
+					<SubSection id="sec001_001_007">
+						<Title>1.1.7 Using the memory buttons</Title>
+						<Paragraph>Calculations involving several operations can also be carried out in stages. One way to do this is to use the &#x2018;=&#x2019; key part way through the calculation. You can also use the calculator's memory.</Paragraph>
+						<Paragraph>The Windows calculator has a number of memory buttons, shown in <CrossRef idref="fig001_002">Figure 2</CrossRef>, to help you to perform calculations that have multiple steps.</Paragraph>
+						<Figure id="fig001_002">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175b1p2s4_f18.jpg" alt="This figure is almost the same as Figure 1 and shows the Windows scientific calculator. The only difference is that a ring has been drawn around the vertical row of memory buttons, which are MC MR MS M+." height="" x_imagesrc="t175b1p2s4_f18.jpg" x_imagewidth="511" x_imageheight="325"/>
+							<Caption>
+								Figure 2 The memory buttons</Caption>
+								<Alternative>Figure 2</Alternative>
+							<Description>This figure is almost the same as Figure 1 and shows the Windows scientific calculator. The only difference is that a ring has been drawn around the vertical row of memory buttons, which are MC MR MS M+.</Description>
+						</Figure>
+						<Paragraph>MS (memory store) stores the displayed number in memory.</Paragraph>
+						<Paragraph>MR (memory recall) recalls and displays the number stored in memory, erasing any number that was previously displayed. The number itself is still stored in memory.</Paragraph>
+						<Paragraph>M+ (memory +) adds the number displayed to the number stored in memory.</Paragraph>
+						<Paragraph>MC (memory clear) deletes the number stored in memory.</Paragraph>
+						<Paragraph>For example, let's repeat the fourth calculation in the previous activity: add together 8 and 15 and divide 46 by the result.</Paragraph>
+						<NumberedList>
+							<ListItem>
+								<Paragraph>Enter &#x2018;8+15 =&#x2019;. The calculator will display &#x2018;23&#x2019;.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Then click the &#x2018;MS&#x2019; key; this will insert the 23 into the calculator's memory.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Use the &#x2018;C&#x2019; key to clear the calculator's display.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Enter &#x2018;46 /&#x2019; and press &#x2018;MR&#x2019; to recall the 23 from memory.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Enter &#x2018;=&#x2019; to display the result.</Paragraph>
+							</ListItem>
+						</NumberedList>
+						<Activity id="act004_022"><Heading>Activity 3 (self-assessment)</Heading><Question>
+								<Paragraph>Try the following calculation using the memory keys. Before you start, use the MC key to clear the calculator's memory, and the &#x2018;C&#x2019; key to clear the display.</Paragraph>
+								<Paragraph>Add 63 to 39 then subtract the result from 181.</Paragraph>
+							</Question><Answer>
+								<!--<SubHeading>Comment</SubHeading>-->
+								<NumberedList>
+									<ListItem>
+										<Paragraph>Enter &#x2018;63+39 =&#x2019;. The calculator will display &#x2018;102&#x2019;.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Then click the &#x2018;MS&#x2019; key; this will insert the 102 into the calculator's memory.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Enter &#x2018;181 &#x2212;&#x2019; and press &#x2018;MR&#x2019; to recall the 102 from memory.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Enter &#x2018;=&#x2019; to display the result, which should be 79.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Answer></Activity>
+			
+				</SubSection>
+			</Section>
+			
+			
+			<Section id="sec001_002">
+				<Title>1 2 Forms of representing information</Title>
+				<SubSection id="sec001_002_001">
+					<Title>1 2.1 Using tables, percentages and charts</Title>
+					<Paragraph>In the remainder of this unit, we will look at some of the ways in which large amounts of information can be represented in a manageable form.</Paragraph>
+					<Paragraph>I will start by showing how a table can be used to summarise information. Then, I will look at how percentages can be used to compare different quantities. Finally, I will explore some of the ways in which information can be presented in a graphical form.</Paragraph>
+				</SubSection>
+				
+				
+				
+				<SubSection id="sec001_002_002">
+					<Title>1 2.2 Reading a table</Title>
+					<Paragraph>Tables are a common way of presenting information. We use tables to display key information, usually numbers. Tables can form a summary of information, or they may be a starting point for a discussion.</Paragraph>
+					<Paragraph>Tables can look quite formidable when a lot of information is presented all at once and finding your way around one can be difficult.</Paragraph>
+					<Paragraph>So how do you interpret a table?</Paragraph>
+					<Paragraph>
+						<i>The Sciences Good Study Guide</i> (Northedge et al., 1997) advises that you should ask yourself these questions:</Paragraph>
+					<NumberedList>
+						<ListItem>
+							<Paragraph>
+								<i> What is the table about?</i>
+							</Paragraph>
+							<Paragraph>The title of the table should tell you what it is about.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>
+								<i>Where has the information come from?</i>
+							</Paragraph>
+							<Paragraph>The source of the information should be stated.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>
+								<i>What do the rows and columns represent?</i>
+							</Paragraph>
+							<Paragraph>The labels for the rows and columns should tell you what they represent.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>
+								<i>What do you want to know?</i>
+							</Paragraph>
+							<Paragraph>This will depend on your reasons for reading the table. You may want to look up a single piece of information, or you may be looking for overall patterns.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>
+								<i>What are you expected to remember?</i>
+							</Paragraph>
+							<Paragraph>Tables often contain a great deal of information. You may not need to remember any of it. Usually, it's the overall trends that are important.</Paragraph>
+						</ListItem>
+					</NumberedList>
+					<Table id="tbl001_001">
+						<TableHead>Table 1 Purpose for using the Internet (source: adapted from the National Statistics Survey, 2004)</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Purpose of Internet use by adults, in Great Britain in April 2004,
+who had used it in the last three months</th>
+									<th/>
+								</tr>
+								<tr>
+									<th>Purpose of access</th>
+									<th>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;%</th>
+								</tr>
+								<tr>
+									<td>Finding information about goods or services</td>
+									<td>78</td>
+								</tr>
+								<tr>
+									<td>Searching for information about travel and accommodation</td>
+									<td>68</td>
+								</tr>
+								<tr>
+									<td>Using email</td>
+									<td>85</td>
+								</tr>
+								<tr>
+									<td>Telephoning over the Internet / video conferencing</td>
+									<td>7</td>
+								</tr>
+								<tr>
+									<td>General browsing</td>
+									<td>65</td>
+								</tr>
+								<tr>
+									<td>Finding information relating to education</td>
+									<td>37</td>
+								</tr>
+								<tr>
+									<td>Buying or ordering tickets / goods or services</td>
+									<td>50</td>
+								</tr>
+								<tr>
+									<td>Selling goods or services</td>
+									<td>10</td>
+								</tr>
+								<tr>
+									<td>Personal banking and financial services</td>
+									<td>37</td>
+								</tr>
+								<tr>
+									<td>Playing or downloading games</td>
+									<td>13</td>
+								</tr>
+								<tr>
+									<td>Using chat rooms</td>
+									<td>19</td>
+								</tr>
+								<tr>
+									<td>Playing or downloading music</td>
+									<td>27</td>
+								</tr>
+								<tr>
+									<td>Reading or downloading online news</td>
+									<td>32</td>
+								</tr>
+								<tr>
+									<td>Listening to web radio / watching web television</td>
+									<td>16</td>
+								</tr>
+								<tr>
+									<td>Downloading other software</td>
+									<td>24</td>
+								</tr>
+								<tr>
+									<td>Downloading images</td>
+									<td>27</td>
+								</tr>
+								<tr>
+									<td>Looking for a job / sending job application</td>
+									<td>22</td>
+								</tr>
+							
+						</tbody>
+						
+						
+						<SourceReference>National Statistics Survey (2004) <i>Percentage of adults who have used the Internet in the 3 months prior to interview by purpose of access (Great Britain): Individual Internet Access</i> [online] http://www.statistics.gov.uk/StatBase/ssdataset.asp?vlnk=6932&amp;Pos=&amp;ColRank=1&amp;Rank=272 [accessed 22 September 2006]</SourceReference>
+					</Table>
+					
+					
+					<Activity id="act004_023"><Heading>Activity 4 (self-assessment)</Heading><Question>
+							<Paragraph>Study Table 1 above carefully and then answer the following questions.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Where has the information in the table come from?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>In the rightmost column, 8 rows down, you will see the number 10. What does this represent? Write a sentence to explain what this tells us.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What is the highest number in the table? What does this represent?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What is the lowest number in the table? What does this represent?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What percentage of people who used the internet said they used chat rooms?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+					<!--		<SubHeading>Comment</SubHeading>-->
+							<NumberedList>
+								<ListItem>
+									<Paragraph>The source is the National Statistics Survey.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Of the people who had used the internet in the 3 months before the survey, 10% had done so for the purposes of selling goods or services.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>The highest number in the table is 85%. This is the percentage of people who had used the internet in the 3 months before the survey for email.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>The lowest number in the table is 7, which means that of the people who had used the internet in the 3 months before the survey, 7% had done so for telephoning and/or video conferencing.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Of the people who had used the internet in the 3 months before the survey, 19% had done so to use chat rooms.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+				</SubSection>
+				
+				
+				<SubSection id="sec001_002_003">
+					<Title>1.2.3 Working with percentages</Title>
+					<Paragraph>Table 1 used percentages, rather than actual numbers, to compare the number of people using the internet for each purpose. Numbers are expressed as if they are &#x2018;out of a hundred&#x2019; when using percentages, which makes it easier to compare different values. You can recognise percentages by the % symbol which you can see at the top of the right-hand column of Table 1.</Paragraph>
+					<Paragraph>As you can see from halfway down the table, 50% of the people who had used the internet in the previous 3 months used it for buying or ordering things. (They may also have used it for other purposes.)</Paragraph>
+					<Paragraph>How many people is that? Obviously, that would depend on the total number of people. For argument's sake, we will say that 100 people in total had used the internet in the previous three months. That's relatively easy to work out: 50% of 100 is 50 out of 100, which is 50.</Paragraph>
+					<Paragraph>What if there were 200 people who had used the internet and 130 of them said that they used it for general browsing? This figure of 130 can be expressed as a percentage of 200.</Paragraph>
+					<Paragraph>Firstly, 130 is converted to a fraction of 200:</Paragraph>
+					
+					
+					<Figure id="fig001_003-20">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175fraction1.jpg" height="" id="fig001_i001" x_imagesrc="t175fraction1.jpg" x_imagewidth="32" x_imageheight="34"/>
+						
+					</Figure>
+					<Paragraph>Then the fraction is multiplied by 100:</Paragraph>
+					<Figure id="fig001_004">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175fraction2.jpg" height="" id="fig001_i002" x_imagesrc="t175fraction2.jpg" x_imagewidth="71" x_imageheight="34"/>
+						
+					</Figure>
+					<Paragraph>Which is:</Paragraph>
+					<Figure id="fig001_005">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175fraction3.jpg" height="" id="fig001_i003" x_imagesrc="t175fraction3.jpg" x_imagewidth="47" x_imageheight="35"/>
+						
+					</Figure>
+					<Paragraph>(i.e. 13000 divided by 200)</Paragraph>
+					<Paragraph>which gives a result of 65.</Paragraph>
+					<Paragraph>If you wish, you can work this out using your Windows calculator; enter &#x2018;130 / 200&#xD7;100 =&#x2019;.</Paragraph>
+					<Paragraph>We can now say that 65% of the 200 people who had used the internet said they used it for general browsing.</Paragraph>
+					<Activity id="act004_024"><Heading>Activity 5 (self-assessment)</Heading><Question>
+							<Paragraph>Try the following three percentage calculations.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>In a survey involving 700 people, 420 people said that they use the Internet for general browsing. What percentage is this?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>In a group of 320 students, 120 said that they mainly use a laptop in their studies rather than a desktop computer. What percentage of students use a laptop?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>On a production line for computer monitors, 3 out of 750 monitors are faulty. What percentage of monitors are faulty?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+						<!--	<SubHeading>Comment</SubHeading>-->
+							<NumberedList>
+								<ListItem>
+									<Paragraph>420 / 700&#xD7;100=60</Paragraph>
+									<Paragraph>So 60% of the people surveyed use the internet for general browsing.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>120 / 320&#xD7;100=37.5</Paragraph>
+									<Paragraph>So 37.5% of the students use a laptop.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>3 / 750&#xD7;100=0.4</Paragraph>
+									<Paragraph>So 0.4% of the monitors are faulty.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+					<Paragraph>All the data in Table 1 is expressed in percentage form, but, if we know how many people were interviewed in the survey, we can work back from the percentage to find the actual number. Suppose 1700 people are interviewed in a survey and 56% of them say they have used the internet in the last 3 months. How many people does 56% represent? We can find out as follows.</Paragraph>
+					<Paragraph>First the percentage is expressed as a fraction of 100:</Paragraph>
+					<Figure id="fig001_006">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175fraction4.jpg" height="" id="fig001_i004" x_imagesrc="t175fraction4.jpg" x_imagewidth="32" x_imageheight="34"/>
+						
+					</Figure>
+					<Paragraph>The fraction is then multiplied by the total number of people in the survey:</Paragraph>
+					<Figure id="fig001_007">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175fraction5.jpg" height="" id="fig001_i005" x_imagesrc="t175fraction5.jpg" x_imagewidth="79" x_imageheight="33"/>
+						
+					</Figure>
+					<Paragraph>Using the Windows calculator, I enter &#x2018;56 / 100&#xD7;1700 =&#x2019;. The result is 952. This means that 952 of the 1700 people surveyed used the internet in the last three months.</Paragraph>
+					<Paragraph>Now suppose that, according to the survey, of those 952 people who used the internet in the last three months, 85% used it for email. How many people out of the 952 used the internet for email? We can calculate the number by finding 85% of 952.</Paragraph>
+					<Paragraph>With the Windows calculator I enter &#x2018;85 / 100&#xD7;952 =&#x2019;. The answer is 809.2 people, but common sense suggests that the answer ought to be 809.</Paragraph>
+					</SubSection>
+					
+					
+					<SubSection id="se001_002_004">
+						<Title>1.2.4 Rounding</Title>
+						<Paragraph>It looks as if there was an extra 0.2 of a person in the last calculation &#x2013; why was this? Probably because the figure of 85% that we used was not precise. In fact 809 people, as a percentage of 952, is very slightly less than 85%.</Paragraph>
+						<Paragraph>Values are often rounded, and using these rounded numbers in calculations can give answers like 809.2 people. Here we can round the answer down to 809 people, because we know it must be a whole number and it is more likely to be 809 than 810.</Paragraph>
+						<Paragraph>When we want to give a number as a whole number, a decimal that is greater than 0.5 is rounded up, and a decimal that is less than 0.5 is rounded down. A decimal that is exactly 0.5 is usually rounded up.</Paragraph>
+						<Paragraph>We can use the 809.2 people as an example to show how this is done. Because we are rounding to a whole number, we need to look at the decimal part, which is .2. This is less than 0.5, so we round down, giving us 809 people. However, if the number of people had been 809.7, we would round up to give 810.</Paragraph>
+						<Paragraph>Rounding is not only used to make whole numbers. Often rounding is used to make long decimal numbers shorter. For example, we could round 63.87 up to 63.9.</Paragraph>
+						<Paragraph>In fact, the figure of 85% (people using email) must itself have been rounded to give a whole-number percentage. This means that it could originally have been any percentage greater than 84.5% and less than 85.5%. The precise result of expressing 809 people as a percentage of 952 is a long number beginning 84.9789, and going on for many more decimal places. It makes sense to round this percentage up to 85% in this context. (But if greater precision were required, rounding to 85% might be unacceptable.) If we use the same method of calculation as before we can work out that this 85% could represent any number of people between 804 and 813.</Paragraph>
+						<Activity id="act004_025"><Heading>Activity 6 (self-assessment)</Heading><Question>
+								<Paragraph>Assuming that 952 people had used the internet in the previous three months, use the percentages given in Table 1 to calculate the actual number of people who had used the internet for the following purposes:</Paragraph>
+								<Paragraph>(Round the resulting figures to the nearest whole number.)</Paragraph>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>General browsing</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Selling goods and services</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Playing or downloading games.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Answer>
+							<!--	<SubHeading>Comment</SubHeading>-->
+								<NumberedList>
+									<ListItem>
+										<Paragraph>65% of people used the internet for general browsing; this is 65% of 952 people. Entering &#x2018;65 / 100&#xD7;952 =&#x2019; into the Windows calculator gives 618.8. This figure rounds up to 619 people.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>10% of people used the internet used for selling goods or services; this is 10% of 952 people. Entering &#x2018;10 / 100&#xD7;952 =&#x2019; into the calculator gives 95.2. This figure is rounded down to 95.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>13% of people used the internet for playing or downloading games; this is 13% of 952 people or &#x2018;13 / 100&#xD7;952&#x2019;, which gives 123.76. The decimal part of this number is .76, which is bigger than 0.5, so we round up to 124.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Answer></Activity>
+			
+				</SubSection>
+				
+				
+				
+				<SubSection id="sec001_002_005">
+					<Title>1 2.5 Reading a chart</Title>
+					<Paragraph>Diagrams are a common graphical way of representing information. Processes and ideas can often be summarised more effectively in diagrammatic form than in words.</Paragraph>
+					<Paragraph>As a learner you need to be comfortable with reading graphical information. You also need to learn how to read diagrams in the sense of extracting information from them and interpreting what they mean.</Paragraph>
+					<Paragraph>A chart is a type of diagram used to summarise large amounts of numerical information in a graphical form. Charts also provide a useful way of showing relationships between different values.</Paragraph>
+					<Paragraph>You will come across different types of chart, such as line graphs, histograms, pie charts and bar charts. They are used for different purposes. In the remainder of this study session we shall focus on bar charts.</Paragraph>
+					</SubSection>
+					
+					
+					<SubSection id="sec001_002_006">
+						<Title>1 2.6 Bar charts</Title>
+						<Paragraph>In a bar chart, information is represented by a series of bars of different heights or lengths. A bar chart has two axes, and labels on each tell us about the information being represented.</Paragraph>
+						<Paragraph>Figure 3 is a bar chart which shows how the percentages of people with home access to the internet have changed between 1998 and 2004.</Paragraph>
+						<Figure id="fig001_008">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_7\1.0\t175b1p2s4_f19.jpg" height="" id="fig001_003-36" webthumbnail="false" x_imagesrc="t175b1p2s4_f19.jpg" x_imagewidth="511" x_imageheight="326"/>
+							<Caption>
+								Figure 3 UK Households with home access to the Internet, April to June (source: National Statistics Survey, 2004)</Caption>
+								<Alternative>Figure 3</Alternative>
+								<Description>Figure 3</Description>
+							
+						</Figure>
+						
+						
+						
+						<Activity id="act004_026"><Heading>Activity 7 (exploratory)</Heading><Question>
+								<Paragraph>Study the bar chart in Figure 3. What do you think it shows about the growth in home access to the internet?</Paragraph>
+							</Question><Answer>
+								<!--<SubHeading>Comment</SubHeading>-->
+								<Paragraph>The first thing I noticed is that the bars are getting longer from left to right, so access to the internet increased during the period represented. However, the &#x2018;jumps' between the bars in the first few years seem to be larger than those for the later years.</Paragraph>
+								<Paragraph>My interpretation of this is that there was more rapid growth in internet access in those earlier years.</Paragraph>
+							</Answer></Activity>
+						<Paragraph>Although charts present information in a graphical form so that it can be grasped quickly, it is important to look carefully at a chart. You should look at the chart's title and the labels on the vertical and horizontal axes. Then pick one of the bars and work out what it represents.</Paragraph>
+						<Paragraph>The vertical axis of the chart in Figure 3 is labelled &#x2018;Percentages'. The values on the vertical axis go from 0 to 60 in intervals of 10 (0, 10, 20, 30 and so on); note that the fact that the vertical axis only goes up to 60 can make the percentages seem higher than they really are. The horizontal axis is labelled from 1998 through to 2004. Each bar represents data for one year from 1998 to 2004.</Paragraph>
+						<Paragraph>If I choose the bar for 1998 and look at the value on the vertical axis, I can see that it is just under 10%, so I can estimate that 9% of UK households had access to the internet at home in 1998. The bar for 2004 reaches a little over the 50% mark, so I estimate that 52% of households in the UK had access to the internet at home in 2004.</Paragraph>
+						
+						
+						
+						<Activity id="act004_027"><Heading>Activity 8 (exploratory)</Heading><Question>
+								<Paragraph>Use the bar chart in Figure 3 to answer the following questions:</Paragraph>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>What percentage of households in the UK had access to the internet at home in 2001?</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>By how many percentage points did home access increase between 1998 and 2001?</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>By how many percentage points did home access increase between 2001 and 2004?</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Answer>
+							<!--	<SubHeading>Comment</SubHeading>-->
+								<NumberedList>
+									<ListItem>
+										<Paragraph>The bar for 2001 reaches to just under 40% on the vertical axis. I would estimate the value as 39%.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>To find the increase, we subtract the value for 1998 (9%) from that for 2001 (39%). This gives an increase of 30 percentage points.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>To find the increase, we subtract the value for 2001 (39%) from that for 2004 (52%). This gives 13 percentage points.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Answer></Activity>
+						<Paragraph>The solutions to the questions in Activity 8 confirm my initial impression (Activity 7) about the way in which home access to the internet has increased. Home access increased by more percentage points between 1998 and 2001 than between 2001 and 2004. So, although home access is still increasing, it does not seem to have been increasing as rapidly since 2001.</Paragraph>
+
+<!--<Box id="box00a">
+<Heading>Do this</Heading> 
+<Paragraph>Now you have completed this unit, you might like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+<Paragraph>Post a message to the unit forum.</Paragraph> 
+</ListItem>
+<ListItem>
+<Paragraph>Review or add to your Learning Journal.</Paragraph> 
+</ListItem>
+<ListItem>
+<Paragraph>Rate this unit.</Paragraph> 
+</ListItem>
+</BulletedList>
+</Box>
+<Box id="box00b">
+<Heading>Try this</Heading> 
+<Paragraph>You might also like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+<Paragraph>Find out more about the related Open University course</Paragraph>
+</ListItem>
+<ListItem>
+<Paragraph>Book a FlashMeeting to talk live with other learners</Paragraph> 
+</ListItem>
+<ListItem>
+<Paragraph>Find out about what its like to study at the OU.</Paragraph>
+</ListItem>
+<ListItem>
+<Paragraph>Create a Knowledge Map to summarise this topic.</Paragraph> 
+</ListItem>
+</BulletedList>
+</Box>-->
+	</SubSection>
+</Section>
+		</Session>
+		
+		<Session id="003">
+<Title>Next steps</Title>
+<Paragraph>After completing this unit you may wish to study another OpenLearn Study Unit or find out more about this topic. Here are some suggestions:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1512">Introducing ICT systems</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1514">ICTs: Technology news</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/openlearn/science-maths-technology/computing-and-ict">Computing and ICT</a></ListItem>
+</UnNumberedList>
+<Paragraph>If you wish to study formally at The Open University, you may wish to explore the courses we offer in this curriculum area:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/course/t175.htm">Networked living: Exploring information and communication technologies (T175)
+</a></ListItem>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm">Computing and ICT
+</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or find out about studying and developing your skills with The Open University:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/">OU study explained</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/skillsforstudy">Skills for study</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or you might like to:</Paragraph>
+<UnNumberedList>
+<ListItem>Post a mesage to the <a href="http://openlearn.open.ac.uk/mod/forumng/view.php?id=396264">unit forum</a>, to share your thoughts about the unit or talk to other OpenLearners</ListItem>
+<ListItem>Review or add to your <a href="http://openlearn.open.ac.uk/mod/oublog/view.php?">Learning Journal</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/blocks/rate_course/rate.php?courseid=1232">Rate this unit</a></ListItem>
+</UnNumberedList>
+</Session>
+
+		
+		<BackMatter>
+			<References>
+				<Reference>National Statistics Survey (2004) Individuals accessing the Internet &#x2013; <a href="http://www.statistics.gov.uk/statbase/Expodata/Spreadsheets/D6932.xls">National Statistics Omnibus Survey [online]</a> [Accessed 3 March 2005].</Reference>
+				<Reference>Northedge, A., Thomas, J., Lane, A. and Peasgood, A. (1997) <i>The Sciences Good Study Guide</i>, Open University, Milton Keynes.</Reference>
+			</References>
+			<Acknowledgements>
+				<Heading>Acknowledgement</Heading>
+				<Paragraph>Grateful acknowledgement is made to the following source for permission to reproduce material within this unit</Paragraph>
+				<SubHeading>Figures</SubHeading>
+				<Paragraph>Figure 3 Source: <a href="http://www.statistics.gov.uk">National Statistics website:</a>
+Crown copyright material is reproduced with the permission of the Controller of HMSO</Paragraph>
+
+<Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph>
+
+<Heading>Don't miss out</Heading>
+<Paragraph>1. Join the 200,000 students currently studying with<a href="http://www3.open.ac.uk/study/"> The Open University</a>.</Paragraph>
+<Paragraph>2. Enjoyed this? Browse through our host of free course materials on <a href="http://openlearn.open.ac.uk">LearningSpace</a>.</Paragraph>
+<Paragraph>3. Or browse more topics on <a href="http://www.open.ac.uk/openlearn">OpenLearn</a>.
+</Paragraph>
+
+			</Acknowledgements>
+		</BackMatter>
+	</Unit>
+<settings>
+                <numbering>
+                    <Session autonumber="false"/>
+                    <Section autonumber="false"/>
+                    <SubSection autonumber="false"/>
+                    <SubSubSection autonumber="false"/>
+                    <Activity autonumber="false"/>
+                    <Exercise autonumber="false"/>
+                    <Box autonumber="false"/>
+                    <CaseStudy autonumber="false"/>
+                    <Quote autonumber="false"/>
+                    <Extract autonumber="false"/>
+                    <Dialogue autonumber="false"/>
+                    <ITQ autonumber="false"/>
+                    <Reading autonumber="false"/>
+                    <StudyNote autonumber="false"/>
+                    <Example autonumber="false"/>
+                    <Verse autonumber="false"/>
+                    <SAQ autonumber="false"/>
+                    <KeyPoints autonumber="false"/>
+                    <ComputerDisplay autonumber="false"/>
+                    <ProgramListing autonumber="false"/>
+                    <Summary autonumber="false"/>
+                    <Tables autonumber="false"/>
+                    <Figures autonumber="false"/>
+                    <MediaContent autonumber="false"/>
+                  </numbering>
+                <discussion_alias>Discussion</discussion_alias>
+                <session_prefix>Session</session_prefix>
+            </settings></Item>

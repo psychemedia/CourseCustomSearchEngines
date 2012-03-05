@@ -1,0 +1,1191 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="1.2" TextType="CompleteItem" ACSTemplate="DS_TEST" xsi:noNamespaceSchemaLocation="http://openlearn.open.ac.uk/local/schemas/OUIntermediateSchema.xsd" id="X-T175_3">
+
+	<CourseCode>T175</CourseCode>
+	<CourseTitle>Networked living: exploring information and communications technologies</CourseTitle>
+	<ItemID/>
+	<ItemTitle>Introducing ICT systems</ItemTitle>
+<FrontMatter>
+	<Imprint>
+		<Standard>
+			<GeneralInfo>
+				<Paragraph/>
+			</GeneralInfo>
+			<Address>
+				<AddressLine>The Open University, Walton Hall, Milton Keynes, MK7 6AA</AddressLine>
+			</Address>
+			<FirstPublished><Paragraph>First published 2005</Paragraph></FirstPublished>
+<Copyright><Paragraph>Original Copyright &#xA9; 2005 The Open University. Now made available within the Creative Commons framework under the CC Attribution &#x2013; Non-commercial licence (see http://creativecommons.org/by-nc-sa/2.0/uk/).</Paragraph></Copyright>
+			<Rights>
+				<Paragraph>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, transmitted or utilized in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without written permission from the publisher or a licence from the Copyright Licensing Agency Ltd. Details of such licences (for reprographic reproduction) may be obtained from the Copyright Licensing Agency Ltd of 90 Tottenham Court Road, London W1T 4LP.</Paragraph>
+<Paragraph>Open University course materials may also be made available in electronic formats for use by students of the University. All rights, including copyright and related rights and database rights, in electronic course materials and their contents are owned by or licensed to The Open University, or otherwise used by The Open University as permitted by applicable law.</Paragraph>
+				<Paragraph>In using electronic course materials and their contents you agree that your use will be solely for the purposes of following an Open University course of study or otherwise as licensed by The Open University or its assigns.
+Except as permitted above you undertake not to copy, store in any medium (including electronic storage or use in a website), distribute, transmit or re-transmit, broadcast, modify or show in public such electronic materials in whole or in part without the prior written consent of The Open University or in accordance with the Copyright, Designs and Patents Act 1988.</Paragraph>
+			</Rights>
+			<Edited><Paragraph>Edited and designed by The Open University</Paragraph></Edited>
+			<Typeset><Paragraph>Typeset in Europe by the Alden Group, Oxford</Paragraph></Typeset>
+			<Printed><Paragraph>Printed and bound in the United Kingdom by Thanet Limited, Margate</Paragraph></Printed>
+			<ISBN>0 7942 0237 8</ISBN>
+			<Edition/>
+		</Standard>
+	</Imprint>
+	
+			
+	
+	<Introduction>
+		<Title>Introduction</Title>
+		<Paragraph>This unit is from our archive and it is an adapted extract from<i> Networked living: exploring information and communication technologies</i> 
+ (T175) which is no longer in presentation. If you wish to study formally at The Open University, you may wish to explore the courses we offer in this<a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm"> curriculum area.</a></Paragraph>
+	<Paragraph>This unit will introduce you to some ideas about how information and communiction technologies (ICTs) systems work. We will look at how ICT systems convey, store and manipulate data, and how they process data. Finally, using the example of a supermarket, we will analyse how ICT systems are used.</Paragraph>
+	</Introduction>
+	<LearningOutcomes>
+		<Paragraph>This is what you should have achieved when you have completed your study of this unit:</Paragraph>
+		<LearningOutcome>Know the meaning of all the terms highlighted in the text.</LearningOutcome>
+
+<LearningOutcome>Be aware of the main processes in an ICT system (sending, receiving, storing, retrieving, manipulating, conveying).</LearningOutcome>
+<LearningOutcome>Be aware of some of the hardware, software and communication components used in ICT systems.</LearningOutcome>
+<LearningOutcome>Use a system map or a block diagram to identify the components of an ICT system. </LearningOutcome>
+<LearningOutcome>Use the units for conveying data and those for storing data apporpriaterly, including use of the prefixes kilo, mega and giga. </LearningOutcome>	
+		</LearningOutcomes>
+	
+</FrontMatter>
+	<Unit>
+		<UnitID>T175_3</UnitID>
+		<UnitTitle>Introducing ICT systems</UnitTitle>
+		<Session id="ses001">
+				<Title>1 Describing an ICT system</Title>
+				<Paragraph>In this unit I shall be introducing you to some ideas about how ICT systems work. Because this unit is about ICT <i>systems</i>, I'll be starting with a discussion about what constitutes a system. I'll go on to introduce some diagrammatic ways of representing ICT systems. Then I'll look at some examples to illustrate how they carry out certain processes, namely conveying, storing and manipulating data. You will also find out about other processes performed by ICT systems.</Paragraph>
+			<Paragraph>In this section I'll start by discussing how taking a &#x2018;systems&#x2019; view of ICT systems can help our understanding of them. Later in the session. I'll be focusing on the communication component of an ICT system.</Paragraph>
+			</Session>
+			
+			<Session id="ses002">
+				<Title>2 Exploring systems</Title>
+				<Section id="sec002_001">
+					<Title>2.1 Introduction</Title>
+				<Paragraph>There are many types of <b>system</b> &#x2013; not just ICT systems. For example, we all have a nervous system and, as you are studying T175, you are in a higher education system. Our homes have plumbing systems and electrical systems.</Paragraph>
+				<Activity id="act001_001"><Heading>Activity 1 (exploratory)</Heading><Question>
+						<Paragraph>What systems do you come across in your daily life? Write down two or three examples under each of the two headings below:</Paragraph>
+						<Table id="tbl001_i001">
+							<TableHead/>
+							<tbody>
+								
+									<tr>
+										<td>
+											<b>Systems in your home</b>
+										</td>
+										<td>
+											<b>Systems outside the home</b>
+										</td>
+									</tr>
+								
+							</tbody>
+							<SourceReference/>
+						</Table>
+					</Question><Discussion>
+					
+						<Paragraph>Your examples of systems might be very different from mine, but here's my list:</Paragraph>
+						<BulletedList>
+							<ListItem>
+								<Paragraph>In my home there are systems such as the stereo system, my (not very efficient) personal filing system, the central heating system.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Systems outside the home include: an appointments system to see the doctor, a library system for borrowing books and other media, a booking system for a concert or the theatre.</Paragraph>
+								<Paragraph>In the workplace there are systems such as the telephone system, the payroll system, the budgeting system, the internal mail system and, of course, the computer systems.</Paragraph>
+							</ListItem>
+						</BulletedList>
+					</Discussion></Activity>
+				<Paragraph>As you can see from my list, and probably from your own, the word &#x2018;system&#x2019; can be used in a number of ways. At first glance, there may not be much in common between a nervous system and an education system or an ICT system, but they are all called &#x2018;systems&#x2019; so it is likely that they share some features. One important aspect of a system is connectedness. A plumbing system, for example, involves components such as pipes, taps and valves, which are all physically connected in some way. The <b>components</b> are put together to perform a certain function, in this case to supply water to a building.</Paragraph>
+				<Paragraph>Systems do not always involve physical things; the components may be activities or even ideas. Putting on a concert, for example, involves activities such as hiring a hall, holding rehearsals and selling tickets. These activities can be viewed as a system for putting on a concert because they are put together in order to carry out that function.</Paragraph>
+				</Section>
+				
+				<Section id="sec002_002">
+					<Title>2.2 A system map</Title>
+					<Paragraph>One way of explaining and analysing a system is to represent it in a graphical form, known as a <b>system map</b>. I'll use the example of a system for making an appointment with a doctor in a health centre to illustrate this point. In this example, the health centre uses a computerised booking system and the patient may phone or visit the health centre to make an appointment. Therefore, the system includes a patient, a receptionist, a doctor, and a computerised booking system. The example shown in <CrossRef idref="fig001_001">Figure 1</CrossRef> shows how this system could be represented using a system map. I have called the system a &#x2018;health centre appointments system&#x2019; and you can see a number of blobs called &#x2018;patient&#x2019;, &#x2018;doctor&#x2019;, &#x2018;receptionist&#x2019;, and &#x2018;computerised booking system&#x2019;. These are the components of the appointments system. The thick line around these is the <b>system boundary</b> that defines which components are part of the system and which are outside it.</Paragraph>
+					<Figure id="fig001_001">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_001i.jpg" height="" x_imagesrc="t175_3_001i.jpg" x_imagewidth="511" x_imageheight="265"/>
+						<Caption>
+							Figure 1 System map of a health centre appointments system</Caption>
+							<Alternative>Figure 1</Alternative>
+							<Description>Figure 1</Description>
+						
+					</Figure>
+					<SubSection id="sec002_002_001">
+						<Title>2.2.1 Subsystems</Title>
+						<Paragraph>An important aspect of systems is that each component can be considered as a <b>subsystem</b>. In the health centre appointments system, the &#x2018;computerised booking system&#x2019; may be a complex system in its own right involving a number of computers networked together. <CrossRef idref="fig001_002">Figure 2</CrossRef> shows this view of the system with &#x2018;computerised booking system&#x2019; composed of two subsystems: &#x2018;network&#x2019; and &#x2018;computers&#x2019;. Of course, these subsystems may also be complex systems in their own right, composed of further subsystems.</Paragraph>
+						<Paragraph>A complex overall system can therefore be reduced to more manageable proportions by grouping components together and thinking about it in terms of subsystems. You can think of the subsystems as being &#x2018;nested&#x2019; inside a system or another subsystem, a bit like Russian dolls. No single one of them is &#x2018;the doll&#x2019;; each one fits inside the larger one. A system map can help by allowing us to focus on the particular systems and subsystems that we are interested in.</Paragraph>
+						<Figure id="fig001_002">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_002i.jpg" height="" x_imagesrc="t175_3_002i.jpg" x_imagewidth="511" x_imageheight="249"/>
+							<Caption>
+								Figure 2 System map of a health centre appointments system, showing subsystems</Caption>
+								<Alternative>Figure 2</Alternative>
+								<Description>Figure 2</Description>
+							
+						</Figure>
+					</SubSection>
+					
+					<SubSection id="sec002_002_002">
+						<Title>2.2.2 Drawing the boundary</Title>
+						<Paragraph>Deciding where to place the system boundary is an important consideration in that we have to think about what to include and exclude. This isn't always an easy decision to make and it often depends on the perspective of the person viewing the system.</Paragraph>
+						<Paragraph>The system maps in <CrossRef idref="fig001_001">Figures 1</CrossRef> and <CrossRef idref="fig001_002">2</CrossRef> show the &#x2018;doctor&#x2019;, &#x2018;patient&#x2019;, &#x2018;receptionist&#x2019; and &#x2018;computerised booking system&#x2019; as part of the system. However, in <CrossRef idref="fig001_003">Figure 3</CrossRef> the doctor and the patient are placed outside the system in an area that is called the system's <b>environment</b>; <CrossRef idref="fig001_003">Figure 3</CrossRef> shows a perspective where the doctor and patient are not part of the system directly, although they influence it or are influenced by it. By placing them outside the system boundary, the focus is shifted towards the computerised booking system and how the receptionist uses it.</Paragraph>
+						<Figure id="fig001_003">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_003i.jpg" height="" x_imagesrc="t175_3_003i.jpg" x_imagewidth="511" x_imageheight="247"/>
+							<Caption>
+								Figure 3 System map of a health centre appointments system, showing doctor and patient as part of the environment</Caption>
+								<Alternative>Figure 3</Alternative>
+								<Description>Figure 3</Description>
+							
+						</Figure>
+						<Paragraph>
+							<CrossRef idref="fig001_004">Figure 4</CrossRef> illustrates yet another view of the health centre appointments system. Here the doctor and patient are seen as irrelevant and so do not appear at all in the system map. This view of an appointments system embodies yet another shift in emphasis. It is a view that might be taken by engineers who are concerned with the hardware and software of a computerised system (these are discussed in more detail in sections 8&#x2013;14). However, this view is too narrow, and therefore risky, when designing new systems or planning enhancements to existing ones. Ignoring some of the users of the system or &#x2018;stakeholders&#x2019; could lead to a booking system that doesn't do the job it was intended to do.</Paragraph>
+						<Figure id="fig001_004">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_004i.jpg" height="" x_imagesrc="t175_3_004i.jpg" x_imagewidth="511" x_imageheight="298"/>
+							<Caption>
+								Figure 4 System map of a health centre appointments system, excluding doctor and patient</Caption>
+								<Alternative>Figure 4</Alternative>
+								<Description>Figure 4</Description>
+							
+						</Figure>
+						<Activity id="act001_002"><Heading>Activity 2 (exploratory)</Heading><Question>
+								<Paragraph>An email communication system includes:</Paragraph>
+								<BulletedList>
+									<ListItem>
+										<Paragraph>the sender</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>the recipient</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>the sender's computer</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>the recipient's computer</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>the internet</Paragraph>
+									</ListItem>
+								</BulletedList>
+								<Paragraph>Draw a system map to represent this email communication system (roughly oval outlines will be fine). Do you think the users (the sender and the recipient) should be inside the system boundary or outside it?</Paragraph>
+							</Question><Discussion>
+							
+								<Paragraph>
+									<CrossRef idref="fig001_005">Figure 5</CrossRef> shows my system map. Where have you drawn the boundary? Does it include the sender and the recipient as the users of the system within the system boundary, or outside it? As you can see, I have drawn the users outside the system boundary, in the environment. Whether users of an email system feel outside or inside the system is an interesting question.</Paragraph>
+						<Figure id="fig001_005">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_005i.jpg" alt="DESCRIPTION REQUIRED" height="" x_imagesrc="t175_3_005i.jpg" x_imagewidth="511" x_imageheight="241"/>
+							<Caption>
+								Figure 5 A system map of an email communication system</Caption>
+								<Alternative>Figure 5</Alternative>
+							<Description>DESCRIPTION REQUIRED</Description>
+						</Figure>
+							</Discussion></Activity>
+
+						<Paragraph>I've introduced system maps for two main reasons. Firstly, it is important to realise that systems are composed of subsystems and that these subsystems are often themselves composed of subsystems. This idea will help us as we explore ICT systems. Secondly, we may draw the system boundary in different places at different times. For example, if we want to discuss the social or economic impact of a particular ICT system, we will be drawing the boundary very widely indeed but if we want to look at how some subsystem in an ICT system works, then we will be drawing the boundary very tightly around the subsystem.</Paragraph>
+					</SubSection>
+				</Section>
+				
+				<Section id="sec002_003">
+					<Title>2.3 Models of an ICT system</Title>
+					<Paragraph>To help me to introduce you to important ideas about ICT systems, I'm going to take a three-stage approach. ICTs involve conveying, manipulating and storing data. This is going to be the basis of my approach.</Paragraph>
+					<Paragraph>Firstly, in the next few sections, we'll look at ICT systems where the primary function is to <i>convey</i> data. We can think of these systems as <b>communication systems</b> and I'll use a mobile phone system as an example.</Paragraph>
+					<Paragraph>In sections 8&#x2013;14, I'll focus on ICT systems where the chief function is to <i>manipulate</i> and <i>store</i> data. A computer is a primary example of this kind of ICT system, so I'll use a personal computer like the one you are using in your study of this course as an illustration.</Paragraph>
+					<Paragraph>Finally, in section 15&#x2013;19 I'll show how the conveying, manipulating and storing of data can all come together in an ICT system. This convergence of conveying, storing and manipulating data has led to many new and exciting developments, as you will see during your study of this course.</Paragraph>
+			</Section>
+			</Session>
+			
+			<Session id="ses003">
+				<Title>3 Communication systems</Title>
+				<Section id="sec003_001">
+					<Title>3.1 Introduction</Title>
+				<Paragraph>Generally, when we talk about communication between humans, we mean one person conveying information to another person. <CrossRef idref="fig001_006">Figure 6</CrossRef> shows a basic model, or representation, of a communication system for getting a message from the sender to the recipient. The diagram shows the sender (User 1), the message, a &#x2018;means of conveying a message&#x2019; and the recipient (User 2).</Paragraph>
+				<Paragraph>
+					<CrossRef idref="fig001_006">Figure 6</CrossRef> is an example of a <b>block diagram</b>, which is another graphical way of representing a system. Each block represents something in the real world, and the labels on the blocks tell you what that &#x2018;something&#x2019; is. In this diagram I have chosen to represent people and inanimate objects in different ways. The oval shapes (which are still called &#x2018;blocks&#x2019;) represent the users of the communication system. The rectangular blocks represent inanimate objects in the communication system. The lines between the blocks represent the flow of something: here it is the message.</Paragraph>
+				<Figure id="fig001_006">
+					<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_006i.jpg" alt="DESCRIPTION REQUIRED" height="" x_imagesrc="t175_3_006i.jpg" x_imagewidth="511" x_imageheight="152"/>
+					<Caption>
+						Figure 6 A basic model of a communication system</Caption>
+						<Alternative>Figure 6</Alternative>
+					<Description>DESCRIPTION REQUIRED</Description>
+				</Figure>
+				<Activity id="act001_003"><Heading>Activity 3 (exploratory)</Heading><Question>
+						<Paragraph>Suppose you were planning a birthday party for someone. How could you communicate the message &#x2013; that is, the details of the date, the time and the venue &#x2013; to your prospective guests? Jot down four methods of communication. In each case, think of what is needed to convey the message.</Paragraph>
+					</Question><Discussion>
+		
+						<Paragraph>The four methods of communication I thought of are as follows. If my guests live in the same house as me, or if I happened to meet the people concerned, I could just tell them the date, time and venue. If not, I could send them an invitation using the postal system. Alternatively, I could telephone them to give them the details, which involves using the telephone network. I could also email the people I wanted to invite, if I knew their email addresses, which would involve using a computer network &#x2013; probably the internet.</Paragraph>
+						<Paragraph>In each of these situations we could say that communication involved a sender, a recipient, some form of message and some means of conveying the message. The various means of conveying the message in my answer include voice communication, the postal system, the telephone network and a computer network.</Paragraph>
+					</Discussion></Activity>
+				<Activity id="act001_004"><Heading>Activity 4 (self-assessment)</Heading><Question>
+						<Paragraph>ICTs are the technologies used in the conveying, manipulation and storage of data by electronic means. Which of the four means of conveying the message in Activity 3 involve ICTs?</Paragraph>
+					</Question><Answer>
+						<Paragraph>The first method of communication involves only voice communication. The second, the postal service, does not directly involve ICTs to deliver the message.</Paragraph>
+						<Paragraph>The means of conveying a message that directly involve ICTs are the telephone and email. The telephone system involves a telephone network and handsets. An email system involves computers and a computer network.</Paragraph>
+					</Answer></Activity>
+				</Section>
+				
+				<Section id="sec003_002">
+					<Title>3.2 Looking into the 'means of conveying a message'</Title>
+					<Paragraph>The diagram in <CrossRef idref="fig001_006">Figure 6</CrossRef> shows that, for communication to take place, there needs to be some means of conveying the message between the sender and the recipient. I am now going to look at the essential components of &#x2018;means of conveying a message&#x2019;. In other words, I shall treat &#x2018;means of conveying a message&#x2019; as a system and look at its components.</Paragraph>
+					<Paragraph>Three essential components of &#x2018;means of conveying a message are: a <b>transmitter</b>, a <b>network</b> and a <b>receiver</b>. <CrossRef idref="fig001_007">Figure 7</CrossRef> shows these components in a block diagram. In a mobile phone system, for example, the &#x2018;transmitter&#x2019; would be User l's mobile phone, the &#x2018;network&#x2019; would be the mobile telephone network and the &#x2018;receiver&#x2019; would be User 2's mobile phone.</Paragraph>
+					<Figure id="fig001_007">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_007i.jpg" height="" webthumbnail="false" x_imagesrc="t175_3_007i.jpg" x_imagewidth="511" x_imageheight="89"/>
+						<Caption>
+							Figure 7 A more detailed model of a communication system</Caption>
+							<Alternative>Figure 7</Alternative>
+							<Description>Figure 7</Description>
+						
+					</Figure>
+			</Section>
+			</Session>
+			
+			<Session id="ses004">
+				<Title>4 System components</Title>
+				<Section id="sec004_001">
+				<Title>4.1 Introduction</Title>
+				<Paragraph>I'll now look at what these components do in the communication system, using the mobile phone system as an example.</Paragraph>
+				<SubSection id="sec004_001_001">
+				<Title>4.1.1 The transmitter</Title>
+				<Paragraph>The transmitter receives a message from User 1 and manipulates it into data which can be sent into the network. The transmitter may also store or retrieve data relating to the message.</Paragraph>
+						<Paragraph>In the mobile phone system, the transmitter, which is User l's mobile phone, receives a message from User 1 in the form of sound. It manipulates the incoming sound into a data format suitable for sending into the mobile phone network. Even basic models of mobile phone handsets can store names and telephone numbers, so in this example the transmitter is also storing and retrieving data.</Paragraph>
+				</SubSection>
+				
+				
+				
+				
+				<SubSection id="sec004_001_002">
+				<Title>4.1.2 The network</Title>
+				<Paragraph>The network is a <b>communication channel</b> in that it conveys data from the transmitter to the receiver. The network may also manipulate data in some way, and it may also store or retrieve data.</Paragraph>
+						<Paragraph>In a mobile phone system, the network conveys the message from User l's handset to User 2's. It will also store the identity of User 1 and the duration of the call. This data is used to work out the amount to charge User 1, which is a form of manipulation of data. A network can be very complex, so a call does not usually go directly from one caller to another in a single step. The network, therefore, will select the route for conveying a call through the network from the transmitter to the receiver.</Paragraph>
+				</SubSection>
+				
+				
+				
+				
+				<SubSection id="sec004_001_003">
+				<Title>4.1.3 The receiver</Title>
+				<Paragraph>The receiver receives data from the network and manipulates it into a message to send to User 2. Sometimes the receiver may also store or retrieve data.</Paragraph>
+						<Paragraph>In the mobile phone communication system, the data received from the network must be manipulated back into sound before being sent to the user. In addition, some mobile phones can store and retrieve data about the user's contacts, so that when a call is received they can translate the phone number of the caller into a name which is then displayed.</Paragraph>
+				</SubSection>
+			</Section>
+			</Session>
+			
+			<Session id="ses005">
+			<Title>5 The processes</Title>
+			<Paragraph>My description of the three subsystems of &#x2018;means of conveying a message&#x2019; has indicated some important processes that each carries out. These are shown in <CrossRef idref="fig001_008">Figure 8</CrossRef>. The key processes are those that will always be carried out and they are shown in bold; the other processes may or may not be performed. (I have used this scheme of bold text for essential processes in all block diagrams.)</Paragraph>
+						<Figure id="fig001_008">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_008i.jpg" alt="DESCRIPTION REQUIRED" height="" webthumbnail="false" x_imagesrc="t175_3_008i.jpg" x_imagewidth="511" x_imageheight="123"/>
+							<Caption>
+								Figure 8 A model of a communication system showing the processes involved</Caption>
+								<Alternative>Figure 8</Alternative>
+							<Description>DESCRIPTION REQUIRED</Description>
+						</Figure>
+						<Activity id="act001_005"><Heading>Activity 5 (exploratory)</Heading><Question>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>Look at the processes listed for the transmitter in <CrossRef idref="fig001_008">Figure 8</CrossRef>.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Now reread my two paragraphs about the transmitter. Underline the processes carried out by the transmitter.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Repeat (1) and (2) for both the network and the receiver.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Discussion>
+				
+								<Paragraph>Here is my paragraph about the transmitter, amended with the processes underlined.</Paragraph>
+								<Paragraph>&#x2018;The transmitter <u>receives</u> a message from User 1 and <u>manipulates</u> it into data which can be <u>sent</u> into the network. The transmitter may also <u>store</u> or <u>retrieve</u> data relating to the message.</Paragraph>
+								<Paragraph>&#x2018;In the mobile phone system, the transmitter, which is User l's mobile phone, <u>receives</u> a message from User 1 in the form of sound. It <u>manipulates</u> the incoming sound into a data format suitable for <u>sending</u> into the mobile phone network. Even basic models of mobile phone handsets can <u>store</u> names and telephone numbers, so in this example the transmitter is also <u>storing</u> and <u>retrieving</u> data.&#x2019;</Paragraph>
+								<Paragraph>I'll leave you to underline the processes for network and receiver yourself.</Paragraph>
+							</Discussion></Activity>
+			</Session>
+			
+			<Session id="ses006">
+			<Title>6 Communication links</Title>
+			<Section id="sec006_001">
+				<Title>6.1 Networks</Title>
+			<Paragraph>Next I'll be looking more closely at the &#x2018;network&#x2019; block in <CrossRef idref="fig001_008">Figure 8</CrossRef>, and in particular at the links that must be present before communication can take place. I'll introduce you to just a few of the forms that these links can take; links may be physical ones, such as cables, or they may be wireless, such as radio links. I'll also discuss how we measure the capacity of a link for carrying messages.</Paragraph>
+					<Paragraph>Physical <b>cables</b> can provide a path for conveying data between two points. A common example is the telephone wires that are used to connect the &#x2018;landline&#x2019; telephones in people's homes to the nearest telephone exchange. Cables are also used to carry television and often radio signals to the homes of cable TV subscribers. Fibre-optic cables are used to interconnect telephone exchanges. Cables are also used to connect computers together into various kinds of network.</Paragraph>
+				<Paragraph>There are two forms of <b>wireless</b> link in common use: radio links and infrared. Millions of people around the world now use mobile phones, and this involves radio links. You may also have come across &#x2018;Bluetooth&#x2019; and &#x2018;WiFi&#x2019; radio links in connection with computers. Bluetooth&#xAE; is used for short-range wireless links between devices, for example to connect a computer and a printer. A WiFi link, with its slightly longer range, might be used to connect a WiFi-enabled notebook computer to a WiFi &#x2018;hotspot&#x2019; (in a cafe or other public place), which provides a link to the internet.</Paragraph>
+					<Paragraph>The other sort of link is an infrared link, which you will have come across when using the remote control for your television set. Infrared can also provide a communications link between computers and devices such as printers. An important difference between wireless links and infrared is that an infrared link must be along a line of sight (for example, the remote control has to be pointed at the television), whereas a radio link need not be.</Paragraph>
+					<Paragraph>It is very important that a communication link has the <b>capacity</b> to cope with the messages it has to convey &#x2013; that is, that it can convey the messages as quickly as they are arriving from the transmitter. The ability of a communication link to convey data is measured by a quantity known as its &#x2018;bandwidth&#x2019;. But what is bandwidth? To answer that question I need to introduce you to the form in which data is normally conveyed in today's ICT systems. This form is a series of pulses &#x2013; that is, data is conveyed by sending streams of pulses from one end of a communication link to another.</Paragraph>
+					</Section>
+					
+					
+					
+					
+					<Section id="sec006_002">
+					<Title>6.2 Working with bits</Title>
+					<Paragraph>You may have met the term <b>bit</b>, perhaps in connection with computers. The term &#x2018;bit&#x2019; is also important in communication systems. It is an abbreviation for &#x2018;binary digit&#x2019;. A binary digit can have just one of two values: it can be either 1 or 0. Pulses can be represented by 1s and 0s, that is, as bits, and so it is convenient to think of streams of 1s and 0s being conveyed along the communications link.</Paragraph>
+					<Paragraph>The rate at which the 1s and 0s are conveyed is known as the <b>data rate</b> or <b>bit rate</b>. Every communication link has a maximum data rate it can support, and that's what we mean by the link's <b>bandwidth</b>. (You may possibly have met another meaning of the term &#x2018;bandwidth&#x2019;: a frequency range. That meaning is different from the one we are discussing here.) Data rate and bandwidth are both measured as a number of <i>bits per second</i>. For convenience, &#x2018;bits per second&#x2019; is often abbreviated to bps. For instance the data rate might be 100 000 bps (i.e. 100 000 bits per second), 250 000 000 bps or much more.</Paragraph>
+					<Paragraph>Clearly we are going to have to deal with large numbers when talking about data rates, so I'm going to introduce a way of making these large numbers more manageable.</Paragraph>
+					<Paragraph>You will be familiar with the prefix &#x2018;kilo&#x2019; in words such as kilogram, which is 1000 grams, or kilometre, which is 1000 metres. So it will come as no surprise that 1000 bits per second can also be described as a kilobit per second. The prefix &#x2018;mega&#x2019; is similarly used for a million, so 1 000 000 bits per second is a megabit per second The prefix &#x2018;giga&#x2019; is used for a billion (that is, a thousand million).</Paragraph>
+					<Activity id="act001_006"><Heading>Activity 6 (self-assessment)</Heading><Question>
+							<Paragraph>How many bits per second are there in a gigabit per second? Write your answer in both words and figures.</Paragraph>
+						</Question><Answer>
+						<Paragraph>There are a billion bits per second in a gigabit per second. In figures this is 1 000 000 000.</Paragraph>
+					</Answer></Activity>
+					<Paragraph>All of these prefixes have standard abbreviations. For instance, instead of writing &#x2018;kilobits per second&#x2019; we can write kbps &#x2013; that is, we write k for kilo. Similarly, M is used for &#x2018;mega&#x2019; and G for &#x2018;giga&#x2019;. (Notice that by convention the k is lower-case but the M and G are upper-case.) <CrossRef idref="tbl001">Table 1</CrossRef> summarises all this information.</Paragraph>
+					<Table id="tbl001">
+						<TableHead>
+							Table 1 Prefixes for data rates</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Prefix</th>
+									<th>In figures this is:</th>
+									<th>In words this is:</th>
+									<th>Symbol</th>
+								</tr>
+								<tr>
+									<td>Kilo</td>
+									<td>1000</td>
+									<td>A thousand</td>
+									<td>k</td>
+								</tr>
+								<tr>
+									<td>Mega</td>
+									<td>1 000 000</td>
+									<td>A million</td>
+									<td>M</td>
+								</tr>
+								<tr>
+									<td>Giga</td>
+									<td>1 000 000 000</td>
+									<td>A billion (thousand million)</td>
+									<td>G</td>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Paragraph>You may have come across examples of data rates and bandwidths in connection with modems and broadband. At the time of writing (early 2005) a dialup modem typically provides a data rate of 56 kbps, which is 56 000 bps, and Internet Service Providers (ISPs) advertise broadband connections with bandwidths such as 1 megabit per second (which is 1 Mbps or 1 000 000 bps).</Paragraph>
+					<Activity id="act001_007"><Heading>Activity 7 (self-assessment)</Heading><Question>
+							<Paragraph>Have a go at answering these questions to test your understanding of what you have read so far about communication systems.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>The maximum data rate that a communication link can support is called its____________.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>The sort of communication link used by Bluetooth is a ____________link.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>A WiFi link between a notebook computer and a &#x2018;hotspot&#x2019; can handle data at up to 54 megabits per second (54 Mbps). How many bits per second is that?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+						<NumberedList>
+							<ListItem>
+								<Paragraph>bandwidth</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>radio</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>54 000 000 bps.</Paragraph>
+							</ListItem>
+						</NumberedList>
+					</Answer></Activity>
+			</Section>
+			</Session>
+			
+			<Session id="ses007">
+			<Title>7 Describing an ICT system: conclusion</Title>
+			<Paragraph>We have arrived at a model of a communication system that illustrates the processes needed for communication. We have also looked at the different kinds of communication link that can be used to convey data, and how to express the rates at which they can convey data. In sections 8&#x2013;14, we shall be looking at a computer system as an example of an ICT system where data manipulation and storage are the most important features.</Paragraph>
+</Session>
+
+			<Session id="ses008">
+				<Title>8 Computers</Title>
+<Paragraph>In sections 8&#x2013;14, I am going to start by considering a <b>stand-alone computer</b>, which is a computer that is not connected to a network. In this type of ICT system, the key processes are the manipulation and storage of data. I'll be introducing some details about the way that a computer manipulates and stores data. Then I'll be discussing the processes that are carried out by computers when they are linked.</Paragraph>
+			</Session>
+			
+			<Session id="ses009">
+				<Title>9 A stand-alone computer</Title>
+				<Paragraph>The computer you are using for your studies is called a <b>personal computer</b> or PC. Although you have an internet connection for use in this course, your computer can probably also be used as a stand-alone computer. Your PC may be a <b>desktop computer</b> or a <b>notebook computer</b> (sometimes known as a <b>laptop computer)</b>. Usually a desktop computer comes with separate devices such as a monitor, a keyboard, a mouse and speakers and it runs on mains electricity. Notebook computers are designed to be small and light in order to make them portable, so the screen and keyboard are part of the one unit. Notebook computers have the same capabilities as a desktop computer, but can be run on an internal battery as well as from an electrical socket. <CrossRef idref="fig001_009">Figure 9</CrossRef> illustrates some types of computer.</Paragraph>
+				<Figure id="fig001_009">
+					<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_009i.jpg" alt="DESCRIPTION REQUIRED" height="" x_imagesrc="t175_3_009i.jpg" x_imagewidth="511" x_imageheight="214"/>
+					<Caption>
+						Figure 9 Desktop and notebook/laptop computer</Caption>
+						<Alternative>Figure 9</Alternative>
+					<Description>DESCRIPTION REQUIRED</Description>
+				</Figure>
+				<Paragraph>For a PC to manipulate data there need to be processes by which the computer receives data from the user and sends data back to the user. Hence, the block diagram in <CrossRef idref="fig001_010">Figure 10</CrossRef> shows the first process associated with a stand-alone computer as &#x2018;receives from user&#x2019; and the second as &#x2018;sends to user&#x2019;. You will see that &#x2018;manipulates&#x2019; and &#x2018;stores/retrieves&#x2019; are also listed in the diagram. I'm not going to go into a lot of detail about the inner workings of a computer here, but it will be useful for you to know something about how a computer carries out these processes. My starting point will be the &#x2018;receives from user&#x2019; and &#x2018;sends to user&#x2019; processes. Then I'll introduce you to the way a computer carries out its main processes: manipulation and storage.</Paragraph>
+				<Figure id="fig001_010">
+					<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_010i.jpg" alt="DESCRIPTION REQUIRED" height="" x_imagesrc="t175_3_010i.jpg" x_imagewidth="511" x_imageheight="243"/>
+					<Caption>
+						Figure 10 A model of a stand-alone computer</Caption>
+						<Alternative>Figure 10</Alternative>
+					<Description>DESCRIPTION REQUIRED</Description>
+				</Figure>
+			</Session>
+			
+			<Session id="ses010">
+				<Title>10 Sending and receiving data</Title>
+				<Section id="sec010_001">
+					<Title>10.1 Introduction</Title>
+				<Paragraph>A stand-alone computer receives data from a user by means of <b>input devices</b>. The two most commonly used input devices are the keyboard and the mouse. A computer sends data to a user by means of <b>output devices</b>. Data may be output via devices such as a screen or a printer.</Paragraph>
+					<Paragraph>There are many different ways of getting data into a computer. For example, a scanner converts images and texts into a format that can be processed by the computer and displayed on screen. Devices such as touch screens and graphics tablets convert the pressure from stylus or finger strokes into data. Data from digital cameras and camcorders can also be received by a computer.</Paragraph>
+					<Paragraph>Some devices can be used for a number of purposes; for example a printer, scanner and photocopier can be combined as one physical device.</Paragraph>
+					</Section>
+					
+				<Section id="sec010_002">
+					<Title>10.2 Ports</Title>
+					<Paragraph>On the outside of a computer you will see a number of connection points that look like sockets. These sockets are known as <b>ports</b> and they provide connections between the computer and external devices such as a digital camera or printer. Ports control the flow of data between the computer and these devices, ensuring that data is sent and received quickly and reliably.</Paragraph>
+					<Paragraph>Modern ICT devices require increasingly large amounts of data to be sent between the computer and the devices. Therefore, it is important that the ports provide a high-speed connection. Two high-speed ports currently available are Firewire and Universal Serial Bus (USB). Firewire can provide a fast connection at a rate of up to 800 megabits per second (Mbps). USB ports come in two versions: USB 1.1 and the more recent USB 2.0. The latter is faster, at about 480 Mbps, while USB 1.1 is only 12 Mbps.</Paragraph>
+						<Paragraph>You may also find older types of ports on your computer, such as a serial port, which was often used for a modem, and a parallel port, used to connect the computer to a printer.</Paragraph>
+						<Activity id="act001_008"><Heading>Activity 8 (self-assessment)</Heading><Question>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>Which of these devices provide a means by which a computer can receive data from a user: keyboard, scanner, printer, monitor, mouse?</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Which type of port provides a faster connection between a computer and an input or output device: Firewire or USB?</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Answer>
+						<NumberedList>
+							<ListItem>
+								<Paragraph>keyboard, scanner, mouse</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Firewire.</Paragraph>
+							</ListItem>
+						</NumberedList>
+					</Answer></Activity>
+				</Section>
+			</Session>
+			
+			<Session id="ses011">
+				<Title>11 Manipulating data</Title>
+				<Section id="sec011_001">
+					<Title>11.1 Introduction</Title>
+				<Paragraph>A stand-alone computer needs two main components to manipulate data: a processor and a working memory.</Paragraph>
+				</Section>
+				
+				<Section id="sec011_002">
+					<Title>11.2 The processor</Title>
+					<Paragraph>The <b>processor</b> can be thought of as the &#x2018;brain&#x2019; of the computer in that it manages everything the computer does. A processor is contained on a single <b>microchip</b> or &#x2018;chip&#x2019;. A <b>chip</b> is a small, thin slice of silicon, which might measure only a centimetre across but can contain hundreds of millions of transistors. The transistors are joined together into circuits by tiny wires which can be more than a hundred times thinner than a human hair. These tiny circuits enable the processor to carry out calculations and other manipulations of data.</Paragraph>
+						<Paragraph>Processors can have different speeds, and this influences how quickly the computer can carry out its operations. Processor speeds seem to be increasing all the time. There are many different types of processor available: such as Pentium&#xAE;, Celeron&#xAE;, Athlon&#x2122;, Centrino&#x2122; and PowerPC&#xAE;.</Paragraph>
+				</Section>
+				
+						<Section id="sec011_003">
+							<Title>11.3 Memory</Title>
+							<Paragraph>An essential component of a computer is the memory which it uses to hold data currently being used by the processor. This is the <b>random access memory (RAM)</b>, the computer's working memory in which programs and data are stored so that they can be accessed very quickly by the processor. The processor stores data in RAM and retrieves data from it as it carries out its manipulations. The more RAM a computer has, the faster the computer programs will run. RAM memory is used and reused and any data held in RAM is normally lost when the computer is turned off.</Paragraph>
+						<Paragraph>To ensure that essential data is not lost when the computer is switched off, all personal computers have a <b>hard disk</b> (sometimes called a <b>hard drive)</b> which can store data permanently. Part of the starting-up process of a computer is to copy start-up programs and data from the hard disk into the RAM, and all important data in the RAM is copied to the hard disk during the closing-down process. I'll discuss hard disks in more detail in Section 12.</Paragraph>
+						<Paragraph>There are other important components needed to make a modern computer work effectively, but the ones I've mentioned will suffice to illustrate the main ICT processes involved in a computing system.</Paragraph>
+						</Section>
+						
+						<Section id="sec011_004">
+							<Title>11.4 Computer software</Title>
+							<Paragraph>The electronic components and other equipment that make up your computer system are known as <b>hardware</b>. In order to make the computer do things, such as help you to produce your TMAs, edit photographs or draw diagrams, you also need computer programs, which are called <b>software</b>.</Paragraph>
+						</Section>
+						
+						<Section id="sec011_005">
+							<Title>11.5 Programming languages</Title>
+							<Paragraph>A computer program is written in a <b>programming language</b> and contains the instructions that tell the computer what to do. Developers write new software using specialised programming languages. The resulting programs (or &#x2018;source code&#x2019;) can be converted into the low-level instructions understood by the processor. There is a wide range of programming languages to suit different types of task; if you look at advertisements for programming jobs in newspapers or online you will get an idea of which languages are being widely used. Languages such as C++, Visual Basic and Java are in demand at the time of writing (early 2005).</Paragraph>
+						<Paragraph>Computer software falls into two main categories: operating systems and applications.</Paragraph>
+						</Section>
+						
+						<Section id="sec011_006">
+							<Title>11.6 Operating systems</Title>
+							<Paragraph>A computer requires software just to look after itself and to manage all its components; this is called the <b>operating system</b>. The operating system handles communication with the other software on the computer and with the hardware resources of the machine, such as the processor and memory. The operating system provides a means of running the computer's application programs. It also provides a standard user interface with windows, buttons and menus so that users can interact with the computer.</Paragraph>
+						<Paragraph>You are probably using a computer with the Microsoft Windows operating system, as required by the computer specification for this course. However, other operating systems can be used with personal computers. Apple Computer Inc. developed the Apple Macintosh OS system to run on Macintosh computers. Operating systems are usually commercial products and protected by copyright, but the Linux operating system is available free. Anyone can make improvements to Linux programs, provided they make the details of the programs available to other programmers. This is known as <b>open source</b> programming.</Paragraph>
+						</Section>
+						
+						<Section id="sec011_007">
+							<Title>11.7 Applications</Title>
+							<Paragraph>Most people buy computers in order to run applications. There are many different examples of software application, including word processors and spreadsheet, database and graphics packages. Some are combined together in &#x2018;office&#x2019; suites, such as the StarOffice applications you can find on the Open University's Online Applications disk.</Paragraph>
+						<Paragraph>
+							<b>Word-processing</b> software, such as Microsoft Word, allows you to create, edit and store documents. You can produce very professional-looking documents using a word processor, with different typefaces (known as &#x2018;fonts&#x2019;) and incorporating graphics, such as drawings and photographs.</Paragraph>
+						<Paragraph>
+							<b>Spreadsheet</b> software, such as Excel, allows you to perform calculations based on the numbers and formulae that you enter. You can keep track of a household budget on a spreadsheet, but what makes a spreadsheet a powerful tool is its modelling ability. Depending on how a spreadsheet has been set up, when new values are entered, the whole spreadsheet can be automatically updated. Spreadsheets are often used in business organisations to model financial activities.</Paragraph>
+						<Paragraph>
+							<b>Database</b> software, such as Microsoft Access, stores information in a form that can be organised and searched. Databases range in size and complexity. An example of a small database might be an address book that you keep on your own computer to store the names and contact details of friends and family. There are much larger databases in use by institutions containing specific types of information, such as library catalogues, banks&#x2019; records of customers&#x2019; accounts, and hospital medical records.</Paragraph>
+						<Paragraph>
+							<b>Graphics and image editing</b> software allows you to create and edit drawings and images. Digital photography has become very popular and image-editing software allows you to crop and resize your photos, touch-up blemishes and then print the results.</Paragraph>
+						<Paragraph>
+							<b>Education and training software</b> is intended to help children and adults learn. There are a number of programs intended to teach children basic mathematics and English skills. Other examples include programs designed to train people in computer skills or to help them learn new languages.</Paragraph>
+						<Paragraph>
+							<b>Games</b> represent a large sector in the computer software market. While many run on dedicated game consoles rather than PCs, some make use of the PC's computing power to achieve high-quality graphics and complex game play. In fact, technological developments for games have resulted in improvements for personal computers. You can play games alone on your PC, but others provide multi-player environments via the internet.</Paragraph>
+						<Paragraph>
+							<b>Email</b> software manages your electronic mailbox on your computer to allow you to compose, send, read and delete messages. Email applications often include tools such as a filing system for storing messages, a calendar and an address book.</Paragraph>
+						<Paragraph>
+							<b>Web browser</b> software allows you to view web pages and, among other things, use the links in them to &#x2018;jump&#x2019; from one page to another and from one part of a page to another. The two most popular browsers at the time of writing are Microsoft Internet Explorer and Mozilla Firefox.</Paragraph>
+						<Paragraph>There are also other applications which provide a means of sending and receiving data. For example, screen readers &#x2018;read&#x2019; the accessible text aloud, while speech recognition software enables the computer to respond to the human voice.</Paragraph>
+						</Section>
+			</Session>
+			
+			<Session id="ses012">
+				<Title>12 Storing data</Title>
+				<Section id="sec012_001">
+					<Title>12.1 Introduction</Title>
+				<Paragraph>Data must be stored somewhere when it is not being manipulated. Modern ICT systems require increasingly large amounts of data to be stored for later use, and it is important that the data can be accessed quickly. Data may be stored on the stand-alone computer's hard disk in the form of files.</Paragraph>
+					<Paragraph>You may want to move files from one stand-alone computer to another. In addition, you may want to move files from a device, such as a digital camera, to a computer. These activities require some form of external storage.</Paragraph>
+					<Paragraph>I'll introduce you to some different storage media in this section. However, I'll first explain the units in which we measure how much data is being stored.</Paragraph>
+					</Section>
+					
+				<Section id="sec012_002">
+					<Title>12.2 Bytes of data</Title>
+					<Paragraph>You will recall from Section 6.2 that a binary digit, or bit, can have one of two values: either a 0 or a 1. In a computer, bits are assembled into groups of eight, and a group of eight bits is known as a <b>byte</b>. The abbreviation used for a byte is B, so 512 bytes would be written as 512 B. Although this course will use &#x2018;b&#x2019; for bit and &#x2018;B&#x2019; for byte, you should be aware that not everyone makes this clear distinction.</Paragraph>
+						<Paragraph>A byte of data can represent many different things in a computer. For example, a byte can represent a text character, like the letter &#x2018;a&#x2019;, or a number, or a space or a punctuation mark. Just to give you an idea of what this means, the phrase &#x2018;storage technology&#x2019; would require 18 bytes of storage space (there are 18 characters: 17 letters and one space).</Paragraph>
+						<Activity id="act001_009"><Heading>Activity 9 (self-assessment)</Heading><Question>
+								<Paragraph>How many bytes would be needed to store the following phrase? information and communication technologies</Paragraph>
+							</Question><Answer>
+						<Paragraph>11 + 3 + 13 + 12 for the letters in the words + 3 for the spaces=42 bytes.</Paragraph>
+					</Answer></Activity>
+						<Paragraph>The capacity of computer RAM is measured in bytes. A computer may. for example, have 512 megabytes of RAM. From our discussion in Section 6.2, you might expect this to be 512 million bytes. Unfortunately, things are not quite so simple. For memory and file sizes, a <b>megabyte</b> is 1 048 576 bytes, not 1 000 000 bytes! Similarly, a <b>kilobyte</b> is 1024 bytes, not 1000, and <b>gigabyte</b> means 1 073 741 824 bytes, not 1 000 000 000. These numbers are all &#x2018;powers of 2&#x2019;, which means 2 multiplied by itself a number of times. Probably no one would choose to define memory and file sizes in this way if they were starting over again today, but there are historical reasons why sizes were originally defined in this way.</Paragraph>
+						<Paragraph>As <CrossRef idref="tbl002">Table 2</CrossRef> shows, an upper-case K should be used for &#x2018;kilo&#x2019; when it means 1024. This is in contrast with the lower-case k you met earlier in relation to data rates, where &#x2018;kilo&#x2019; meant 1000 (see <CrossRef idref="tbl001">Table 1</CrossRef>). Unfortunately not everyone sticks to this rule, and there is no such distinction made for the two versions of &#x2018;mega&#x2019; and &#x2018;giga&#x2019;. For these prefixes upper-case M and G are always used.</Paragraph>
+						<Table id="tbl002">
+							<TableHead>
+								Table 2 Prefixes for file and memory sizes</TableHead>
+							<tbody>
+								
+									<tr>
+										<th>Prefix</th>
+										<th>In figures this is:</th>
+										<th>This is approximately:</th>
+										<th>Symbol</th>
+									</tr>
+									<tr>
+										<td>kilo</td>
+										<td>1024</td>
+										<td>A thousand</td>
+										<td>K</td>
+									</tr>
+									<tr>
+										<td>mega</td>
+										<td>1 048 576</td>
+										<td>A million</td>
+										<td>M</td>
+									</tr>
+									<tr>
+										<td>giga</td>
+										<td>1 073 741 824</td>
+										<td>A billion (a thousand million)</td>
+										<td>G</td>
+									</tr>
+								
+							</tbody>
+							<SourceReference/>
+						</Table>
+						<Paragraph>The golden rule is: kilo, mega and giga have the meanings in <CrossRef idref="tbl002">Table 2</CrossRef> if they refer to memory or file sizes; if they refer to data rates then kilo, mega and giga have the meanings given in <CrossRef idref="tbl001">Table 1</CrossRef>.</Paragraph>
+						<Activity id="act001_010"><Heading>Activity 10 (self-assessment)</Heading><Question>
+								<Paragraph>If a kilobyte is 1024 bytes of data, how many bits of data does this represent?</Paragraph>
+							</Question><Answer>
+						<Paragraph>There are 8 bits in a byte, and &#x2018;kilo&#x2019; here means 1024. So a kilobyte is 1024&#xD7;8=8192 bits.</Paragraph>
+					</Answer></Activity>
+			</Section>
+			</Session>
+			
+			<Session id="sec013">
+				<Title>13 Different types of storage</Title>
+				<Section id="sec013_001">
+					<Title>13.1 Introduction</Title>
+				<Paragraph>I'll now introduce you to some different storage media and devices. As the uses for ICTs have expanded and developed, so has the need to store ever larger amounts of data. I've quoted some figures for storage capacity in this section but, given the rapid rate of development in ICT systems, some of these figures may be out of date when you read this unit.</Paragraph>
+				</Section>
+				
+				
+				
+				<Section id="sec013_002">
+					<Title>13.2 Magnetic storage</Title>
+					<Paragraph>As I mentioned earlier, your computer has a hard disk which provides a permanent storage area for your computer's programs and the files you create. When you save files to your computer's hard disk, you are using a magnetic storage medium. Data stored in magnetic form can be changed once it has been stored, so if you run out of space you can delete some files to make room or, if you want to edit a file, you can make the necessary changes and then save it again. At the time of writing, a medium-priced computer has a storage capacity of up to 100 GB. A floppy disk can store about 1.44 MB, but this type of storage has largely been replaced by new storage media with larger capacities. A <b>zip disk</b> is a high capacity form of magnetic storage which is portable. Zip disks are available in capacities of 100 MB, 240 MB and 750 MB.</Paragraph>
+				</Section>
+				
+				
+				
+				<Section id="sec013_003">
+					<Title>13.3 Optical storage</Title>
+					<Paragraph>
+							<b>A CD-ROM</b> (Compact Disk Read Only Memory) uses a laser-based optical form of storage. This type of disk has been used for many years to distribute music and computer software. A CD-ROM drive is needed to read the disks. Data is locked into the disk during manufacture, and cannot afterwards be changed.</Paragraph>
+						<Paragraph>There are two other types of CD device for computers: CD-R (CD-recordable) and CD-RW (CD-rewritable). With the right sort of CD drive in your computer, you can &#x2018;burn&#x2019; data (that is, write data) to either type. Data written to a CD-R disk cannot be changed afterwards, although further data can be added. Data written to a CD-RW disk can be erased and the disk reused.</Paragraph>
+						<Paragraph>CD-ROMs can store up to 800 MB of data, 90 minutes of audio or 60 minutes of video. CD-R and CD-RW disks vary in their capacity, but typically it is in the region of 700 MB.</Paragraph>
+						<Paragraph>
+							<b>DVD</b> (Digital Versatile Disk) works in a similar way to CDs, but the data is held in a more compact format. In addition, DVDs can have more than one layer of data. A single data layer can hold about 4.4 GB. At the highest quality, roughly two hours of video can be held in a layer, and with reduced quality about three hours. As with CDs, there are &#x2018;R&#x2019; and &#x2018;RW versions to which the user can write data. The &#x2018;Blu Ray&#x2019; system, using a blue laser (instead of a red one), stores data even more compactly. This system promises to increase the capacity of a layer to 27 GB.</Paragraph>
+				</Section>
+				
+				
+				
+				
+				<Section id="sec013_004">
+					<Title>13.4 Flash memory</Title>
+					<Paragraph>
+							<b>Flash memory</b> is an electronic form of memory which can be used, erased and reused. A flash memory card is a small storage device used to store data such as text, pictures, sound and video. These cards are used in portable devices such as digital cameras and in small portable computers, such as Personal Digital Assistants (PDAs).</Paragraph>
+						<Paragraph>A USB flash memory, sometimes called a &#x2018;memory stick&#x2019;, is a small storage device which is completely external and connects to the computer via a USB port. This portable memory comes in different capacities, e.g. 256 MB, 512 MB, 1 GB and 2 GB.</Paragraph>
+						<Activity id="act001_011"><Heading>Activity 11 (self-assessment)</Heading><Question>
+								<Paragraph>Are these statements about storage true or false? Mark each one with a &#x2018;T&#x2019; for true or &#x2018;F&#x2019; for false.</Paragraph>
+								<NumberedList>
+									<ListItem>
+										<Paragraph>The hard disk in a computer is used to store data.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>The storage capacity of a floppy disk is several gigabytes!</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>Data files that you want to update regularly should be stored onl CD-R optical disk.</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>A DVD is a form of magnetic storage!</Paragraph>
+									</ListItem>
+									<ListItem>
+										<Paragraph>A USB memory stick holds much more than a floppy disk.</Paragraph>
+									</ListItem>
+								</NumberedList>
+							</Question><Answer>
+					
+						<NumberedList>
+							<ListItem>
+								<Paragraph>T</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>F</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>F</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>F</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>T</Paragraph>
+							</ListItem>
+						</NumberedList>
+					</Answer></Activity>
+			</Section>
+			</Session>
+			
+			<Session id="ses014">
+				<Title>14 Networked computers</Title>
+				<Section id="sec014_001">
+					<Title>14.1 Introduction</Title>
+				<Paragraph>Now that I have introduced you to the processes carried out by a stand-alone computer, I will move on to discuss what happens when computers are linked.</Paragraph>
+				</Section>
+				
+				<Section id="sec014_002">
+					<Title>14.2 Modelling networked computers</Title>
+					<Paragraph>You met a block diagram showing a model of a communication system in <CrossRef idref="fig001_008">Figure 8</CrossRef>. In this model, a transmitter sends data into a network which conveys it to a receiver; but how does this model work when the transmitter and receiver are computers?</Paragraph>
+					<Paragraph>Sometimes the computer's user is communicating with another computer user, (for example when using an online &#x2018;chat&#x2019; system). In that case we can consider the users and their linked computers as forming a communication system similar to that shown in <CrossRef idref="fig001_008">Figure 8</CrossRef>.</Paragraph>
+					<Paragraph>Sometimes, however, the computer's user is communicating with another <i>computer</i> (for example, when browsing a website). <CrossRef idref="fig001_011">Figure 11</CrossRef> models that situation; the blocks are &#x2018;user&#x2019;, &#x2018;computer&#x2019;, &#x2018;network&#x2019; and then another &#x2018;computer&#x2019;.</Paragraph>
+					<Paragraph>To explore the model shown in <CrossRef idref="fig001_011">Figure 11</CrossRef>, I'll use the example of sending a message from your computer at home to an Oepn University FirstClass conference. FirstClass is the system used by the Open University to enable registered students to communicate online with teaching staff and fellow students by email and take part in online conferencing.</Paragraph>
+					<Figure id="fig001_011">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_011i.jpg" height="" webthumbnail="false" x_imagesrc="t175_3_011i.jpg" x_imagewidth="511" x_imageheight="125"/>
+						<Caption>
+							Figure 11 Computers in a network</Caption>
+							<Alternative>Figure 11</Alternative>
+							<Description>Figure 11</Description>
+						
+					</Figure>
+					<SubSection id="sec014_002_001">
+						<Title>4.2.1 First computer (your computer)</Title>
+						<Paragraph>In the block diagram, the computer receives data from the user and sends it into the network. It will manipulate and also store and retrieve data.</Paragraph>
+						<Paragraph>If you send a message to a FirstClass conference, your computer receives the message from you as data via the keyboard. The computer manipulates the data into a form that can be sent into the network, in this case the internet via your internet service provider (ISP). Your computer will also store or retrieve relevant data, such as details of the FirstClass computer's internet address.</Paragraph>
+					</SubSection>
+					
+					<SubSection id="sec014_002_002">
+						<Title>4.2.2 Network</Title>
+						<Paragraph>In the same way as in the network shown in <CrossRef idref="fig001_008">Figure 8</CrossRef>, this network conveys the data to the receiver, selecting the most appropriate route for it to travel. In order to do this, the network may need to manipulate and store or retrieve data.</Paragraph>
+						<Paragraph>Your computer sends the FirstClass message into the internet, via your ISP connection, and the internet conveys the message to its destination, which is a computer at The Open University. The devices which make up the internet work together to select the most appropriate route for conveying the message. The internet is very complex so this will involve manipulating, retrieving and possibly storing data on the way.</Paragraph>
+					</SubSection>
+					
+					<SubSection id="sec014_002_003">
+						<Title>4.2.3 Second computer (the FirstClass server)</Title>
+						<Paragraph>The computer on the right of <CrossRef idref="fig001_011">Figure 11</CrossRef> receives the data, manipulates it and then stores it. The computer then typically sends some kind of response back via the network, which may require the computer to retrieve some stored data.</Paragraph>
+						<Paragraph>The computer in this example is one of the Open University's FirstClass servers. A <b>server</b> is a computer whose hardware and software is dedicated to making data available to other computers. The FirstClass server receives the data from the network and stores it. It carries out the manipulations necessary to add your message to those already in the conference, retrieving other details about the conference as it does so. It also sends data back to you, showing you that your message is now in the conference.</Paragraph>
+					</SubSection>
+					</Section>
+					
+				<Section id="sec014_003">
+				<Title>14.3 Personal Digital Assistants</Title>
+				<Paragraph>
+						<b>Personal Digital Assistants (PDAs)</b> or handheld computers are small, portable computers. They each contain a small processor and have specially written operating systems. Two popular types of PDA at the time of writing (early 2005) are those running the Palm OS operating system and those using the Windows Mobile operating system, (also called Pocket PC). There is a range of applications purposely written for PDAs, but many also use special versions of popular applications like Microsoft Word, Excel and Outlook.</Paragraph>
+					<Paragraph>Some PDAs have very small keyboards to input data, whilst others use touch screens which can be tapped with a finger or a stylus. Many can accommodate flash memory cards to increase space for data storage. Many PDAs can be used to view digital photographs or sometimes video, and can be used to play music in MP3 format. Some PDAs even have integral digital cameras.</Paragraph>
+					<Paragraph>PDAs are designed to connect with personal computers and other PDAs to transfer data between them using a range of communication links, such as Bluetooth and infrared. At the more expensive end of the range, some PDAs have built-in mobile phones and can connect to the internet to send and receive email.</Paragraph>
+					<Activity id="act001_012"><Heading>Activity 12 (self-assessment)</Heading><Question>
+							<Paragraph>This activity is intended to help you consolidate your learning from sections 8&#x2013;14 and give you some practice in working with the technological content of an article. The article in the attached pdf (Revel, 2004) illustrates the way PDAs, an example of an ICT system, can be used in education.</Paragraph>
+							
+
+							<Paragraph>You should read this article and then answer the following questions.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>How can a child input data to his or her own PDA?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>How is data conveyed between PDAs?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>How does the PDA output data to the child?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Give an example from the article of how the PDA manipulates data.</Paragraph>
+								</ListItem>
+							</NumberedList>
+							<Paragraph>Note: In case you're not familiar with it, the National Grid for Learning is (at the time of writing) a government initiative in the UK that provides a network of educational resources on the internet. These resources are available for use by children, parents and teachers as well as librarians and those involved in adult education.</Paragraph>
+						<Paragraph>Click on the 'view document' link below to read Phil Revell's 'Miniature Computers Are Adding Up To Fun'</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\phil_revell_article.pdf" type="pdf" width="" height="" id="pr">
+										
+					</MediaContent></Question><Answer>
+						<NumberedList>
+							<ListItem>
+								<Paragraph>The PDA has a digital camera for images, a voice recorder for sound, a touch screen and &#x2018;Graffiti&#x2019; software which converts handwriting to text.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>The article mentions infrared and Bluetooth as the means by which data is &#x2018;beamed&#x2019; between PDAs.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>The article mentions a screen and headphones.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>This process is a little less obvious than the others. The examples I came up with are:</Paragraph>
+								<BulletedSubsidiaryList>
+									<SubListItem>
+										<Paragraph>some children are playing noughts and crosses, which involves manipulation of images on the screen;</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>the children incorporate pictures and text in their stories, which involves the manipulation of graphical and textual data;</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>the children's handwriting is converted into text using the &#x2018;Graffiti&#x2019; software;</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>a maths program is mentioned;</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>the children play music, which involves manipulating sound files.</Paragraph>
+									</SubListItem>
+								</BulletedSubsidiaryList>
+							</ListItem>
+						</NumberedList>
+					</Answer></Activity>
+				</Section>
+			</Session>
+			
+			<Session id="ses015">
+			<Title>15 Computers and communication systems working together</Title>
+			<Paragraph>The combination of communication systems and computers has produced powerful new systems not possible when these technologies are used separately. In section 15&#x2013;19, I'll be using an ICT system in a supermarket as an example, as it is something that you have probably experienced. The material in this study session is not intended to be a comprehensive examination of how ICT systems are used in supermarkets; I'll just be focusing on some of the supermarket's activities in order to highlight the ICT processes involved.</Paragraph>
+			</Session>
+			
+			<Session id="ses016">
+			<Title>16 ICT systems in a supermarket</Title>
+			<Section id="sec016_001">
+				<Title>16.1 Introduction</Title>
+			<Paragraph>Supermarkets make use of ICT systems for a range of purposes. In the following sections, we'll look at the processes of receiving, storing, retrieving, manipulating and sending data at the checkout, and then we'll move on to the larger context of the supermarket.</Paragraph>
+			</Section>
+			
+			<Section id="sec016_002">
+			<Title>16.2 Processes at the checkout</Title>
+			<Paragraph>From the point of view of the customer and the checkout operator, a supermarket's ICT system is like the stand-alone computer you saw in <CrossRef idref="fig001_010">Figure 10</CrossRef> in Section 9. The system map in <CrossRef idref="fig001_012">Figure 12</CrossRef> represents this view. The boundary of the system has been drawn tightly, so that we can focus on the important processes being carried out at the checkout. I've called the system the &#x2018;checkout system&#x2019; and there are three components: the customer, the checkout operator and the checkout terminal.</Paragraph>
+					<Figure id="fig001_012">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_012i.jpg" height="" x_imagesrc="t175_3_012i.jpg" x_imagewidth="511" x_imageheight="280"/>
+						<Caption>
+							Figure 12 System map of a checkout system</Caption>
+							<Alternative>Figure 12</Alternative>
+							<Description>Figure 12</Description>
+						
+					</Figure>
+					<Paragraph>I've also adapted the diagram of the stand-alone computer you saw in <CrossRef idref="fig001_010">Figure 10</CrossRef> to show the checkout system as a block diagram (<CrossRef idref="fig001_013">Figure 13</CrossRef>). The computer is now the checkout terminal. However, there is an important difference between the two diagrams in that this computer has <i>two</i> users, the checkout operator (User 1) and the customer (User 2). The reason for this should become clearer as we discuss the processes involved at the checkout.</Paragraph>
+					<Figure id="fig001_013">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_013i.jpg" height="" x_imagesrc="t175_3_013i.jpg" x_imagewidth="342" x_imageheight="183"/>
+						<Caption>
+							Figure 13 The checkout system</Caption>
+							<Alternative>Figure 13</Alternative>
+							<Description>Figure 13</Description>
+						
+					</Figure>
+					<SubSection id="sec016_002_001">
+					<Title>16.2.1 Receiving data</Title>
+					<Paragraph>In a supermarket ICT system, there needs to be some way for the computer to receive information about the items a customer is buying.</Paragraph>
+						<Activity id="act001_013"><Heading>Activity 13 (exploratory)</Heading><Question>
+								<Paragraph>Think back to a recent visit to your local supermarket and how you made your purchases at the checkout. How did the checkout operator input information about your purchases?</Paragraph>
+							</Question><Discussion>
+
+								<Paragraph>This probably involved the checkout operator using a bar code reader to scan the bar code printed on the label of each of your purchases. If an item doesn't have a bar code or, if for some reason, the bar code can't be read, the checkout operator has a keypad for entering the data.</Paragraph>
+							</Discussion></Activity>
+						<Paragraph>A <b>bar code</b> is a pattern of narrow and wide stripes which can be read by a machine. A bar code reader is a device which optically scans the bar code and converts the stripes into numerical data which can be automatically input to the checkout computer.</Paragraph>
+					</SubSection>
+					
+					<SubSection id="sec016_002_002">
+					<Title>16.2.2 Storing and retrieving data</Title>
+					<Paragraph>As each item is scanned, the checkout computer looks up its price. The running total for each customer's purchases is stored temporarily in the checkout terminal. Other data may also be stored, such as the amount of money that has been taken at that checkout during the day.</Paragraph>
+					</SubSection>
+					
+					<SubSection id="sec016_002_003">
+					<Title>16.2.3 Manipulating data</Title>
+					<Paragraph>Once all items have been scanned, the checkout computer manipulates the data to produce the total cost. If you are paying with cash and require change, the checkout operator will enter the amount you have tendered (an example of the computer receiving data from the user) and the computer will calculate any change required.</Paragraph>
+					</SubSection>
+					
+					<SubSection id="sec016_002_004">
+					<Title>16.2.4 Sending data</Title>
+					<Paragraph>As the items are scanned into the checkout computer, information about the price of each item may be shown on a small display so that the customer can see the price. Sometimes there is a beep as each item passes the bar code reader, to tell the checkout operator the item has been identified. Once all the items have been scanned, the total amount is displayed. Once the customer has paid, they are given a printed till receipt which shows all the items purchased, the price of each and total expenditure.</Paragraph>
+						<Activity id="act001_014"><Heading>Activity 14 (self-assessment)</Heading><Question>
+								<Paragraph>In <CrossRef idref="tbl003">Table 3</CrossRef> I have listed some of the different activities carried out at the checkout. Match each of these with one of the ICT processes associated with a stand-alone computer: receives, sends, stores, retrieves and manipulates.</Paragraph>
+								<Paragraph>I've completed the first as an example.</Paragraph>
+								<Table id="tbl003">
+									<TableHead>
+										Table 3
+									</TableHead>
+									<tbody>
+										
+											<tr>
+												<th/>
+												<th>Activity</th>
+												<th>Process</th>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>Scanning a bar code</td>
+												<td>Receives</td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>Providing a receipt</td>
+												<td>
+</td>
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>Calculating total cost of items purchased</td>
+												<td>
+</td>
+											</tr>
+											<tr>
+												<td>4</td>
+												<td>Subtracting the total cost from money tendered by the customer</td>
+												<td/>
+											</tr>
+										
+									</tbody>
+									<SourceReference/>
+								</Table>
+							</Question><Answer>
+						<NumberedList>
+							<ListItem>
+								<Paragraph>Receives &#x2013; the checkout terminal receives data from the bar code scanner.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Sends &#x2013; the checkout terminal sends data to the user.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Manipulates &#x2013; the checkout terminal manipulates the data to obtain the total cost.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Manipulates &#x2013; the checkout terminal manipulates the data to obtain by subtraction the amount of change required.</Paragraph>
+							</ListItem>
+						</NumberedList>
+					</Answer></Activity>
+					</SubSection>
+					</Section>
+			
+			<Section id="sec016_003">
+			<Title>16.3 Networked computers in the supermarket checkout system</Title>
+			<Paragraph>All these processes are very helpful for the purposes of dealing with an individual customer's purchases. However, when computers are linked in a network, many new uses are possible.</Paragraph>
+					<Paragraph>Now, I am going to draw a different system boundary. The components of this supermarket checkout system are the checkout terminal, the network and the <b>database server</b>. A database server is used to make the data in databases available to other computers on the network, and therefore to users. You met a specialised form of database server in Section 14.2: the FirstClass server. In the following sections, I'll focus on the network first and then look at the database server.</Paragraph>
+					<Paragraph>The system map for the supermarket checkout system is shown in <CrossRef idref="fig001_014">Figure 14</CrossRef>. You might be wondering about the users of the system: the customer and the checkout operator. For the time being, we are focusing on the computers and network, rather than thinking about the end users, so in this system map they are not shown.</Paragraph>
+					<Figure id="fig001_014">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_014i.jpg" height="" x_imagesrc="t175_3_014i.jpg" x_imagewidth="342" x_imageheight="206"/>
+						<Caption>
+							Figure 14 System map of a supermarket checkout system</Caption>
+							<Alternative>Figure 14</Alternative>
+							<Description>Figure 14</Description>
+						
+					</Figure>
+			</Section>
+			
+			<Section id="sec016_004">
+			<Title>16.4 The network</Title>
+			<Paragraph>The term &#x2018;network&#x2019; is used to describe some very different interconnected systems. In a home setting, you might have just two computers linked together to share documents and devices (such as a printer and a scanner) and to use the same internet connection. This setup is a network, albeit a small one. At the other end of the scale is a multinational company with a network of computers distributed all over the world.</Paragraph>
+						<Paragraph>A network belonging to a single organisation, where the computers are close to each other on a single site, is known as a <b>Local Area Network</b> or <b>LAN</b>. In a <b>Wide Area Network</b>, or <b>WAN</b>, the computers may be spread over a large geographic area such as a city, a country, or even across continents. The computers in a WAN are usually linked via private communication links leased by the organisation.</Paragraph>
+						<Paragraph>When your computer is connected to a network, you have access to network resources such as shared printers and software, and to data and possibly storage space on other computers. A network can also support email and other communication services for its users.</Paragraph>
+						<Paragraph>The checkout terminals in a supermarket will almost certainly be linked to each other in a LAN within the building. There will probably also be links to other networks within the supermarket organisation. For example, there will be links to a network at the head office which may be many hundreds of miles away.</Paragraph>
+						<Activity id="act001_015"><Heading>Activity 15 (exploratory)</Heading><Question>
+								<Paragraph>Have another look at what you have just read about networks. Write two or three sentences to explain the advantages of networked computers.</Paragraph>
+							</Question><Discussion>
+			
+								<Paragraph>You may have mentioned advantages such as sharing documents, devices and an internet connection in a small-scale network. In a larger network, resources such as software applications, data and printers could be shared, and access provided to an email service.</Paragraph>
+							</Discussion></Activity>
+			</Section>
+			
+			<Section id="sec016_005">
+			<Title>16.5 The database server</Title>
+			<Paragraph>A database is used to store data in a form that can be organised and searched. A supermarket may use a number of different databases in order to carry out its activities. I'll now discuss two examples of database use: firstly, pricing and stock control and secondly, loyalty cards. I'll use these examples to illustrate how data is manipulated in a supermarket ICT system.</Paragraph>
+			</Section>
+			
+			<Section id="sec016_006">
+			<Title>16.6 Pricing and stock control</Title>
+			<Paragraph>A supermarket has a large database of information about its goods, such as the name, price, size and quantity held in stock.</Paragraph>
+						<Paragraph>If the price of a particular item changes, the relevant data in the supermarket's database can be easily updated. When the bar code for an item is scanned, the checkout computer searches the database for the item and retrieves the new price. Because the checkout computers are networked, they all use the same data on the database server, so it is not necessary to change prices on individual checkout computers.</Paragraph>
+						<Paragraph>Once goods have been sold in a branch, the database is updated. If, for example, you buy a box of your favourite breakfast cereal, the entry in the database for that particular item is decreased by one. When stock levels are getting low, the supermarket can quickly restock its shelves and reorder goods where necessary. The database can then be updated with the new stock levels.</Paragraph>
+						<Paragraph>Data about your purchases, and other people's, can be stored in the database and manipulated so that the supermarket knows what sort of goods people buy in that particular branch. The supermarket's management team can use this information in making decisions about which products to stock.</Paragraph>
+			</Section>
+			
+			<Section id="sec016_007">
+			<Title>16.7 A loyalty card scheme</Title>
+						<Paragraph>Supermarkets, and other types of retailer, use loyalty cards to encourage customers to use their particular shops. Points are awarded when a customer spends money in the shop. Supermarkets &#x2018;reward&#x2019; their customers by converting loyalty card points into vouchers. They may also give them discount vouchers for a range of products.</Paragraph>
+						<Paragraph>Supermarkets use their loyalty card schemes to collect data about their customers. Data about each customer is held in a large database where each customer is identified by a unique number. This number is stored in a magnetic strip on the back of the customer's loyalty card.</Paragraph>
+						<Paragraph>When the customer presents their loyalty card at the checkout, it will be &#x2018;swiped&#x2019; through a card reader to capture data from the magnetic strip. The number in the magnetic strip is read, allowing the customer to be identified. Points are added to the customer's loyalty points account once all shopping purchases have been entered into the computer.</Paragraph>
+						<Activity id="act001_016"><Heading>Activity 16 (exploratory)</Heading><Question>
+								<Paragraph>What personal data might the supermarket want to hold about you?</Paragraph>
+							</Question><Discussion>
+			
+								<Paragraph>The supermarket might want to hold basic data such as your name and address so that you can receive vouchers and other promotional material. Some supermarkets also ask for other personal information such as your telephone number, mobile number and email address.</Paragraph>
+							</Discussion></Activity>
+			</Section>
+			
+			<Section id="sec016_008">
+			<Title>16.8 Linking data</Title>
+			<Paragraph>We now have two sets of data held by the supermarket: the data about its own products and the personal data about customers. Individually, each of these two sets of information has important uses. However, when they are linked, they provide a very powerful tool for the supermarket.</Paragraph>
+						<Paragraph>The personal data from a loyalty card scheme can be used to compile targeted mailing lists, because data about your purchases can help build up a profile of how you spend your money. For example, the supermarket knows from data held about your spending patterns whether you buy products for babies, children or pets, and whether you prefer particular brands. This information allows the supermarket to send you appropriate information and special offers.</Paragraph>
+						<Paragraph>The mailing lists that supermarkets gather from loyalty card schemes may also be sold to other businesses. However, in the UK the Data Protection Act (1998) applies to the personal data gathered by loyalty card schemes, which means that customers must be asked for permission to use information about them.</Paragraph>
+			</Section>
+			
+			<Section id="sec016_009">
+			<Title>16.9 Identity in an ICT system</Title>
+			<Paragraph>In a supermarket we might see the following data on an item: 5018190009067. On their own, the digits do not mean very much, but these numbers are typical of the type of data input to a computer system. In this instance, they are numbers from a bar code on a jar of coffee. I have described the numbers here as &#x2018;data&#x2019; because in themselves they do not really tell us anything.</Paragraph>
+						<Paragraph>When the bar code is moved past a bar code reader at a checkout counter, the checkout terminal will display details on the screen, such as these:</Paragraph>
+						<Paragraph>
+							<i>Caf&#xE9; Direct coffee, 100 g</i>
+						</Paragraph>
+						<Paragraph>This is information which can be used by a person.</Paragraph>
+						<Paragraph>In this example, we see that the bar code 5018190009067 refers to a 100-gram jar of Caf&#xE9; Direct coffee. We can say that the bar code identifies the jar of coffee in the supermarket's database. However, the bar code doesn't give a unique identity to the <i>individual</i> jar of coffee, only to this particular category of item.</Paragraph>
+						<Activity id="act001_017"><Heading>Activity 17 (exploratory)</Heading><Question>
+								<Paragraph>It would be important that any points I earned by shopping at a particular supermarket were assigned to me and not to someone else. In the supermarket loyalty card scheme, what is it that uniquely identifies a customer?</Paragraph>
+							</Question><Discussion>
+		
+								<Paragraph>A customer could be identified by his or her name, but this is not unique as there may be many people with the same name using the supermarket's branches. Therefore, the supermarket chain needs to use a unique customer identification number, which is stored on the card and in the database.</Paragraph>
+							</Discussion></Activity>
+						<Paragraph>A unique identifier is normally used for individual people and things in an ICT system. For people this is often a number, such as the Personal Identification Number (PIN) which may be used to identify individual customers in a loyalty card system. A unique identifier may also be a combination of letters and numbers, such as your Open University Personal ID.</Paragraph>
+						<Paragraph>Radio Frequency Identity <b>(RFID)</b> technology provides a means of identifying individual items. This contrasts with the bar code system, which identifies only categories of items (such as all 100-gram jars of Cafe Direct coffee). Each tag is unique so that each item, whether it is a razor blade or an item of clothing, can be tracked individually.</Paragraph>
+						<Paragraph>An <b>RFID</b> tag works in conjunction with a device called an RFID reader. In response to a signal from the reader, the tag transmits data to the reader using a radio link. The data could be just an identification number, which is then used to look up further data in a database. Alternatively, the tag itself could hold details such as price, colour, packaging and expiry date.</Paragraph>
+						<Paragraph>This technology has now been brought to some supermarkets. There are a number of attractions for supermarkets in using RFID technology. As the tags can be tracked by RFID readers, there is no need to scan items at the checkout. RFID technology can be used to set up &#x2018;smart shelves&#x2019; that can sense when products are running low, enabling the supermarket to keep track of stock levels.</Paragraph>
+			</Section>
+			</Session>
+			
+			<Session id="ses017">
+			<Title>17 Taking an overview of ICT systems</Title>
+			<Section id="sec017_001">
+				<Title>17.1 Introduction</Title>
+			<Paragraph>I'm going to pause here to try to put together some of the ideas we have encountered so far. I deliberately chose the example of a supermarket to illustrate some of the key processes involved in an ICT system. <CrossRef idref="fig001_015">Figure 15</CrossRef> is a modified version of the block diagram for computers in a network (<CrossRef idref="fig001_011">Figure 11</CrossRef>). I have changed the labels in order to represent the networked computers in a supermarket. I have also added the second user, as in <CrossRef idref="fig001_013">Figure 13</CrossRef>. I'll now take each block of the diagram in <CrossRef idref="fig001_015">Figure 15</CrossRef> in turn and examine what is involved. This is a &#x2018;walkthrough&#x2019; of the networked computer system and it will help us to highlight the important processes that take place in each block.</Paragraph>
+					<Figure id="fig001_015">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_015i.jpg" height="" webthumbnail="false" x_imagesrc="t175_3_015i.jpg" x_imagewidth="511" x_imageheight="131"/>
+						<Caption>
+							Figure 15 Block diagram of a networked computer in a supermarket</Caption>
+							<Alternative>Figure 15</Alternative>
+							<Description>Figure 15</Description>
+						
+					</Figure>
+					</Section>
+					
+					<Section id="sec017_002">
+					<Title>17.2 The checkout terminal</Title>
+					<Paragraph>The first computer block represents the checkout terminal. The processes at the checkout (receiving, storing, retrieving, manipulating and sending data to the user), are the same as I described earlier. However, the checkout terminal also sends data via the supermarket's network.</Paragraph>
+					</Section>
+					<Section id="sec017_003">
+					<Title>17.3 The network</Title>
+					<Paragraph>The network conveys the data on items purchased through to the database server. It also conveys data such as revised prices and special offers from the database server back to the checkout terminal. In both cases this may involve selecting an appropriate route through the network and manipulating, storing or retrieving data.</Paragraph>
+					</Section>
+					<Section id="sec017_004">
+					<Title>17.4 The database server</Title>
+					<Paragraph>The computer block on the right represents the database server, which is dedicated to managing a database and making the data available to other computers in the network. The database server receives data via the network. It stores, retrieves and manipulates data, for example by retrieving your previous points total and adding to it the number of points you have &#x2018;earned&#x2019; on this visit. This data is also sent back via the network to the checkout computer to show you the total number of points you have accumulated.</Paragraph>
+						<Paragraph>Clearly, <CrossRef idref="fig001_015">Figure 15</CrossRef> shows a very simplified version of the supermarket's ICT system. For example, a supermarket is likely to have many more checkout terminals, and there will be at least one computer for use by the manager and office staff.</Paragraph>
+						<Paragraph>
+							<CrossRef idref="fig001_016">Figure 16</CrossRef> shows a block diagram of a more comprehensive ICT system for a supermarket. This may look complex, but you will see that it can be built up from the smaller systems that we have been considering. As <CrossRef idref="fig001_016">Figure 16</CrossRef> shows, each of the supermarket's branches has a number of checkout terminals and at least one &#x2018;back office&#x2019; computer. These computers are linked via a network to each other and to the supermarket's database server, which will probably be located in the head office.</Paragraph>
+						<Paragraph>This type of system will be replicated in each branch throughout the supermarket chain. There may also be regional warehouses with their own networked systems to supply the branches, and there will be a networked system in the head office to assist in the management of the whole supermarket chain. All these networks will be linked together.</Paragraph>
+						<Paragraph>Treating a system as being composed of different subsystems has enabled us to deal with a complex ICT system in a supermarket. Our system maps have helped us to deal with complexity by drawing the system boundary so that we can investigate a particular subsystem. In this way, we can &#x2018;look into&#x2019; a specific part of a complex system.</Paragraph>
+						<Paragraph>In this section, we started by considering a system with one checkout terminal and looked at the processes involved. We then expanded our view of the system to include one checkout networked to a database server. Lastly, we looked at a number of checkouts and the &#x2018;backroom&#x2019; computers networked to the database server. As you may have gathered, we could go even further and look at all the supermarket branches, warehouses and head office networked together.</Paragraph>
+						<Figure id="fig001_016">
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_3\1.0\t175_3_016i.jpg" height="" webthumbnail="false" x_imagesrc="t175_3_016i.jpg" x_imagewidth="511" x_imageheight="449"/>
+							<Caption>
+								Figure 16 A block diagram representing a more comprehensive view of the supermarket ICT system</Caption>
+								<Alternative>Figure 16</Alternative>
+								<Description>Figure 16</Description>
+							
+						</Figure>
+						<Paragraph>In the next section we will look at another way of using ICTs for shopping &#x2013; electronic commerce.</Paragraph>
+			</Section>
+			</Session>
+			
+			<Session id="ses018">
+			<Title>18 Electronic commerce</Title>
+			<Section id="sec018_001">
+				<Title>18.1 Introduction</Title>
+			<Paragraph>Most supermarkets now have an online ICT system which allows customers to select and purchase goods from the supermarket's website. Goods are then delivered to the customer's home. Buying and selling things using the internet is known as &#x2018;electronic commerce&#x2019;, often shortened to <b>e-commerce</b>.</Paragraph>
+			</Section>
+			
+			<Section id="sec018_002">
+			<Title>18.2 Using e-commerce</Title>
+			<Paragraph>Many people now have internet connections and this offers many benefits to both businesses and their customers.</Paragraph>
+					<Paragraph>From a customer's point of view, e-commerce has a number of advantages. Shopping can be done from home; you can probably find what you need without trudging from one shop to another and waiting in queues. You can also purchase goods 24 hours a day, every day.</Paragraph>
+					<Paragraph>From the point of view of a business, e-commerce also offers a number of advantages. There is a potentially wide customer base. Setting up a website and using it to do business can be more cost effective than using a conventional shop. There are fewer overheads in terms of, for example, heating, lighting and staffing. The costs of delivering goods are relatively low compared with those of running a shop. Businesses can use the Web to reach customers on a national or even international basis, rather than being confined to a shop's geographic location. The Web creates a more level playing-field in that smaller companies can compete against larger companies.</Paragraph>
+					<Paragraph>However, e-commerce works well only if the company has a good warehouse system and access to an effective distribution system. The company must have the goods in its warehouse in sufficient quantities and at the right time in order to meet its customers&#x2019; orders. The company must also ensure that the goods can be conveyed to the customer as quickly as possible, which may involve using couriers and other special delivery services.</Paragraph>
+					<Paragraph>In many ways, the ICT system used in an online operation is very similar to that of a conventional supermarket. There are users&#x2019; computers, networks and database servers. There are also <b>web servers</b>, which are computers that hold web pages and make them available to users over the internet.</Paragraph>
+					<Paragraph>Shopping online typically involves:</Paragraph>
+					<BulletedList>
+						<ListItem>
+							<Paragraph>browsing an online catalogue, accessible from the organisation's web server;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>adding a product to a virtual shopping basket;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>going to a virtual checkout when you have completed your selections;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>paying for the goods using a credit card or using a special system, such as PayPal.</Paragraph>
+						</ListItem>
+					</BulletedList>
+					<Activity id="act001_018"><Heading>Activity 18 (exploratory)</Heading><Question>
+							<Paragraph>What concerns might a customer have about shopping online? Try to compare online shopping with face-to-face shopping.</Paragraph>
+						</Question><Discussion>
+
+							<Paragraph>These are some concerns I have about online shopping. There may be security worries about using a credit or debit card in the transaction. How secure is the payment system? I might be concerned about whether the seller is genuine and reliable. I do not have an opportunity to examine the goods before I purchase them, so they might turn out to be unsuitable. I might have to arrange to be home in order to receive the goods. I might worry that the goods will not arrive on time (or not arrive at all!)</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>Activity 19 is intended to help you consolidate your learning for this section. Don't worry if you find this activity a challenge. What's important is that you have a go at applying what you've learnt to a different situation.</Paragraph>
+					<Activity id="act001_019"><Heading>Activity 19 (self-assessment)</Heading><Question>
+							<Paragraph>Think about the way you use your own computer to get information about goods and services from the Web. For example, you may have visited a shopping website to look at their online catalogue.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>
+										<CrossRef idref="fig001_008">Figures 8</CrossRef>, <CrossRef idref="fig001_010">10</CrossRef>, and <CrossRef idref="fig001_011">11</CrossRef> each present a model of a different sort of ICT system. Which of these diagrams best models the situation where you are visiting an online shopping site? When you have decided, compare your answer with mine, before moving on to (b).</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Complete the following &#x2018;walkthrough&#x2019; of an online shopping ICT system to find examples of the processes involved; imagine you are already logged onto the internet, and you start by typing in the web address of the shopping site you wish to visit:</Paragraph>
+									<Paragraph>Data is received by my computer from me, the user, when I type the web address using the keyboard. My computer manipulates the data for my request into a suitable form &#x2026;</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+					
+						<NumberedList>
+							<ListItem>
+								<Paragraph><CrossRef idref="fig001_011">Figure 11</CrossRef> best models this situation. The computer on the left would be my PC, the network is the internet and the computer on the right is the shopping organisation's server. (The organisation's web server and database server would probably be separate computers, but for the purposes of this activity you can assume that there is a single computer which acts as both.)</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>This is how I completed the walkthrough. Don't worry if what you've written is a bit different &#x2013; what is important is that you have the same basic ideas.</Paragraph>
+								<UnNumberedSubsidiaryList>
+									<SubListItem>
+										<Paragraph>Data is received by my computer from me, the user, when I type the web address using the keyboard. My computer manipulates the data for my request into a suitable form and then sends it into the internet. Data is also sent to me, the user, by displaying the web address on my computer's screen.</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>The internet selects a route and conveys the data for my request to the shopping website. The devices in the internet may need to manipulate, store or retrieve data as part of this process.</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>The online shopping organisation's server receives my request. It then retrieves the requested data, carries out some manipulation on it and sends it into the internet.</Paragraph>
+									</SubListItem>
+									<SubListItem>
+										<Paragraph>The internet conveys this data to my computer, where it may be stored on my computer's hard disk and will be sent to me by displaying the web page on my computer screen.</Paragraph>
+									</SubListItem>
+								</UnNumberedSubsidiaryList>
+							</ListItem>
+						</NumberedList>
+					</Answer></Activity>
+			</Section>
+			</Session>
+			
+			<Session id="ses019">
+			<Title>19 Conclusion</Title>
+			<Paragraph>In sections 15&#x2013;18, we examined the components and processes of an ICT system that is used for an everyday activity: shopping. We started by looking at a system map of the &#x2018;checkout system&#x2019; before exploring the processes involved at the checkout. We considered some examples of networks and discussed the processes involved in a networked supermarket ICT system. Finally, we looked briefly at another way in which ICT systems can be used for shopping: e-commerce.</Paragraph>
+<!--<Box id="box00a">
+  <Heading>Do this</Heading> 
+  <Paragraph>Now you have completed this unit, you might like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+  <Paragraph>Post a message to the unit forum.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Review or add to your Learning Journal.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Rate this unit.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>
+<Box id="box00b">
+  <Heading>Try this</Heading> 
+  <Paragraph>You might also like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+<Paragraph>Find out more about the related Open University course</Paragraph>
+  </ListItem>
+<ListItem>
+  <Paragraph>Book a FlashMeeting to talk live with other learners</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Create a Knowledge Map to summarise this topic.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>-->
+			</Session>
+			
+			<Session id="020">
+<Title>Next steps</Title>
+<Paragraph>After completing this unit you may wish to study another OpenLearn Study Unit or find out more about this topic. Here are some suggestions:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1509">ICTs: device to device communication (T175_1)</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1666">ICTs in everyday life (T175_2)</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/openlearn/science-maths-technology">Science, Maths and Technology</a></ListItem>
+</UnNumberedList>
+<Paragraph>If you wish to study formally at The Open University, you may wish to explore the courses we offer in this curriculum area:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/course/tu100.htm">My digital life
+ (TU100)</a></ListItem>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm">Computing and ICT
+</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or find out about studying and developing your skills with The Open University:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/">OU study explained</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/skillsforstudy">Skills for study</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or you might like to:</Paragraph>
+<UnNumberedList>
+<ListItem>Post a mesage to the <a href="http://openlearn.open.ac.uk/mod/forumng/view.php?id=396281">unit forum</a>, to share your thoughts about the unit or talk to other OpenLearners</ListItem>
+<ListItem>Review or add to your <a href="http://openlearn.open.ac.uk/mod/oublog/view.php?">Learning Journal</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/blocks/rate_course/rate.php?courseid=1512">Rate this unit</a></ListItem>
+</UnNumberedList>
+</Session>
+
+			
+			
+		<BackMatter>
+			<References>
+				<Reference>Revell, P. (September, 2004) <i>Miniature computers are adding up to fun</i> [online] http://education.guardian.co.uk/elearning [story[0,10577,1314016,00.html Accessed 16 October 2006] Guardian Newspapers Ltd.</Reference>
+			</References>
+			<Acknowledgements>
+				<Heading/>
+				<Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>). This content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph>
+				<SubHeading>Text</SubHeading>
+ 				<Paragraph>Revell, P., &#x2018;Miniature computers are adding up to fun&#x2019;, <i>Guardian Online</i>, accessed 16 October 2006, &#xA9; 2005 Phil Revell,<a href="http://www.journeysmagazine.co.uk">Journeys Magazine</a></Paragraph>
+				
+				<Heading>Don't miss out</Heading>
+<Paragraph>1. Join the 200,000 students currently studying with<a href="http://www3.open.ac.uk/study/">The Open University</a>.</Paragraph>
+<Paragraph>2. Enjoyed this? Browse through our host of free course materials on <a href="http://openlearn.open.ac.uk">LearningSpace</a>.</Paragraph>
+<Paragraph>3. Or browse more topics on <a href="http://www.open.ac.uk/openlearn">OpenLearn</a>.
+</Paragraph>
+
+				
+			</Acknowledgements>
+		</BackMatter>
+</Unit>
+<settings>
+                <numbering>
+                    <Session autonumber="false"/>
+                    <Section autonumber="false"/>
+                    <SubSection autonumber="false"/>
+                    <SubSubSection autonumber="false"/>
+                    <Activity autonumber="false"/>
+                    <Exercise autonumber="false"/>
+                    <Box autonumber="false"/>
+                    <CaseStudy autonumber="false"/>
+                    <Quote autonumber="false"/>
+                    <Extract autonumber="false"/>
+                    <Dialogue autonumber="false"/>
+                    <ITQ autonumber="false"/>
+                    <Reading autonumber="false"/>
+                    <StudyNote autonumber="false"/>
+                    <Example autonumber="false"/>
+                    <Verse autonumber="false"/>
+                    <SAQ autonumber="false"/>
+                    <KeyPoints autonumber="false"/>
+                    <ComputerDisplay autonumber="false"/>
+                    <ProgramListing autonumber="false"/>
+                    <Summary autonumber="false"/>
+                    <Tables autonumber="false"/>
+                    <Figures autonumber="false"/>
+                    <MediaContent autonumber="false"/>
+                  </numbering>
+                <discussion_alias>Discussion</discussion_alias>
+                <session_prefix>Session</session_prefix>
+            </settings></Item>

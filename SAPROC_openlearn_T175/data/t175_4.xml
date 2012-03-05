@@ -1,0 +1,635 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="1.2" TextType="CompleteItem" ACSTemplate="DS_TEST" xsi:noNamespaceSchemaLocation="http://openlearn.open.ac.uk/local/schemas/OUIntermediateSchema.xsd" id="X-T175_4"><CourseCode>T175</CourseCode><CourseTitle>Networked Living: Exploring Information and Communication Technologies </CourseTitle><ItemID/><ItemTitle>ICTs: Technology news</ItemTitle>
+	<FrontMatter>
+		
+		
+		
+		
+		<Imprint>
+			<Standard>
+				<GeneralInfo>
+					<Paragraph/>
+				</GeneralInfo>
+				<Address>
+					<AddressLine>The Open University, Walton Hall, Milton Keynes, MK7 6AA</AddressLine>
+				</Address>
+				<FirstPublished><Paragraph>2005</Paragraph></FirstPublished>
+<Copyright><Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph></Copyright>
+				<Rights>
+					<Paragraph>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, transmitted or utilised in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without written permission from the publisher or a licence from the Copyright Licensing Agency Ltd. Details of such licenses (for reprographic reproduction) may be obtained from the Copyright Licensing Agency Ltd. of 90 Tottenham Court Road, London, W1T 4LP.</Paragraph>
+				</Rights>
+				<Edited><Paragraph>Edited and designed by The Open University.</Paragraph></Edited>
+				<Typeset><Paragraph>Typeset in Europe by the Alden Group, Oxford.</Paragraph></Typeset>
+				<Printed><Paragraph>Printed and bound in the Unitd Kingdom by Thanet Limited, Margate.</Paragraph></Printed>
+				<ISBN>0 7492 0237 8</ISBN>
+				<Edition/>
+			</Standard>
+		</Imprint>
+		
+			
+		<Introduction>
+			<Title>Introduction</Title>
+			<Paragraph>This unit is from our archive and it is an adapted extract from<i> Networked living: exploring information and communication technologies</i> (T175) which is no longer in presentation. If you wish to study formally at The Open University, you may wish to explore the courses we offer in this<a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm"> curriculum area.</a></Paragraph>
+		<Paragraph>This unit will help you to develop the study skills involved in reading articles, taking notes and summarising the information that you have obtained from an article. The unit also explores the use of the Web as a resource for keeping up to date, looking in particular at how to assess material available online. Finally, the unit encourages you to develop as an independent, confident learner.</Paragraph>
+
+		
+		</Introduction>
+		<LearningOutcomes>
+			<Paragraph>This is what you should have achieved when you have completed your study of this unit:</Paragraph>
+			<LearningOutcome>have developed your skills in taking notes;</LearningOutcome>
+			<LearningOutcome>have developed your skills in evaluating Web-based resources;</LearningOutcome>
+			<LearningOutcome>be able to recognise different learning styles;</LearningOutcome>
+			<LearningOutcome>have developed an awareness of ethical issues involved in online communication.</LearningOutcome>
+		</LearningOutcomes>
+	</FrontMatter>
+	<Unit>
+		<UnitID>T175_4</UnitID>
+		<UnitTitle>ICTs: Technology news</UnitTitle>
+		
+		
+			<Session id="sec001">
+				<Title>1 Take note</Title>
+			<Section id="sec001_001">
+					<Title>1.1 Why take notes?</Title>
+				<Paragraph>Information and Communication Technologies are developing at a rapid pace. There always seems to be something new happening. In this unit you'll be introduced to the underlying trends, ideas and principles as well as the applications of these technologies. However if you want to keep up with developments, it is important that you can find the very latest technology news items and that you can understand and interpret what they have to say.</Paragraph>
+				<Paragraph>In this unit you'll be reading an article, which has been published in the technology section of a national newspaper. Newspaper articles are generally good sources of information on ICTs and are usually fairly easy to understand without too much specialist knowledge. You'll be given some advice on how to make the most of reading articles like this and some ideas on how to take notes and summarise what you've read. I'll also offer some suggestions for websites, which you can visit to keep up with the latest technology news.</Paragraph>
+				<Paragraph>Note taking is a useful skill for academic learning as it enables you to remember the main points of an article or paper without having to read it all again. The process of summarising helps you make connections and reflect on what you have read. While you are studying you will usually be taking notes for your own use, but this is a useful skill to develop as it can be used at work or in other activities.</Paragraph>
+				</Section>
+				<Section id="sec001_002">
+					<Title>1.2 Guidance on note taking</Title>
+					<Paragraph>When taking notes the first thing you have to consider is what the notes are going to be used for, since notes taken for one purpose may not be suitable for another.</Paragraph>
+					<Paragraph>Here are some possibilities:</Paragraph>
+					<BulletedList>
+						<ListItem>
+							<Paragraph>to help you understand the information;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>to help you remember the information;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>to help you explain the information to someone else;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>to highlight the points that will be useful in an assignment;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>to help you revise;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>to reveal the underlying structure and arguments.</Paragraph>
+						</ListItem>
+					</BulletedList>
+					<Paragraph>Here are a few points you should bear in mind when writing notes:</Paragraph>
+					<BulletedList>
+						<ListItem>
+							<Paragraph>They should be <i>personal</i> &#x2013; the notes are usually for your benefit, so they won't look like anyone else's notes. Use whatever language helps you relate to and understand the information.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>They should have a <i>purpose</i> &#x2013; or may have several purposes as outlined above. When writing your notes you should be clear as to what their purpose is, and keep this in mind as you write them. If you feel you are drifting from your purpose, then you may need to make adjustments.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>They should be the <i>length</i> you want &#x2013; don't feel you have to be either too concise or too detailed. The notes should fit whatever their purpose is for you. You may wish to make more detailed notes about one section and less about another, depending on what interests you.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>They should <i>make sense</i> later &#x2013; there is often a temptation to jot down single words that you understand perfectly at the time but which may not mean anything to you a few months later.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>They should be readily <i>available</i> &#x2013; you could make notes using Word or other word-processing software, or you may prefer to make notes on paper or in a notebook.</Paragraph>
+						</ListItem>
+					</BulletedList>
+				</Section>
+				<Section id="sec001_003">
+					<Title>1.3 When is the right time to take notes?</Title>
+					<Paragraph>Any time that suits you! Increasingly we live in an age where there is more information than we can possibly hope to deal with. One of the most important skills you (or any of us) can develop is how to cope with all this information. Note taking is just one skill that will help you do this. It is important to get into the habit of making notes, and the best way to do this is to find a method that suits you (and the medium you are working in).</Paragraph>
+				</Section>
+				<Section id="sec001_004">
+					<Title>1.4 Extra help</Title>
+					<Paragraph>If you are new to studying or haven't done this kind of thing for a long time, you may want more practice at reading and note taking than is provided here. There are additional materials that have been developed for use by any student and you may find these helpful. They are not specific to technology, so some of the examples they use might seem unfamiliar to you. They have been intentionally developed to suit students of any subject area. Click on the link below to view materials on taking notes and reading to learn. 
+</Paragraph>
+
+<Paragraph>Click on the 'View document' link below to read the file on taking notes and reading to learn.</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\studystrategies.pdf" type="pdf" width="" height="" id="pdf001_001">
+
+
+
+</MediaContent>					
+				
+				</Section>
+				<Section id="sec001_005">
+					<Title>1.5 How to take notes</Title>
+					<Paragraph>So what should you do when taking notes? Again you will develop your own technique, but the method I use is as follows. I read the material through once very quickly, from start to finish. I then sift through the material, writing the words or phrases I think are important. I usually do this on a word processor but you can just as easily use pen and paper. Avoid simply copying and pasting large chunks of material. It is the process of actively reading the material and putting it in your own words that makes note taking useful. Merely copying and pasting defeats the object, although you may decide to paste in short quotations.</Paragraph>
+				</Section>
+				<Section id="sec001_006">
+					<Title>1.6 Alternative ways to take notes</Title>
+					<Paragraph>Some people prefer to take notes in a non-linear way and to be able to visualise the connections between different ideas. Spray diagrams, mind maps, spider diagrams and concept maps are all ways in which to present ideas or information in a diagram rather than as text. They are essentially the same in terms of the structure, but are used for different functions. <b>Mind maps</b> and <b>concept maps</b> are used when developing your own ideas on a subject, for example when planning a report or essay. <b>Spray</b> or <b>spider diagrams</b> summarise ideas that other people have written or spoken &#x2013; in other words they are ideal for note taking.</Paragraph>
+					<Paragraph>
+						<CrossRef idref="fig001_001">Figure 1</CrossRef> shows an example of a spray diagram about note taking. The core topic is shown in the circle in the centre of the diagram. Main themes are linked by lines from the central circle. Some of these themes then have sub-themes that branch outwards. The points further from the centre are usually more detailed and specific than central topics.</Paragraph>
+					<Figure id="fig001_001">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\t175_4_001i.jpg" alt="Figure 1" height="" webthumbnail="true" x_imagesrc="t175_4_001i.jpg" x_imagewidth="562" x_imageheight="296" x_smallsrc="t175_4_001i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\t175_4_001i.small.jpg" x_smallwidth="450" x_smallheight="237"/>
+						<Caption>
+							Figure 1 Spray diagram (Source: adapted from Giles and Hedge (1994), p. 212)</Caption>
+							<Alternative>Figure 1</Alternative>
+						<Description>Figure 1</Description>
+					</Figure>
+					<Activity id="act001_001"><Heading>Activity 1 (exploratory)</Heading><Question>
+							<Paragraph>In this activity you will be putting into practice the above ideas on note taking. I said earlier that all note taking should have a purpose. Of course one of the purposes of this activity is for you to practise your note-taking skills, but in addition to that, the process of taking notes should help you identify what the main points of the article are and deepen your understanding of the subject matter. You should try both methods of note taking described above &#x2013; making linear notes (using your computer or on paper) and creating a spray diagram (again you can use pen and paper or, if you would like to try this, a computer tool such as Microsoft Paint or the Draw tool in Word).</Paragraph>
+							<Paragraph>Attched is the pdf of a newspaper article written in May 2004 about a village in the Pennines which has been dubbed the broadband capital of Britain.</Paragraph>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Read the article through once to get an overall idea of the content.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Read the article again, making notes on the key words and points from each paragraph. Don't worry about writing a proper sentence; just use words or phrases that make sense to you and that you will be able to understand at a later date. You may want to use different-coloured pens if you are writing on paper, or use highlighting and underlining if you are working on a word processor.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Finally try creating a spray diagram. Start with a circle in the middle of the page that gives the main topic. Then add key concepts linked out from the central circle using straight lines, possibly circling the main points and linking out to as much detail as you think is useful. There are no set rules for how to do this, so you can be as creative as you like. If you've never used these kinds of diagram before, you may need to practise a few times to get the diagram into a format that makes sense to you.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						<Paragraph>Click on the 'View document' link below to read Sean Dodson on 'Miracle of the Moor'.</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\miracleofthemoor.pdf" type="pdf" width="" height="" id="pdf001_002">
+
+</MediaContent></Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>Here are the two sets of notes that I made on the &#x2018;Cybermoor&#x2019; article. Remember there is no right way to take notes; my notes are included to provide you with an example of the differences between the two methods. you'll notice that my linear notes (bulleted list) and spray diagram (<CrossRef idref="fig001_002">Figure 2</CrossRef>) do not contain exactly the same information. I found that I tended to include less in the spray diagram and tried to create overall categories, whereas in the linear notes I felt inclined to include more detail. This may also have been because I created the spray diagram using MS Paint so I wanted to keep the text short and concise! I underlined certain words in the linear notes to emphasise them as key points.</Paragraph>
+							<Paragraph>Linear notes</Paragraph>
+							<BulletedList>
+								<ListItem>
+									<Paragraph>Wireless Network small town Cumbria &#x2013; <u>Alston</u> &#x2013; very isolated.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Daniel Heery &#x2013; maintenance.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Broadband capital &#x2013; 88% PC ownership &#x2013; 2nd highest broadband take up (top=Kensington &amp; Chelsea) Leeds Univ study.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Police &#x2013; SMS traffic conditions plus Methodist minister, parish councillor, meteorologist &#x2013; <u>examples of users</u> developing local information services.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Heery &#x2013; came to Alston in 1997 &#x2013; developed co-op called CyberMoor to set up wireless internet network for <u>community</u> as no BT service available.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Co-op model meant local people involved. Pay &#xA3;15 a month. Free PC from DfES and other grants.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Better IT skills, economy benefits, house prices increase.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>BT has decided to extend broadband to all areas &#x2013; but community networks still important. Deptford Council has wireless network &#x2013; used by community groups and local businesses.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Malcolm Corbett of community Broadband Networks &#x2013; have 215 communities on website. Engages local people in community so not just about access.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Need to develop <u>content and services</u>, e.g. Voice over IP in Alston, bandwidth for multimedia artists in Deptford.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Conference of Access to Broadband Campaign &#x2013; what to do now communities have access.</Paragraph>
+								</ListItem>
+							</BulletedList>
+							<Figure id="fig001_002">
+								<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\t175_4_002i.jpg" alt="Figure 2 Spray Diagram for Miracle of the moor" height="" webthumbnail="true" x_imagesrc="t175_4_002i.jpg" x_imagewidth="582" x_imageheight="441" x_smallsrc="t175_4_002i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\t175_4_002i.small.jpg" x_smallwidth="450" x_smallheight="341"/>
+								<Caption>
+									Figure 2 Spray Diagram for <i>Miracle of the moor</i>
+								</Caption>
+								<Alternative>Figure 2</Alternative>
+								<Description>Figure 2 Spray Diagram for <i>Miracle of the moor</i></Description>
+							</Figure>
+							<Paragraph>The notes you've just made will be useful when you want to remember the main points about the article you've just read. You will need to take notes at different points in the course, sometimes about an article that you are asked to read, or at other times about the course materials themselves. Whichever method of note taking you choose, you will be developing a useful skill for further study.</Paragraph>
+						</Discussion></Activity>
+				</Section>
+				<Section id="sec001_007">
+					<Title>1.7 Summarising</Title>
+					<Paragraph>It's sometimes useful to turn your notes into a summary that can be more easily read. This might be because you want to present your thoughts to another person, or to keep a clearer record of the article or text you have just read for your own reference. Activity 2 gives you the opportunity to practise summarising.</Paragraph>
+					<Activity id="act001_002"><Heading>Activity 2 (exploratory)</Heading><Question>
+							<Paragraph>Write a summary (approximately 250 words) of the Cyber moor article, based on the notes you have made. You will need to create sentences rather than bullet points and group these into a set of paragraphs.</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>I've written a short summary here based on the notes I made. It took a few attempts to get a final version that included all the points in my notes and still made sense. If you've not done any summarising before then it may take some time to complete your final version. Don't expect it to be as polished as the example I've given you!</Paragraph>
+							<Paragraph>
+								<u>Summary of Miracle of the Moor</u>
+							</Paragraph>
+							<Paragraph>The article is about a wireless network in a small, very remote town in Cumbria called Alston, which has been dubbed the &#x2018;broadband capital of Britain&#x2019;. According to a Leeds University study, Alston has the second highest broadband take-up in the UK and 88 per cent PC ownership.</Paragraph>
+							<Paragraph>Examples of usage include: local police who use SMS to inform people about traffic conditions; the Methodist minister; parish councillors; and meteorologists who provide local information and networking. Daniel Heery came to Alston in 1997 and set up a co-operative called Cybermoor to develop a wireless internet network for the town after realising how isolated it was. The co-operative model meant it involved local people, and with DES and other grants, they paid for the network to be set up and for PCs in every home. Each member pays &#xA3;15 a month for access. As a result IT skills have improved, the economy has boomed and house prices have risen.</Paragraph>
+							<Paragraph>BT's decision to extend broadband capability to all regions means the UK has one of the highest broadband availability rates in the world. However community wireless networks are still important: e.g. in Deptford the council network can be used by small businesses and community groups. Community enterprise engages local people in their community, according to Malcolm Corbett of Community Broadband Network who have 215 community groups on their website. Their emphasis is not just on broadband access, but also on developing content and services to benefit the local community, something that will be discussed at the Access to Broadband Campaign conference.</Paragraph>
+						</Discussion></Activity>
+				</Section>
+			</Session>
+			<Session id="sec002">
+				<Title>2 News from the Web</Title>
+				<Section id="sec002_001">
+					<Title>2.1 Introduction</Title>
+					<Paragraph>In this section you will be spending time exploring a number of resources on the Web. As someone who is interested in ICTs, it is important that you feel confident about keeping up to date with technological developments. The Web is one of your best sources of information and news in this subject area, but you will need to develop a critical eye in order to sift through and analyse the material that you find online.</Paragraph>
+					<Activity id="act001_003"><Heading>Activity 3 (exploratory)</Heading><Question>
+							<Paragraph>There are many computer and technology magazines online. In this activity you will gain skills in finding information online and also gain more knowledge on current issues and debates in the technology world.</Paragraph>
+							<Paragraph>Start by skimming through the websites linked below. For each site, have a quick look at the headlines and the beginning of each paragraph to get a feel for what each section is about, rather as you would if you were browsing through a magazine.</Paragraph>
+							<Paragraph>Then identify one main news story on each of the sites and write a couple of lines summarising what is being said. If you don't understand what the main story is about, move on to another one that makes more sense to you!</Paragraph>
+							<Paragraph>
+								Wired
+							[accessed 3 October 2006]</Paragraph>
+							<Paragraph>
+								Computer Weekly 
+							[accessed 3 October 2006]</Paragraph>
+							<Paragraph>
+								The Register
+							[accessed 3 October 2006]</Paragraph>
+						</Question><Answer>
+							<Paragraph>Below are the main stories that I found when I accessed these three websites on 1 June 2005. Of course the stories will be different when you look at the sites but I hope my comments will give you an idea of the sort of issues you might find.</Paragraph>
+							<Paragraph>
+								<b>Wired</b>
+							</Paragraph>
+							<Paragraph>The main story that caught my eye was one about research being done at the University of Essex, the building of the world's smallest flying web server &#x2013; a fleet of tiny robotic helicopters which communicate together using Bluetooth creating one entity or &#x2018;swarm intelligence&#x2019;.</Paragraph>
+							<Paragraph>
+								<b>Computer Weekly</b>
+							</Paragraph>
+							<Paragraph>The main story was about how EU justice ministers had rejected a plan to get Internet Service Providers (ISPs) to keep information on all transactions for up to 12 months. This included mobile phone calls, text messages and emails. The main objection seemed to be the sheer volume of data that would have to be stored, as well as concerns about civil liberties.</Paragraph>
+							<Paragraph>
+								<b>The Register</b>
+							</Paragraph>
+							<Paragraph>The headline story was about a new virus which was circulating &#x2013; a variant of a Trojan, called Bagle, that spreads via email messages which appear to have no subject heading or text; it &#x2018;harvests&#x2019; email addresses from the user's own computer, forwarding itself to all of these addresses.</Paragraph>
+						</Answer></Activity>
+				</Section>
+				<Section id="sec002_002">
+					<Title>2.2 Evaluating web resources</Title>
+					<Paragraph>One of the good things about the Web is also one of its drawbacks &#x2013; anybody can publish anything. This means that the Web is an amasing source of information and is full of fascinating resources.</Paragraph>
+					<Paragraph>However, in order to get to useful information you may have to work your way through lots of irrelevant material. Even when you think you have found something relevant, how do you know it is reliable, and how can you judge the quality, accuracy and bias of what you find?</Paragraph>
+					<Paragraph>Most publications such as journals, books or magazines have an editorial process that means the material is selected and approved. In academic journals this is usually done by a process called peer review, so that when you find an article in a journal you can be sure that it has been reviewed and is acceptable to experts in that particular field.</Paragraph>
+					<Paragraph>This is not the case on the Web, so as you proceed with your studies you will need to develop your own judgement about the quality of resources that you find. The following activity will help you to start thinking about this.</Paragraph>
+					<Activity id="act001_004"><Heading>Activity 4 (exploratory)</Heading><Question>
+							<Paragraph>In this activity you will look at some websites, and comment on your impressions. This will give you a chance to develop skills in assessing the usability of websites for the intended audience and reliability of information that you find on them.</Paragraph>
+							<Paragraph>Have a look at these two websites and answer the questions below about each of them.</Paragraph>
+							<Paragraph>
+								http://www.e-skills.com
+							[accessed 3 October 2006]</Paragraph>
+							<Paragraph>
+								http://en.wikipedia.org/wiki/Main_Page
+							[accessed 3 October 2006]</Paragraph>
+							<Paragraph>
+								<b>Usability</b>
+							</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>How easy is it to find your way around the sites?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What is the &#x2018;look and feel&#x2019; of the site? Do you like it? Does the design get in the way of the content? Does the design match the tone of the content?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What is the writing style like? Is it friendly, academic, humorous, factual, commercial&#x2026;?</Paragraph>
+								</ListItem>
+							</NumberedList>
+							<Paragraph>
+								<b>Intended audience</b>
+							</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>What do you think is the target or intended audience for the site? Is it the general public, professionals in that field, academics, children, etc.?</Paragraph>
+								</ListItem>
+							</NumberedList>
+							<Paragraph>
+								<b>Reliability</b>
+							</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph> How reliable is the information on the site likely to be? Is it likely to be biased in any way? (You should try to find out who is the owner or author of the website and then comment on whether you think they are likely to take a particular viewpoint and whether they are an &#x2018;authority&#x2019; on the subject.) How up to date does the website appear to be?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							<Paragraph>
+								<b>e-skills.com</b>
+							</Paragraph>
+							<Paragraph>
+								<b>Usability</b>
+							</Paragraph>
+							<Paragraph>The site was easy to navigate with menu bars at the top and on the left-hand side. The site felt very comfortable to use &#x2013; the design was simple and consistent throughout so it was easy to find my way around. The writing style was quite friendly yet professional. The design seemed to be appropriate &#x2013; i.e. it was professional, clean and modern, without any clutter.</Paragraph>
+							<Paragraph>
+								<b>Intended audience</b>
+							</Paragraph>
+							<Paragraph>The intended audience seemed to be IT professionals or people wanting to work in IT. But the site was not full of jargon; in fact the language was very simple and straightforward. There were sections for employers, but also for people wanting to find training and gain qualifications.</Paragraph>
+							<Paragraph>
+								<b>Reliability</b>
+							</Paragraph>
+							<Paragraph>The information seemed to be reliable &#x2013; the owner of the site is a national agency that represents IT employers. Consequently, the information could be biased towards the viewpoint of employers rather than the employees of their companies. There were a lot of contact addresses in most regions. It seemed very up to date &#x2013; for example the news page had items from the current month.</Paragraph>
+							<Paragraph>
+								<b>Wikipedia.org</b>
+							</Paragraph>
+							<Paragraph>
+								<b>Usability</b>
+							</Paragraph>
+							<Paragraph>My first impression was that the site was very cluttered, so I wasn't sure where to look. There were links all over the place, as well as a small menu bar for main areas. I can imagine getting very lost and spending a huge amount of time on this site by following links within articles. But it was also quite good to be able to follow my own train of thought through the information. The writing styles varied depending on the author &#x2013; some were quite hard going, others easier to read.</Paragraph>
+							<Paragraph>
+								<b>Intended audience</b>
+							</Paragraph>
+							<Paragraph>The intended audience is anyone who wants to find out about some piece of general knowledge. It can be viewed in several different languages, which make it accessible to a wider audience.</Paragraph>
+							<Paragraph>
+								<b>Reliability</b>
+							</Paragraph>
+							<Paragraph>The main point of this website is that anyone can edit it or add to items in the encyclopaedia. This makes it very interesting and it is not offering any particular perspective or viewpoint. In fact one of the principles of the website is that authors should have a neutral point of view. It is regularly updated, with people adding to it every day. It is difficult to say how reliable the information might be. Anyone can make any changes at any time, so the information could be wrong. But other users can correct errors, so the collaborative effort should make the information reliable overall.</Paragraph>
+						</Answer></Activity>
+				</Section>
+			</Session>
+			<Session id="sec003">
+				<Title>3 Learning to learn</Title>
+				<Section id="sec003_001">
+					<Title>3.1 Learning styles</Title>
+					<Paragraph>Not everyone learns in the same way. We have all had different experiences of learning &#x2013; whether these were at school, college or elsewhere. To find out a bit more about what kind of learner you are, try this Learning Styles Questionnaire [accessed 3 October 2006]. Once you have submitted your answers you will see a feedback page which allows you to draw some conclusions.</Paragraph>
+					<Paragraph>Now read the document below about learning styles.  If you want to, this would be a good opportunity to practise making notes (either on your computer or on paper. Remember you can write linear notes or try using the mindmap or spray diagram method.</Paragraph>
+					
+					<Paragraph>Click on the 'View document' link below to read Jon Rosewell on 'Learning styles'.</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\learning_styles.pdf" type="pdf" width="" height="" id="pdf001_003">
+						
+					</MediaContent>
+					<Activity id="act001_005"><Heading>Activity 5 (exploratory)</Heading><Question>
+							<Paragraph>The feedback from the Learning Styles questionnaire gave you your total As, Bs, Cs and Ds, and related this to your style of learning.</Paragraph>
+							<Paragraph>The <i>Learning styles</i> document identified four styles: activist, reflector, theorist and pragmatist.</Paragraph>
+							<Paragraph>How do you think the As, Bs, Cs and Ds relate to the four named learning styles ?</Paragraph>
+						</Question><Answer>
+							<Paragraph>Comparing the two sources I thought that:</Paragraph>
+							<Paragraph>
+								<b>A=activist:</b> The section on the website for &#x2018;Mostly As&#x2019; talks about doing things quickly rather than spending time weighing up the consequences. The &#x2018;Activists&#x2019; section in the Learning Styles document mentions acting first and considering the consequences later.</Paragraph>
+							<Paragraph>
+								<b>B=reflector:</b> The &#x2018;Mostly Bs&#x2019; section mentions pondering over experiences and taking time to draw conclusions. The &#x2018;Reflectors&#x2019; section talks about observing and thinking before coming to a considered opinion.</Paragraph>
+							<Paragraph>
+								<b>C=theorist:</b> The &#x2018;Mostly Cs&#x2019; section highlights analysing, problem-solving and being systematic. The &#x2018;Theorists&#x2019; section mentions questioning, probing and understanding.</Paragraph>
+							<Paragraph>
+								<b>D=pragmatist:</b> The &#x2018;Mostly Ds&#x2019; section mentions being practical and experimenting. The &#x2018;Pragmatists&#x2019; section talks about being practical and trying things out.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>While this is still fresh in your mind, it would be useful for you to do Activity 6.</Paragraph>
+					<Activity id="act001_006"><Heading>Activity 6 (exploratory)</Heading><Question>
+							<Paragraph>Make some notes about your own learning style. Are there types of learning that you think you will need to improve to help you in studying this unit?</Paragraph>
+						</Question><Answer>
+							<Paragraph>When I did the Learning styles questionnaire I scored 1 on Activist, 4 on Reflector, 5 on Theorist and 3 on Pragmatist. I would note this and perhaps return to the questionnaire later to see if there were any changes. Mulling over the implications of these scores (which agree with what I thought I would get) I would also note that deadlines might cause me some problems. I might have a tendency to spend too long thinking what to write for a tutor marked assignment, rather than getting on with it. So that would be an area to focus on.</Paragraph>
+						</Answer></Activity>
+				</Section>
+				<Section id="sec003_002">
+					<Title>3.2 More about mind maps and spray diagrams</Title>
+					<Paragraph>Have a look at the following animation about mind maps and spray diagrams. Click the arrow button on the right to start the animation and to navigate through it.</Paragraph>
+					<Paragraph>The animation has a soundtrack which takes you through different ideas about spray diagrams. It gradually builds up a spray diagram to illustrate how the ideas fit together.</Paragraph>
+					
+						
+						<MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\spray-what.swf" type="flash" width="512" height="425" id="med001">
+							
+							
+						</MediaContent><MediaContent type="pdf" target="new window" src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\trans1.pdf"><Caption>Transcript</Caption></MediaContent>
+					
+					
+				
+				
+				</Section>
+			</Session>
+			<Session id="sec004">
+				<Title>4 Working with others online</Title>
+				<Section id="sec004_001">
+					<Title>4.1 Introduction</Title>
+					<Paragraph>Working with others online requires some skills that are not always obvious when you first start using email and computer conferencing.</Paragraph>
+					<Paragraph>Here are some basic rules of good practice about Computer Mediated Communication (CMC) that we recommend to all students when they begin using conferencing. These are collectively known as &#x2018;netiquette&#x2019;.</Paragraph>
+				</Section>
+				<Section id="sec004_002">
+					<Title>4.2 Netiquette</Title>
+					<Paragraph>Work through the following material on &#x2018;netiquette&#x2019; and then try the quiz at the end of the section.</Paragraph>
+					<SubSection id="sec004_002_001">
+						<Title>4.2.1 Introduction</Title>
+						<Paragraph>Netiquette is the unwritten rules of good behaviour online. Although the principles are similar to face-to-face conversation, the limitations of a text-based medium mean you have to learn new techniques. Other people can't see the expression on your face or hear your voice, so it is what you write that sets the tone of the conversation.</Paragraph>
+					</SubSection>
+					<SubSection id="sec004_002_002">
+						<Title>4.2.2 Thank, acknowledge and support people</Title>
+						<Paragraph>People can't see you nod, smile or frown as you read their messages. If they get no acknowledgement, they may feel ignored and be discouraged from contributing further. Why not send a short reply to keep the conversation going? This can make a big difference in a small group setting like a tutor-group conference. (But bear in mind that in a large, busy conference, too many messages like this could be a nuisance.)</Paragraph>
+					</SubSection>
+					<SubSection id="sec004_002_003">
+						<Title>4.2.3 Acknowledge before differing</Title>
+						<Paragraph>Before you disagree with someone, try to summarise the other person's point in your own words. Then they know you are trying to understand them and will be more likely to take your view seriously. Otherwise, you risk talking at each other rather than to each other.</Paragraph>
+					</SubSection>
+					<SubSection id="sec004_002_004">
+						<Title>4.2.4 Make clear your perspective</Title>
+						<Paragraph>Try to avoid speaking impersonally: &#x2018;This is the way it is&#x2026;&#x2019;, &#x2018;It is a fact that&#x2026;&#x2019;. That will sound dogmatic and leaves no room for anyone else's perspective. Why not start, &#x2018;I think&#x2026;&#x2019;? A common abbreviation is IMHO (in my humble opinion) &#x2013; or even IMNSHO (in my not so humble opinion). If you are presenting someone else's views, say so, perhaps by a quote and acknowledgement.</Paragraph>
+					</SubSection>
+					<SubSection id="sec004_002_005">
+						<Title>4.2.5 Emotions</Title>
+						<Paragraph>Emotions can be easily misunderstood when you can't see faces or body language. People may not realise you are joking; irony and satire are easily missed. Smileys or emoticons such as <b>:-)</b> and <b>:-(</b> can be used to express your feelings (look at these sideways). Other possibilities are punctuation (?! #@*!), &lt;grin&gt; or &lt;g&gt;, &lt;joke&gt;, or even using mock HTML tags such as &lt;rant&gt;smileys are stupid&lt;/rant&gt;.</Paragraph>
+						<Paragraph>Remember that many discussion systems only support plain text so you can't rely on fonts and colours to add meaning.</Paragraph>
+						<Paragraph>Be aware of your audience: people from widely differing cultures and backgrounds may read what you write online. What you find funny may be offensive to them.</Paragraph>
+						<Paragraph>AND DON'T WRITE IN CAPITAL LETTERS &#x2013; IT WILL COME OVER AS SHOUTING!</Paragraph>
+						<Activity id="act007_001"><Heading>Activity 7 (exploratory)</Heading><Question>
+								<Paragraph>Look at the document below. What emotions are being expressed through smileys and typography? Would Jon and Sue still be be on speaking terms if they hadn't used these devices?</Paragraph>
+							<Paragraph>Click on the 'View document' link below to read the e-mail conversation.</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_4\1.0\email_conversation.pdf" type="pdf" width="" height="" id="pdf001_004">
+								
+							</MediaContent></Question><Answer>
+								<Paragraph>In Sue's first reply to Jon she expresses her frustration by typing &#x2018;Aaaarrrggghhhh&#x2019;. But she ends that message with a winking smiley. Jon's reply then says &#x2018;sorry&#x2019; in a very small voice! Finally, Sue's reply starts with a happy smiley to show that everything's OK. She uses a large font when she mentions the annoyingly early meeting time.</Paragraph>
+								<Paragraph>I feel sure that Jon and Sue would still be friendly after this email exchange. But I have seen email exchanges between colleagues which had the opposite effect, when the participants have not taken care about how they express themselves in their messages.</Paragraph>
+							</Answer></Activity>
+					</SubSection>
+					<SubSection id="sec004_002_006">
+						<Title>4.2.6 Flaming</Title>
+						<Paragraph>If you read something that offends or upsets you, it is very tempting to dash off a reply and hit Send &#x2013; but don't! Online discussion seems to be particularly prone to such <b>flames</b>; often an unwitting breach of netiquette will escalate in a flaming spiral of angry messages. So if you feel your temperature rising as you write, save your message, take a break or sleep on it &#x2013; don't hit Send.</Paragraph>
+					</SubSection>
+					<SubSection id="sec004_002_007">
+						<Title>4.2.7 Some other advice</Title>
+						<BulletedList>
+							<ListItem>
+								<Paragraph>Keep to the subject, and pick the right conference for your contribution.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Before you write a message, take time to see what is being discussed and how. Lurking is quite acceptable online.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph> Keep messages short. People don't want to read large chunks of text on-screen.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Write a good subject line (title) for your message &#x2013; people often haven't time to read messages unless the subject line looks relevant.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph> Keep to one subject (one topic of discussion) per message.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>When replying to a message, only quote part of the earlier message if you need to. Don't include everything, or messages get longer and longer.</Paragraph>
+							</ListItem>
+						</BulletedList>
+							<Table id="tbl001">
+							<TableHead>Netiquette questions and answers</TableHead>
+							<tbody>
+								
+									<tr>
+										<th>Question</th>
+										<th>Answer</th>
+												<th>Answer feedback</th>
+									</tr>
+									<tr>
+										<td>Writing in capitals has the same effect as shouting?</td>
+										<td>True</td>
+										<td>YES IT's TRUE you shouldn't write in capitals unless you are trying to emphasise something very strongly, otherwise it will come over as shouting.</td>
+									</tr>
+									<tr>
+										<td>You can write what you like as long as you put a smiley face after it</td>
+										<td>False</td>
+										<td>Emotions can be easily misunderstood when you can't see faces or body language. People may not realise you are joking; irony and satire are easily missed. Smileys or emoticons such as :-) can be used to express your feelings but you should still be careful.</td>
+									</tr>
+									<tr>
+										<td>Flaming means an unpleasant or angry exchange of messages</td>
+										<td>True</td>
+										<td>Flaming can start when someone misunderstands what you mean or is intentionally angry or unpleasant. Often an unwitting breach of netiquette will escalate in a flaming spiral of angry messages. So if you feel your temperature rising as you write, save your message, take a break or sleep on it &#x2013; and still don't hit Send.</td>
+									</tr>
+									<tr>
+										<td>You should always quote the whole of someone's message when replying</td>
+										<td>False</td>
+										<td>When replying to a message, quote the relevant part. Don't include everything or messages get longer and longer.</td>
+									</tr>
+									<tr>
+										<td>Lurking is considered to be bad netiquette</td>
+										<td>False</td>
+										<td>Lurking means just having a look at messages on a conference rather than contributing yourself. If you&#x2019;re not confident about contributing yet it's fine to lurk online for a bit before you send a message and take time to see what is being discussed and how.</td>
+									</tr>
+									<tr>
+										<td>IMHO stands for In My Humble Opinion</td>
+										<td>True</td>
+										<td>IMHO (in my humble opinion) is an abbreviation often used in online discussions. You may also see IMNSHO (in my not so humble opinion). These expressions are helpful for netiquette purposes &#x2013; they indicate that you are giving your own point of view, rather than stating an undeniable fact!</td>
+									</tr>
+									<tr>
+										<td>If you disagree with someone you should acknowledge what they have said first</td>
+										<td>True</td>
+										<td>Before you disagree with someone, try to summarise the other person's point in your own words. Then they know you are trying to understand them and will be more likely to take your view seriously. Otherwise, you risk talking at each other rather than to each other.</td>
+									</tr>
+								
+							</tbody>
+							<SourceReference/>
+						</Table>
+					</SubSection>
+				</Section>
+				<Section id="sec004_003">
+					<Title>4.3 Ethical and legal considerations</Title>
+					<Paragraph>You will need to be aware of privacy and confidentiality in relation to online communication. Email is generally considered private and should not be quoted without permission. Some conferences are not wholly public, so messages should not be copied outside the conference.</Paragraph>
+					<Paragraph>Online discussion may be read by people from other cultures and backgrounds, so be careful to avoid giving offence. Although people are usually very tolerant, it is still possible that someone could sue for libel.</Paragraph>
+					<Paragraph>Besides the informal rules of netiquette, most discussion systems have a code of conduct and conditions of use that govern acceptable behaviour.</Paragraph>
+					<Paragraph>Considerations of plagiarism and copyright apply to discussion systems. If you are quoting something written by someone else, put it in quotation marks and acknowledge the source.</Paragraph>
+					<SubSection id="sec004_003_001">
+						<Title>4.3.1 Copyright</Title>
+						<Paragraph>One of the reasons the World Wide Web has grown so quickly, and why it is so interesting, is that anyone can publish (almost) anything on it. This raises a number of problems, however, particularly with the issue of copyright. It is very easy to find information, images, audio and video files on the web. You can then easily save them and incorporate them into your own material. This ease of copying means people often make the mistake of assuming that everything on the web is freely available. This is not the case.</Paragraph>
+					<Paragraph>Here are some general rules of thumb you should bear in mind:</Paragraph>
+					<Paragraph>Just because something is on the web does not mean it is freely available for you to use in your own work. As with any material which is protected by copyright, you should seek the author's permission if you wish to use it.</Paragraph>
+					<Paragraph>With text you can use up to 5 per cent of any one piece of work without seeking permission. With images, sound, animations, and video clips, you should seek permission, unless you are specifically told you can download and use them freely.</Paragraph>
+					<Paragraph>Bear in mind that information published on the Web may have been put there by someone who does not hold the copyright to it. Simply because material appears on the Web does not mean that it is in the public domain, or that it has been published legitimately.</Paragraph>
+					<Paragraph>If you wish to reuse a lot of material taken from the web, you should make a link to the page where it appears, rather than incorporating it into a page of your own. When you provide links you should place them in an appropriate context, and identify the site to which they connect.</Paragraph>
+					<Paragraph>Copyright law allows students special concessions but these are very limited. As a student you may use copyright material for your own personal study purposes only. This includes using copyright material as part of an assignment. If you later want to use the same material for any other purpose, you must seek permission.</Paragraph>
+					<Paragraph>You should not alter images or other copyright material. (However, illustrations may be resized, and editorial deletions can be made to texts so long as these are clearly indicated).</Paragraph>
+					</SubSection>
+					<SubSection id="sec004_003_002">
+						<Title>4.3.2 Plagiarism</Title>
+						<Paragraph>
+						<b>Attempting to pass off someone else's work as your own is plagiarism.</b>
+					</Paragraph>
+					<Paragraph>You may be encouraged to use the Web as a resource for writing assignments. This does not mean you should copy chunks of text from other websites however. You can quote from other sites, but such quotes should always be acknowledged. You should write material in your own words, to demonstrate that you have understood it, rather than simply copying it. Using search engines it is relatively easy for markers to find text taken from another site.</Paragraph>
+					<Paragraph>You should always acknowledge the source of any &#x2018;third party&#x2019; material you include in your own work. Failure to do so will be interpreted as a deliberate attempt at plagiarism. Plagiarism is, as a rule, taken very seriously. At the OU, for example, when detected, plagiarism can result in a range of measures from receiving a zero score for the whole assignment to being expelled from the course. <b>It is your responsibility to ensure that your assignments are properly referenced and are your own work.</b>
+					</Paragraph>
+					<Paragraph>A guide on how to correctly reference sources of information, including online sources, can be found on the OU Library's website.</Paragraph>
+					</SubSection>
+<!--<Box id="box00a">
+  <Heading>Do this</Heading> 
+  <Paragraph>Now you have completed this unit, you might like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+  <Paragraph>Post a message to the unit forum.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Review or add to your Learning Journal.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Rate this unit.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>
+<Box id="box00b">
+  <Heading>Try this</Heading> 
+  <Paragraph>You might also like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+<Paragraph>Find out more about the related Open University course</Paragraph>
+  </ListItem>
+<ListItem>
+  <Paragraph>Book a FlashMeeting to talk live with other learners</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Create a Knowledge Map to summarise this topic.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>-->
+				</Section>
+			
+		</Session>
+		
+		<Session id="ses005">
+<Title>Next steps</Title>
+<Paragraph>After completing this unit you may wish to study another OpenLearn Study Unit or find out more about this topic. Here are some suggestions:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1617">ICTs: e-government (T175_5) </a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1232">Presenting information (T175_7)</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/openlearn/science-maths-technology">Science, Maths and Technology</a></ListItem>
+</UnNumberedList>
+<Paragraph>If you wish to study formally at The Open University, you may wish to explore the courses we offer in this curriculum area:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/course/tu100.htm">My digital life (TU100) </a></ListItem>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm">Computing and ICT</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or find out about studying and developing your skills with The Open University:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/">OU study explained</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/skillsforstudy">Skills for study</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or you might like to:</Paragraph>
+<UnNumberedList>
+<ListItem>Post a message to the <a href="http://openlearn.open.ac.uk/mod/forumng/view.php?id=396283">unit forum</a>, to share your thoughts about the unit or talk to other OpenLearners</ListItem>
+<ListItem>Review or add to your <a href="http://openlearn.open.ac.uk/mod/oublog/view.php?">Learning Journal</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/blocks/rate_course/rate.php?courseid=1514">Rate this unit</a></ListItem>
+</UnNumberedList>
+</Session>
+
+
+		<BackMatter>
+			<References>
+				<Reference>Giles, K. and Hedge, N. (1994) <i>The Manager's Good Study Guide</i>, Milton Keynes, The Open University.</Reference>
+				<Reference>Dodson, S. (May, 2004) <i>Miracle of the moor</i> [online] Guardian Newspapers Ltd [Accessed 3 October 2006].</Reference>
+			</References>
+			<Acknowledgements>
+				<Heading/>
+				<Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph>
+				<Paragraph>Grateful acknowledgement is made to the following sources for permission to reproduce material within this unit.</Paragraph>
+				<SubHeading>Text</SubHeading>
+				<Paragraph>Dodson, S. &#x2018;Miracle of the Moor&#x2019;, <i>Guardian</i>, 6 May 2004. Copyright &#xA9; 2004 Guardian Newspapers Limited.</Paragraph>
+				<SubHeading>Unit Image</SubHeading>
+				<Paragraph>Jason Matthews: http://www.flickr.com/photos/jpmatth/263591226/ </Paragraph>
+				
+				<Heading>Don't miss out</Heading>
+<Paragraph>1. Join the 200,000 students currently studying with<a href="http://www3.open.ac.uk/study/"> The Open University</a>.</Paragraph>
+<Paragraph>2. Enjoyed this? Browse through our host of free course materials on <a href="http://openlearn.open.ac.uk"> LearningSpace</a>.</Paragraph>
+<Paragraph>3. Or browse more topics on <a href="http://www.open.ac.uk/openlearn"> OpenLearn</a>.
+</Paragraph>
+
+			</Acknowledgements>
+		</BackMatter>
+	</Unit>
+<settings>
+                <numbering>
+                    <Session autonumber="false"/>
+                    <Section autonumber="false"/>
+                    <SubSection autonumber="false"/>
+                    <SubSubSection autonumber="false"/>
+                    <Activity autonumber="false"/>
+                    <Exercise autonumber="false"/>
+                    <Box autonumber="false"/>
+                    <CaseStudy autonumber="false"/>
+                    <Quote autonumber="false"/>
+                    <Extract autonumber="false"/>
+                    <Dialogue autonumber="false"/>
+                    <ITQ autonumber="false"/>
+                    <Reading autonumber="false"/>
+                    <StudyNote autonumber="false"/>
+                    <Example autonumber="false"/>
+                    <Verse autonumber="false"/>
+                    <SAQ autonumber="false"/>
+                    <KeyPoints autonumber="false"/>
+                    <ComputerDisplay autonumber="false"/>
+                    <ProgramListing autonumber="false"/>
+                    <Summary autonumber="false"/>
+                    <Tables autonumber="false"/>
+                    <Figures autonumber="false"/>
+                    <MediaContent autonumber="false"/>
+                  </numbering>
+                <discussion_alias>Discussion</discussion_alias>
+                <session_prefix>Session</session_prefix>
+            </settings></Item>

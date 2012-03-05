@@ -1,0 +1,1722 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="1.2" TextType="CompleteItem" ACSTemplate="DS_TEST" xsi:noNamespaceSchemaLocation="http://openlearn.open.ac.uk/local/schemas/OUIntermediateSchema.xsd" id="X-T175_5"><CourseCode>T175</CourseCode><CourseTitle>Exploring Information and Communication Technologies</CourseTitle><ItemID/><ItemTitle>ICTs: e-government</ItemTitle>
+	<FrontMatter>
+		
+		
+		
+		
+		<Imprint>
+			<Standard>
+				<GeneralInfo>
+					<Paragraph/>
+				</GeneralInfo>
+				<Address>
+					<AddressLine>The Open University, Walton Hall, Milton Keynes, MK7 6AA</AddressLine>
+				</Address>
+				<FirstPublished><Paragraph>2005</Paragraph></FirstPublished>
+<Copyright><Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph></Copyright>
+				<Rights>
+					<Paragraph>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, transmitted or utilised in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without written permission from the publisher or a licence from the Copyright Licensing Agency Ltd. Details of such licences (for reprographic reproduction) may be obtained from the Copyright Licensing Agency Ltd of 90 Tottenham Court Road, London W1T 4LP.</Paragraph>
+				</Rights>
+				<Edited><Paragraph>The Open University</Paragraph></Edited>
+				<Typeset><Paragraph>The Open University</Paragraph></Typeset>
+				<Printed><Paragraph>Printed and bound in the United Kingdom by Thanet Press Limited, Margate.</Paragraph></Printed>
+				<ISBN>0 7492 0239 4</ISBN>
+				<Edition>1.1</Edition>
+			</Standard>
+		</Imprint>
+		
+		<Introduction>
+			<Title>Introduction</Title>
+			<Paragraph>This unit is from our archive and it is an adapted extract from<i> Networked living: exploring information and communication technologies</i> (T175) which is no longer in presentation. If you wish to study formally at The Open University, you may wish to explore the courses we offer in this<a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm"> curriculum area.</a></Paragraph>
+			<Paragraph>Many governments across the world are moving towards the use of information communication technologies (ICTs) to allow citizens to access information and services. This unit introduces you to e-government. You will look at the scope of e-government, the databases that are necessary, the use of biometrics in identification and verification of identity and assess the useability and accessibility of websites.</Paragraph>
+			
+		
+		</Introduction>
+		<LearningOutcomes>
+			<Paragraph>This is what you should have achieved when you have completed your study of this unit:</Paragraph>
+			<LearningOutcome>Understand the concept of e-government, and the associated benefits and drawbacks.</LearningOutcome>
+			<LearningOutcome>Understand how a relational database differs from a flat database, including the function and construction of a joining table.</LearningOutcome>
+			<LearningOutcome>Understand some of the basic principles of XML.</LearningOutcome>
+			<LearningOutcome>Understand the basic principles of biometric identification and verification systems</LearningOutcome>
+			<LearningOutcome>For a simple database design, identify suitable entities, attributes and database keys.</LearningOutcome>
+			<LearningOutcome>Explain the significance of false matches and false non-matches in verification and identification, and their role in false positive and false negative identification.</LearningOutcome>
+			<LearningOutcome>For a given authentication context, identify whether verification or identification is used.</LearningOutcome>
+			<LearningOutcome>Recognise social, ethical and political issues relating to the use of  ICTs. </LearningOutcome>
+			<LearningOutcome>Analyse a web interface or application for usability and accessibility issues. </LearningOutcome>
+		</LearningOutcomes>
+	</FrontMatter>
+	<Unit>
+		<UnitID>T175_5</UnitID>
+		<UnitTitle>ICTs: e-government</UnitTitle>
+		
+			<Session id="sec001">
+				<Title>1 E-government</Title>
+				<Paragraph>In many countries, e-government has become part of government policy. The UK government has a large e-government project under way, as do the governments of the USA, Australia and Japan, to name just a few. The &#x2018;e&#x2019; at the start of &#x2018;e-government&#x2019; stands for &#x2018;electronic&#x2019;, and e-government usually refers to the use by governments of ICTs. In many ways e-government is not a single activity but many activities. However, in the UK and many other countries, there is a degree of central coordination of these activities, and this is my justification for referring to e-government as though it were one project.</Paragraph>
+				<Paragraph>E-government has many aspects. For instance:</Paragraph>
+				<UnNumberedList>
+					<ListItem>
+						<Paragraph>it is an exercise in large-scale ICT project management;</Paragraph>
+					</ListItem>
+					<ListItem>
+						<Paragraph>it is designed to modernise the inner workings of government;</Paragraph>
+					</ListItem>
+					<ListItem>
+						<Paragraph>it is a large technical undertaking;</Paragraph>
+					</ListItem>
+					<ListItem>
+						<Paragraph>it is expensive.</Paragraph>
+					</ListItem>
+				</UnNumberedList>
+				<Paragraph>Any of these could be taken as a starting point for an investigation of e-government, however, I wish to focus on one fairly universal aim of e-government projects:</Paragraph>
+				<Quote id="quo001_001">
+					<Paragraph>the use of ICTs to transform the delivery of information and services to the public, and to transform how the public accesses that information.</Paragraph>
+				</Quote>
+				<Paragraph>Making information and services available on a large scale requires the extensive use of databases. I will therefore spend quite a lot of time looking at some fundamental ideas about databases. There are three reasons for devoting so much space to databases. The first reason is the importance of databases to e-government projects. Secondly, creating a database is, among other things, an analytical process. The people who specify and design a database have to think carefully about information and how it is used. In that sense, a database represents a way of thinking about information. This sort of analytical approach to information underlies almost any organised use of ICT aimed at making information available. My third reason relates to <b>legacy systems</b>. These are already installed systems, sometimes quite old, that are not designed to work together in the way their modern replacements would. In this context I shall look briefly at XML, which is a coding system widely used in e-government and elsewhere as part of the solution to legacy problems.</Paragraph>
+				<Paragraph>I shall also spend quite a lot of time on biometric methods of identification. These are identification methods based on fingerprints, iris patterns in the eye, and other physical characteristics. In digital form, biometric data is increasingly incorporated in, for instance, passports, driving licences and other identity documents. Identification systems, particularly ones based on biometrics, present a number of ethical, social and political issues, and I shall briefly discuss these.</Paragraph>
+				<Paragraph>E-government can hardly be successful if the public does not use it. That raises questions of usability and accessibility of the new services. I shall also be looking at some of the factors that affect usability and accessibility.</Paragraph>
+				<Paragraph>Finally, I shall look at some critical views about e-government and at proposals for using ICTs to change radically the relationship of government and public.</Paragraph>
+				<Paragraph>Throughout this unit I draw on the writings of others. Sometimes I do this because the material I quote is authoritative or official; sometimes I do it because I think the author's view is interesting. In your own written work you will often want to draw on other sources, and it is important to reference your sources when you do so. The examples of referenced works in this unit will show you how to incorporate referenced material into a piece of writing.</Paragraph>
+			</Session>
+			<Session id="sec002">
+				<Title>2 Scope of e-government</Title>
+				<Section id="sec002_001">
+					<Title>2.1 Modernising government</Title>
+					<Paragraph>Before we start to look at e-government itself, I would like you to read some quotations. During the 1980s and 1990s, the potential of ICT systems for government was discussed by many commentators, but in the UK the official argument for e-government was set out in 1999 in the document <i>Modernising Government</i>. This document, however, is not specifically about e-government. Rather, it is about the much broader issue of how government should be modernised. Here is an extract:</Paragraph>
+					<Box id="box001_001">
+						<Paragraph>Earlier this year, a number of &#x2018;Integrated Service Teams&#x2019; were set up to identify the practical problems facing people when they use public services. The teams looked at seven of the most common &#x2018;life episodes': leaving school; having a baby; becoming unemployed; changing address; retiring; needing long-term care at home; and bereavement. Some of the most common problems were:</Paragraph>
+						<BulletedList>
+							<ListItem>
+								<Paragraph>People had to give the same information more than once to different &#x2013; or even the same &#x2013; organisations. A mother of a boy with physical disabilities said: &#x2018;I have lost count of the times I have had to recount my son's case history to professionals involved in his care.&#x2019;</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>There is often no obvious person to help those most in need to find their way around the system.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>There is a lack of integrated information to enable service providers to give a full picture of what help might be available.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>There is minimal use of new technology. Most government departments have a website, but few allow people to fill in forms on line. And government websites are not well linked to other relevant sites.</Paragraph>
+							</ListItem>
+						</BulletedList>
+						<SourceReference>Cabinet Office (1999), p. 23</SourceReference>
+					</Box>
+					<Box id="box001_002">
+						<Heading>Referencing: authors and page numbers</Heading>
+						<Paragraph>The referencing system used here is the author&#x2013;date system, sometimes called the Harvard system. The author and date are given with the quotation, or near it. This is called the author&#x2013;date citation, or just the <b>citation</b>. The citation is the link to the <b>reference</b> in the references list at the end. The reference supplies the full bibliographic information for the work cited. You can see my references list at the end of this Unit. (Sometimes the references list is called the bibliography, though strictly speaking a bibliography is not the same as a references list because it can include any relevant publication, whether cited or not.) Turn to the references list and find the reference for the quotation above.</Paragraph>
+						<Paragraph>It is not always clear who is the author of a source you are quoting from. This is often the case with official documents, so you have to decide as best you can whom to cite as author. When you are faced with this problem, it is sometimes helpful to look at online library catalogues, such as that of the Open University Library or the British Library, to see what name they give as the author. Enter the title of the document in the catalogue&#x2019;s search engine, and you should find details of the document. Another possibility is just to put the title in an internet search engine. This will sometimes produce a library catalogue record card.</Paragraph>
+						<Paragraph>Where does the page number go? If you only refer to the source once, the page number (or numbers) goes with the information in the references list. If there are multiple references to the same source, the best place is with the quotation, as here</Paragraph>
+						<Paragraph>The use of capital letters, italics, quotation marks, brackets, etc., in references varies from publisher to publisher. However, it is usual to italicise book and journal titles.</Paragraph>
+					</Box>
+					<Activity id="act001_001"><Heading>Activity 1:  (self-assessment)</Heading><Question>
+							<Paragraph>Construct an author&#x2013;date citation and a reference to accompany a quotation from page 35 of the following book: <i>The Rise of the Network Society</i>, by Manuel Castells, published in 2000 by Blackwell in Oxford. This is the sole reference to this book. You will probably find it helpful to look through the references at the end of this unit.</Paragraph>
+						</Question><Answer>
+							
+							<Paragraph>The author-date citation is like this:</Paragraph>
+							<Paragraph>(Castells, 2000) or Castells (2000) if the author's name is part of a sentence.</Paragraph>
+							<Paragraph>The reference is like this:</Paragraph>
+							<Paragraph>Castells, M. (2000) <i>The Rise of the Network Society</i>, Oxford, Blackwell, p. 35.</Paragraph>
+							<Paragraph>Not all publishers include a place of publication in book references. Sometimes the order of publisher and place is reversed.</Paragraph>
+							<Paragraph>This book is actually the second edition of a book first published in 1996, as you may have spotted if you checked it in a library catalogue. The edition number is incorporated as follows.</Paragraph>
+							<Paragraph>Castells, M. (2000) <i>The Rise of the Network Society</i>, 2nd ed., Oxford, Blackwell, p. 35.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>The extract from <i>Modernising Government</i> identifies typical problems ordinary people can have in dealing with government. The remedy for these and countless other problems, as far as this UK government document is concerned, is &#x2018;modernisation&#x2019; of government, and part of this modernisation is the provision of services online. Typical online services would include: making tax payments, viewing a record of payments, contacting government departments and making appointments, finding information about entitlements, and so on. The first and last two bulleted points in the quotation are especially relevant. They point to deficiencies in information and services, and to a lack of integration in what is available. This takes us to the heart of what many governments (not just the UK) view as the essential features of e-government:</Paragraph>
+					<UnNumberedList>
+						<ListItem>
+							<Paragraph>Making most, or even all, of the government's services available online.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Bringing online services together, so that the user does not have to go to different departmental websites for different services.</Paragraph>
+						</ListItem>
+					</UnNumberedList>
+					<Paragraph>In many countries, putting government services online did not begin with the launching of e-government projects. Individual departments had started to put their services online, both for their own use and for public use, well before these highly publicised e-government ventures were launched. However, a piecemeal approach has led to inconsistent systems, and one of the goals of e-government projects is to bring order and consistency to what would otherwise be chaotic.</Paragraph>
+					<Paragraph>Although making government services available online might be modernisation, would it necessarily be an improvement?</Paragraph>
+					<Activity id="act001_002"><Heading>Activity 2 (exploratory)</Heading><Question>
+							<Paragraph>Try to think of some clear advantages of electronic delivery of government services. You might like to look back to the bullet points in the extract above from Cabinet Office (1999) for some ideas.</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>These are my thoughts. Yours might be different.</Paragraph>
+							<Paragraph>Services would be available &#x2018;at a distance&#x2019; &#x2013; the user would not have to travel to them.</Paragraph>
+							<Paragraph>Services would be available round the clock.</Paragraph>
+							<Paragraph>Services might be cheaper, and might be better.</Paragraph>
+							<Paragraph>Official documents (white papers, bills, Acts of Parliament, etc.) could be more easily available as downloads from government websites.</Paragraph>
+						</Discussion></Activity>
+					<Activity id="act001_003"><Heading>Activity 3 (exploratory)</Heading><Question>
+							<Paragraph>Can you think of any disadvantages that might follow from making these services available electronically?</Paragraph>
+						</Question><Discussion>
+						<!--	<SubHeading>Comment</SubHeading>-->
+							<Paragraph>Again, these are my thoughts. Yours might have been different.</Paragraph>
+							<Paragraph>People without access to online facilities might find that conventional services are less well supported than before, for instance by being poorly staffed or more awkward to use.</Paragraph>
+							<Paragraph>If government cost saving is a reason for introducing electronic services, this saving might be achieved by making the user do work that was formerly done by government staff (for instance, finding information, filling in forms, etc.).</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>The last two activities have raised the issue of cost saving, or potential cost saving. Some commentators have tried to gauge some of the cost savings from e-government. The following activity asks you to complete one writer's estimate of potential savings.</Paragraph>
+					<Activity id="act001_004"><Heading>Activity 4 (self-assessment)</Heading><Question>
+							<Paragraph>Rachel Silcock (2001) writes:</Paragraph>
+							<Quote id="quoa4">
+								<Paragraph>[&#x2026;] the Department of Social Security (DSS) handles around 160 million telephone calls each year (with mostly paper-based administrative systems), at an approximate cost of &#xA3;2.40 per call (based on one of its most efficient call centres). If only 2% of these calls could be shifted to people looking up material on DSS web sites, then an annual saving of [&#x2026;] might be achievable.</Paragraph>
+							</Quote>
+							<Paragraph>Fill in the missing figure in the last sentence of the Silcock quotation by doing the calculation. Hint: you will need to find 2 per cent of 160 million and proceed from there.</Paragraph>
+						</Question><Answer>
+							
+							<Paragraph>2% of 160 million calls is:</Paragraph>
+							<Equation id="ueqn001_001">
+								<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_ue001i.jpg" height="" x_imagesrc="t175_5_ue001i.jpg" x_imagewidth="262" x_imageheight="50"/>
+								
+							</Equation>
+							<Paragraph>At &#xA3;2.40 per call, this number of saved calls amounts to a saving of:</Paragraph>
+							<Equation id="ueqn001_002">
+								<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_ue002i.jpg" height="" x_imagesrc="t175_5_ue002i.jpg" x_imagewidth="258" x_imageheight="34"/>
+								
+							</Equation>
+							<Paragraph>As the data on which this calculation is based is only approximate, it is misleading to give such a precise answer. It would be better to round the answer to &#xA3;8 million.</Paragraph>
+							<Paragraph>There would, of course, be the cost of setting up and maintaining the website to set against this, but the setting-up cost should be a &#x2018;one-off cost&#x2019; rather than a recurring cost to pay each year. The maintenance cost would be an annual cost, but should be well below &#xA3;8 million.</Paragraph>
+						</Answer></Activity>
+					<Box id="box001_003">
+						<Heading>Referencing: mentioning the author</Heading>
+						<Paragraph>If the author is mentioned in the sentence leading up to a quotation, as with the Silcock quotation in the last activity, putting the date in brackets after the author is usually the neatest way of giving the date. (If necessary, the page number can be included with the date.)</Paragraph>
+						<Paragraph>Note that by &#x2018;date&#x2019; I mean just the year. If the publication were a monthly, weekly or daily (for instance) I would still give only the year. The precise date would be given in the references list.</Paragraph>
+					</Box>
+					<Paragraph>Activity 4 showed that, in principle, substantial savings could be made if transactions with the government were done online.</Paragraph>
+					<Paragraph>The <i>Modernising Government</i> document initially set a deadline of 2008 for making &#x2018;all&#x2019; UK government services available online. The &#x2018;all&#x2019; was not meant literally. It excluded services which could not be delivered electronically or those for which &#x2018;there is genuinely unlikely to be demand&#x2019; (Cabinet Office, 1999, p. 62). A few years after <i>Modernising Government</i> was published, the 2008 deadline was brought forward to the end of 2005, and then relaxed somewhat to allow more exclusions. Nevertheless, the number of government services available online in the UK has expanded greatly, and the same is true of many other countries.</Paragraph>
+					<Paragraph>In 2005, Ian Watmore, the head of the UK e-Government Unit, was reported by Say (2005) as having said:</Paragraph>
+					<Quote id="quo001_002">
+						<Paragraph>[&#x2026;] IT in government is as difficult as it gets. Government does things in IT which are more complicated than anywhere in the private sector.</Paragraph>
+					</Quote>
+					<Paragraph>Whatever the truth of this claim, it is not difficult to imagine that implementing e-government is particularly complex. Several issues occurred to me, and I have given them below. You can probably think of others.</Paragraph>
+					<BulletedList>
+						<ListItem>
+							<Paragraph>Technical issues. How are services to be made available online? Which services cannot be adapted to online delivery? For instance, can voting be done online in a way that everyone will trust? (At the time of writing, systems have been used in the USA that do not allow votes to be recounted, and lack many of the safeguards of paper-based balloting.) Can existing online services be made to work together? (We shall look at some of the issues with so-called legacy services later.)</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Cost. All large-scale ICT enterprises cost a lot. Will the benefits of introducing e-government justify the expenditure?</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Expertise. Large-scale ICT projects require a great deal of expertise to set them up, and a lot of expertise to keep them running. Is sufficient expertise available?</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Management. How do you manage a project such as this, both in the setting-up phase and the running phase?</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>The <b>user interface</b> is what the user sees (and maybe hears) and interacts with. In an online environment where no one is available to help the user, how easy will it be to use government services?</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Usage. Will people want to use online e-government systems?</Paragraph>
+						</ListItem>
+					</BulletedList>
+					<Paragraph>Issues raised by questions such as these are part of what makes e-government such a complex undertaking. In the UK, an idea of the scale of the e-government project can be gauged from the level and type of government support it has received. Rather than being supervised directly by a government minister, the project has been run by a specially appointed manager, a so-called e-Envoy, with considerable powers and access to high levels of government.</Paragraph>
+					<Paragraph>When thinking of services being made available electronically, it is natural to suppose that this means via computers. However, in the UK e-government project other methods of delivery are envisaged too:</Paragraph>
+					<Quote id="quo001_003">
+						<Paragraph>The strategy envisages that services will be accessed by multiple technologies, including web sites accessible from PCs, kiosks, mobile phones and digital TV, and call and contact centres.</Paragraph>
+						
+					<Paragraph>Cabinet Office (2000), p. 16</Paragraph></Quote>
+					<Paragraph>A couple of footnotes in the same document clarify what some of these terms mean:</Paragraph>
+					<Quote id="quo001_004">
+						<Paragraph>Kiosks are a means of providing access to electronic services in public places. Initially, kiosks tended to use touch-screen technology. More recently, keyboard input and web browsing have greatly improved their capability. [&#x2026;]</Paragraph>
+						<Paragraph>Contact centres combine the handling of e-mail, video and telephone calls.</Paragraph>
+					</Quote>
+					<Paragraph>There is no doubt, however, that access to government services via the Web has dominated thinking about e-government, and not just in the UK. This is what I shall concentrate on here.</Paragraph>
+				</Section>
+				<Section id="sec002_002">
+					<Title>2.2 Central and local government</Title>
+					<Paragraph>In many countries, government can be thought of as having a central component and a local or regional component. In the UK, central government is based in London, although some functions are devolved to the Scottish Executive in Edinburgh, the National Assembly for Wales in Cardiff, and the Northern Ireland Assembly in Belfast (suspended at the time of writing). These devolved assemblies in Scotland, Wales and Northern Ireland are nevertheless forms of central government. Central government is generally concerned with such things as making laws, collecting national taxes (e.g. income tax, VAT), administering the armed services, national transport policy, determining policy on foreign relations, health, social security, and so on.</Paragraph>
+					<Paragraph>Local government is concerned with running local services, such as schools, health centres, public libraries, refuse collection, planning permission for buildings, etc. Funding for local services tends to come from a mixture of local taxes (for example, the council tax in the UK) and central government money. According to one UK newspaper, 80 per cent of the public services that people are most concerned with are run by local government rather than central government (Cross, 2005).</Paragraph>
+					<Box id="box001_004">
+						<Heading>Referencing without quoting</Heading>
+						<Paragraph>Referencing is needed sometimes even when you do not give a quotation. Drawing on data from another source generally needs a reference. In the Cross (2005) example above, no text is quoted, but there is a reference. This is because the statistic about 80 per cent of public services is important, and possibly open to challenge. That is why there is a reference.</Paragraph>
+						<Paragraph>When the information you use is common knowledge, or can be found in dictionaries, encyclopedias and other reference works, you do not need to give a reference unless the information is contentious. Very particular information, such as statistical information, however, nearly always needs a reference.</Paragraph>
+					</Box>
+					<Paragraph>In the UK, e-government is a matter for both central government and local government working collaboratively. However, Musgrave (2005) refers to:</Paragraph>
+					<Quote id="quo001_005">
+						<Paragraph>[&#x2026;] gaps in understanding, and lack of collaboration, between officers in Local and Central Government Services. These findings are symptomatic of a cultural divide between Local and Central Government Services. The culture of non-cooperation across UK government is seen as the most substantial obstacle to sharing services, more so than legal or IT issues.</Paragraph>
+					</Quote>
+					<Paragraph>It is important to appreciate, therefore, that making e-government work successfully is not simply a technical matter. It depends as much on overcoming organisational and cultural differences between central and local government.</Paragraph>
+				</Section>
+				<Section id="sec002_003">
+					<Title>2.3 Styles of presentation</Title>
+					<Paragraph>One commodity that is dispensed in vast amounts both by central and local government is information, and so this is one of the more obvious candidates for electronic delivery. Online government services are typically approached via a <b>portal</b> site, which is a kind of entry site from which other sites can be reached. The websites of large organisations, such as Microsoft, the BBC and the Open University, are usually portals.</Paragraph>
+					<Paragraph>Going into a portal site is a bit like going into a large office building via the main door. Once inside, you have access to all the offices and departments inside the building, which are usually listed on a notice board. Similarly, portals list what is available, but in the form of a set of links. However, portal sites often have links to the sites of other organisations, as well as internal links to departments in the host institution.</Paragraph>
+					<Paragraph>An e-government portal site that only offered the user information would be a poor resource. The intention behind e-government is that sites should be transactional, that is, the user should be able to conduct a number of <b>transactions</b> at the site. Transactions involve such activities as paying, applying (for example, for a parking permit), consulting and booking. Transactions depend on the two-way flow of information between the user and the site. Transactional sites of any sophistication make extensive use of databases behind the scenes to hold data of many kinds. In fact, you can think of the site itself as an interface between the user and the many large databases that are needed to underpin the services offered.</Paragraph>
+					<Paragraph>In many e-government projects, online services are intended to become more personalised. Typically this involves either providing the user with a personal area on a portal, or providing something like a &#x2018;personal portal&#x2019;. In a personalised online service, the site appears to &#x2018;know&#x2019; relevant information about the user. For example, where he or she lives, the schools attended by members of the user's family, the status of tax payments, etc. This kind of service is intended to be convenient to the user. All the same, it can be disquieting to log onto a website and to find that the system apparently knows a great deal about you. You may have had similar feelings with book-selling websites that know all about your recent purchases and suggest more for you to make.</Paragraph>
+					<Paragraph>A personalised portal, just like a transactional one, is underpinned by databases. Personalised portals should also allow the user to make transactions, which are similarly underpinned by databases. Thus, databases turn out to be a crucially important part of the substructure of an e-government system, as they are of many online systems. You will already be familiar with the essential idea of a database, but large-scale information systems such as e-government use more sophisticated databases. I shall discuss these in the next section.</Paragraph>
+					<Activity id="act001_006"><Heading>Activity 6 (exploratory)</Heading><Question>
+							<Paragraph>Find the official website of a local government authority in the UK. (If you live in the UK, you can use your own local authority or another.) A simple way to find a suitable website is to use the search terms &#x2018;council tax&#x2019; (use double quotation marks) and the name of a town in a search engine. Not all the links produced will be to a local government website, but you should find one that is. Having found a suitable site, go to its home page and spend about five minutes exploring the facilities on offer. The purpose of this activity is just to familiarise yourself with some of the features of an e-government site.</Paragraph>
+						</Question><Discussion>
+					<!--		<SubHeading>Comment</SubHeading>-->
+							<Paragraph>Different local authorities have different sites, so I cannot give an overall comment. You probably found, though, that there was a certain amount of local authority information available, together with facilities for some transactions.</Paragraph>
+							<Paragraph>Towards the end of this unit you will look at an e-government site in a more systematic way than you have done in this activity.</Paragraph>
+						</Discussion></Activity>
+				</Section>
+			</Session>
+			<Session id="sec003">
+				<Title>3 Databases</Title>
+				<Section id="sec003_001">
+					<Title>3.1 Tables and flat databases</Title>
+					<Paragraph>Databases lie at the heart of many e-government systems, and at the heart of many other ICT systems. The local government websites you looked at in Activity 6, for instance, almost certainly used databases a great deal, as do the majority of central government sites. Away from e-government, the websites for Amazon or eBay, for example, use huge databases.</Paragraph>
+					<Paragraph>Constructing a database of any complexity requires careful thought about the way information is organised in any particular context. A database can therefore be regarded as the outcome of an analysis of the structure and use of information. The significance of this remark might not be clear at the moment, but should become clearer as you work through this section. Careful analysis of the structure and use of information is a vital part of all large-scale projects such as e-government.</Paragraph>
+					<Paragraph>For large, complex information systems, <b>relational databases</b>, which I will describe shortly, are generally used, although relational databases can be used for simpler projects too. It is not the size of a project that dictates the need for relational databases, but its complexity. More specifically, the complexity of the relationships between information in the database is what dictates the need for relational databases. I hope to give you a flavour of what I mean by this in the short example in the following pages.</Paragraph>
+					<Paragraph>Relational databases are contrasted with simpler databases known as flat databases. Some people, however, use the term &#x2018;database&#x2019; to mean only relational databases, and flat databases are sometimes simply called tables.</Paragraph>
+					<Paragraph>To understand what relational databases are and why we use them, we need to appreciate some of the shortcomings of the simpler, flat database. <CrossRef idref="tbl001">Table 1</CrossRef> is an example of a flat database. It contains information about some fictional students and the local authority evening classes they are studying. As you will recall, in a table like this a column can be described as a field, and each row is a record.</Paragraph>
+					<Table id="tbl001">
+						<TableHead>
+							Table 1  Students and evening classes</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Name</th>
+									<th>Address</th>
+									<th>Postcode</th>
+									<th>Course1</th>
+									<th>Course1_Sessions</th>
+									<th>Course2</th>
+									<th>Course2_Sessions</th>
+									<th>Course3</th>
+									<th>Course3_Sessions</th>
+								</tr>
+								<tr>
+									<td>Lodhi, Mona</td>
+									<td>22 The Grove, Newport</td>
+									<td>AB12 3CD</td>
+									<td>Yoga</td>
+									<td>10</td>
+									<td>Holiday Spanish</td>
+									<td>15</td>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Jones, Bob</td>
+									<td>2 High Street, Stratford</td>
+									<td>AB6 4PQ</td>
+									<td>IT for all</td>
+									<td>
+										<b>5</b>
+									</td>
+									<td>Oil painting</td>
+									<td>15</td>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Cherry, Colin</td>
+									<td>59 Acacia Avenue, Brompton</td>
+									<td>AB2 12ZY</td>
+									<td>Digital photography</td>
+									<td>10</td>
+									<td>Sewing</td>
+									<td>15</td>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Cherry, Colin</td>
+									<td>13 The Limes, Leighton</td>
+									<td>XY6 7LR</td>
+									<td>Creative writing</td>
+									<td>20</td>
+									<td/>
+									<td/>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Edwards, Delia</td>
+									<td>40 Eldon Court, Hampton</td>
+									<td>XY12 4TK</td>
+									<td>Digital photography</td>
+									<td>10</td>
+									<td>Oil painting</td>
+									<td>15</td>
+									<td>Ballroom dancing</td>
+									<td>30</td>
+								</tr>
+								<tr>
+									<td>Roberts, Albert</td>
+									<td>18 Mount Pleasant, Greenhill</td>
+									<td>AB12 7UB</td>
+									<td>Drawing</td>
+									<td>15</td>
+									<td/>
+									<td/>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Singh, Sara</td>
+									<td>7 Marina View, Sutton</td>
+									<td>ABM 8WQ</td>
+									<td>Woodwork</td>
+									<td>15</td>
+									<td/>
+									<td/>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Chang, Patrick</td>
+									<td>21 Green Lane, Newport</td>
+									<td>AB12 9TU</td>
+									<td>Everyday maths</td>
+									<td>20</td>
+									<td/>
+									<td/>
+									<td/>
+									<td/>
+								</tr>
+								<tr>
+									<td>Evans, Mary</td>
+									<td>13 The Limes, Leighton</td>
+									<td>AB6 7LR</td>
+									<td>Oil painting</td>
+									<td>15</td>
+									<td/>
+									<td/>
+									<td/>
+									<td/>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Paragraph>This table is quite short, but you could imagine it extending downwards to cover many more students.</Paragraph>
+					<Paragraph>
+						<CrossRef idref="tbl001">Table 1</CrossRef> allows for up to three courses per student, and the fields for them are Course1, Course2 and Course3. Each course has an associated number of sessions, which is the number of classroom sessions in the course. This is shown in the fields Course1_Sessions, Course2_Sessions, Course3_Sessions. (I have avoided spaces in the field names because many database management systems do not permit them, but this is irrelevant to the principles I am outlining here.)</Paragraph>
+					<Paragraph>
+						<CrossRef idref="tbl001">Table 1</CrossRef> could be set up as a spreadsheet. You can think of a spreadsheet as a flat database with a selection of built-in, simple database functions, such as searching and the ability to sort the data in various ways and to perform calculations on it (for example counting the number of students enrolled on each course). A spreadsheet also allows you to display the data as charts, graphs, lists and so on.</Paragraph>
+					<Paragraph>Something that databases and spreadsheets share is the concept of a <b>data type</b>. Typical data types are &#x2018;text&#x2019; (that is, alphabetic characters), &#x2018;number&#x2019; and &#x2018;date&#x2019;. Usually each field needs to be specified as holding a particular type of data. For example, in <CrossRef idref="tbl001">Table 1</CrossRef> the fields for course sessions would be defined as having the data type &#x2018;number&#x2019;. Defining these fields as having numerical data allows arithmetical operations to be performed on the data, such as adding the number of course sessions in each record to find the total number of sessions a student has enrolled for. Similarly, using the data type &#x2018;date&#x2019; allows data to be sorted chronologically. So, for instance, if there were a field with the starting dates of the courses, the records could easily be sorted into date order. A further benefit of defining a data type for fields is that it can help prevent the wrong type of data being entered. If a field is defined as containing text data (for instance), the program can perform checks on any data entered to make sure it is the right kind.</Paragraph>
+					<Paragraph>
+						<CrossRef idref="tbl001">Table 1</CrossRef> is a very simple table. Much more data would need to be recorded in a real example, for instance course fees, classroom allocated, course leader's name, course code, start date, and so on. However, <CrossRef idref="tbl001">Table 1</CrossRef> has other problems which are not due simply to its lack of typical data. These other problems arise because the organisation of the data has not been considered carefully enough. I will come back to this point shortly.</Paragraph>
+					<Paragraph>Much of the usefulness of databases as a way of holding data arises from the fact that the data is organised, and can be interrogated in various ways. By &#x2018;interrogated&#x2019; I mean that a question can be framed whose answer can be drawn from the database. For instance, a question might be: &#x2018;How many people with a postcode beginning &#x201C;AB6&#x201D; are enrolled on courses with 10 sessions or more?&#x2019; For a human reader of <CrossRef idref="tbl001">Table 1</CrossRef>, that question is easy to answer, although tedious if the table is big. Getting a computer to answer the question is not so straightforward, because the processes a computer would have to go through are quite complicated. In essence, a small computer program needs to be written to work through the data and to apply appropriate tests. This is done by using what is referred to as a <b>query language</b>. A query language is not quite like a natural language, such as English or French, but has some of the features of a natural language mixed with some mathematical features. A very common query language is <b>SQL</b>, or <b>structured query language</b>. You will see an example of a query using SQL later.</Paragraph>
+				</Section>
+				<Section id="sec003_002">
+					<Title>3.2 Problems with flat databases</Title>
+					<Paragraph>As a database, <CrossRef idref="tbl001">Table 1</CrossRef> is messy and inefficient, and does not really qualify as a properly constructed database. For instance, what happens if someone signs up to do four evening classes? To allow for this possibility we could incorporate further fields, such as Course4, Course5 and so on. But how many more fields should there be? If we choose an extravagant number, such as 20, we could be confident that no student would exceed that number of courses in a year, but the table would be wasteful as much of its content would be empty. (Even empty fields occupy space, because information about the structuring of the data must be stored whether the fields are empty or not.)</Paragraph>
+					<Paragraph>Another problem with <CrossRef idref="tbl001">Table 1</CrossRef> is the repetition of some items of data. For instance, the fact that &#x2018;Oil painting&#x2019; has 15 sessions is recorded in three places in the table. A principle of good database design is to avoid repeated data such as this. When the same data is recorded in several places, there is always a possibility of clerical errors leading to inconsistency. What is more, changing the data or correcting errors means finding every repetition of that data in the table and changing it or correcting it. For instance, if the teacher on the Oil Painting course decided to add a few extra sessions, incorporating this amendment in <CrossRef idref="tbl001">Table 1</CrossRef> would mean updating several records. Ideally information about the number of sessions in a course would be recorded in just one place.</Paragraph>
+				</Section>
+				<Section id="sec003_003">
+					<Title>3.3 Entities and attributes</Title>
+					<Paragraph>A well-designed relational database overcomes the problems outlined in Section 3.2 by using two or more tables, rather than a single table, such as <CrossRef idref="tbl001">Table 1</CrossRef>. This means that the data has to be divided in some way between the tables. The construction of tables is done according to several rules. I will just look briefly at one rule to give you an idea of the underlying principles.</Paragraph>
+					<Paragraph>The rule I shall look at states that there must be one table per <b>entity</b>. An entity is an item for which we want to store information. It can be tangible &#x2013; for example a person or an object &#x2013; or intangible &#x2013; for example an event. (Typical events might be a sale, registration or renewal.) An entity can be a concept &#x2013; for example a bank account.</Paragraph>
+					<Paragraph>In <CrossRef idref="tbl001">Table 1</CrossRef> the most obvious entity is &#x2018;student&#x2019;. Any particular student, such as Colin Cherry, is an <b>instance</b> of this entity. Entities are the things we store data about in tables. Each piece of information we store is an <b>attribute</b> of that entity. An attribute is descriptive information about an entity. For the &#x2018;student&#x2019; entity, attributes in <CrossRef idref="tbl001">Table 1</CrossRef> are name, address and postcode. In a properly constructed table there is one field per attribute.</Paragraph>
+					<Paragraph>You might argue that &#x2018;Course1&#x2019;, &#x2018;Course2&#x2019; and &#x2018;Course3&#x2019; are also attributes of &#x2018;student&#x2019;, and in some contexts that would be reasonable. In this case, though, there is descriptive information about courses, namely the number of sessions they run for. Courses therefore have attributes. In this context, then, &#x2018;course&#x2019; is another entity. Whether something is regarded as an entity or not is dependent on the context.</Paragraph>
+					<Activity id="act001_007"><Heading>Activity 7 (exploratory)</Heading><Question>
+							<Paragraph>Does &#x2018;postcode&#x2019; have any attributes in Table 1 (see screen 6)?</Paragraph>
+						</Question><Discussion>
+						<!--	<SubHeading>Comment</SubHeading>-->
+							<Paragraph>No. There are no attributes of &#x2018;postcode&#x2019;. There is no descriptive information, or label or other qualifying information about postcodes.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>I said above that in a properly constructed relational database we have one table per entity. <CrossRef idref="tbl002">Table 2</CrossRef> is the table for the student entity and <CrossRef idref="tbl003">Table 3</CrossRef> is the one for the course entity. I have added a few more fields to the tables to make them more realistic. For instance, <CrossRef idref="tbl003">Table 3</CrossRef> has a column for &#x2018;Fee&#x2019; and a column for &#x2018;Course_code&#x2019;.</Paragraph>
+					<Table id="tbl002">
+						<TableHead>
+							Table 2  Student entity table</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Student_index</th>
+									<th>Family_name</th>
+									<th>Given_name</th>
+									<th>Address</th>
+									<th>Postcode</th>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Lodhi</td>
+									<td>Mona</td>
+									<td>22 The Grove, Newport</td>
+									<td>AB12 3CD</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jones</td>
+									<td>Bob</td>
+									<td>2 High Street, Stratford</td>
+									<td>AB6 4PQ</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Cherry</td>
+									<td>ColinI</td>
+									<td>59 Acacia Avenue, Brompton</td>
+									<td>AB2 12ZY</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Cherry</td>
+									<td>Colin</td>
+									<td>13 The Limes, Leighton</td>
+									<td>XY6 7LR</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>Edwards</td>
+									<td>Delia</td>
+									<td>40 Eldon Court, Hampton</td>
+									<td>XY12 4TK</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td>Roberts</td>
+									<td>Albert</td>
+									<td>18 Mount Pleasant, Greenhill</td>
+									<td>AB12 7UB</td>
+								</tr>
+								<tr>
+									<td>
+										<b>7</b>
+									</td>
+									<td>Singh</td>
+									<td>Sara</td>
+									<td>7 Marina View, Sutton</td>
+									<td>ABM 8WQ</td>
+								</tr>
+								<tr>
+									<td>
+										<b>8</b>
+									</td>
+									<td>Chang</td>
+									<td>Patrick</td>
+									<td>21 Green Lane, Newport</td>
+									<td>AB12 9TU</td>
+								</tr>
+								<tr>
+									<td>9</td>
+									<td>Evans</td>
+									<td>Mary</td>
+									<td>13 The Limes, Leighton</td>
+									<td>AB6 7LR</td>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Table id="tbl003">
+						<TableHead>
+							Table 3  Course entity table</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Course-code</th>
+									<th>Course</th>
+									<th>Sessions</th>
+									<th>Fee</th>
+								</tr>
+								<tr>
+									<td>E01</td>
+									<td>Yoga</td>
+									<td>10</td>
+									<td>&#xA3;20</td>
+								</tr>
+								<tr>
+									<td>E02</td>
+									<td>Digital photography</td>
+									<td>10</td>
+									<td>&#xA3;20</td>
+								</tr>
+								<tr>
+									<td>E03</td>
+									<td>Everyday maths</td>
+									<td>20</td>
+									<td>&#xA3;40</td>
+								</tr>
+								<tr>
+									<td>E04</td>
+									<td>Oil painting</td>
+									<td>15</td>
+									<td>&#xA3;30</td>
+								</tr>
+								<tr>
+									<td>E05</td>
+									<td>Creative writing</td>
+									<td>20</td>
+									<td>&#xA3;40</td>
+								</tr>
+								<tr>
+									<td>E06</td>
+									<td>Holiday Spanish</td>
+									<td>15</td>
+									<td>&#xA3;30</td>
+								</tr>
+								<tr>
+									<td>E07</td>
+									<td>Woodwork</td>
+									<td>15</td>
+									<td>&#xA3;30</td>
+								</tr>
+								<tr>
+									<td>E08</td>
+									<td>IT for all</td>
+									<td>5</td>
+									<td>&#xA3;10</td>
+								</tr>
+								<tr>
+									<td>E09</td>
+									<td>Drawing</td>
+									<td>15</td>
+									<td>&#xA3;30</td>
+								</tr>
+								<tr>
+									<td>E10</td>
+									<td>Sewing</td>
+									<td>15</td>
+									<td>&#xA3;30</td>
+								</tr>
+								<tr>
+									<td>E11</td>
+									<td>Ballroom dancing</td>
+									<td>30</td>
+									<td>&#xA3;60</td>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Paragraph>The next step is to link the records in these two tables, which I will do shortly. Linking the records in separate tables requires the use of keys. A key uniquely identifies each record of a table. <CrossRef idref="tbl001">Table 1</CrossRef> did not have any keys. (&#x2018;Name&#x2019; cannot be a key because, as Colin Cherry shows, names might not be unique.) In <CrossRef idref="tbl002">Table 2</CrossRef> I have introduced a new column named &#x2018;Student_index&#x2019;. Each entry in this new column uniquely identifies a particular record. The &#x2018;Student_index&#x2019; in fact consists of just the sequential numbering of the records. This is the simplest way to create a key when there is no other key readily available.</Paragraph>
+					<Paragraph>The ultimate intention is to link students to courses through the keys. By associating a particular student with a particular course we have a way of representing an enrolment. We need therefore to think about a suitable key for <CrossRef idref="tbl003">Table 3</CrossRef>.</Paragraph>
+					<Activity id="act001_008"><Heading>Activity 8 (self-assessment)</Heading><Question>
+							<Paragraph>In <CrossRef idref="tbl003">Table 3</CrossRef> I have not numbered the records as a key, as I did in <CrossRef idref="tbl002">Table 2</CrossRef>, because I would like to use the course code as a key. How valid is the course code as a key under the following circumstances?</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Courses are presented only once, and never repeated.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Courses are run only once per year, and repeated the following year.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Some courses are run twice or more per year.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>If the course is never repeated, then we can safely use the course code as a key, because the code identifies something unique.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>If courses are repeated annually there is a problem with using the course code as a key because it no longer represents something unique. For instance, students enrolling for Yoga in successive years are enrolling for different instances of the course. Each instance of the course would need its own record in the database. However, if the database is made afresh each year, and just covers one year's worth of data, then the problem does not arise and the course code can be used as a key.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>If courses are run twice or more per year, there is a problem with using the course code as a key for the same reasons as in (2). That is, each presentation of the course is a new instance (assuming the database has a lifetime of a year or more), and so the code does not represent something unique.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+					<Paragraph>In the following I am going to assume that the course code can be used as a key in <CrossRef idref="tbl003">Table 3</CrossRef>; that is, the conditions in (1) or (2) of Activity 8 apply, with the proviso in the case of (2) that the database holds only a year's worth of data.</Paragraph>
+					<Paragraph>Splitting <CrossRef idref="tbl001">Table 1</CrossRef> into <CrossRef idref="tbl002">Tables 2</CrossRef> and <CrossRef idref="tbl003">3</CrossRef> has lost the relationship between the entities &#x2018;student&#x2019; and &#x2018;course&#x2019;. We can no longer tell who is enrolled for what. The essence of the relational approach to database design is to relate entities to each other by relating their keys. In this example we would do this by constructing a <b>joining table</b> to capture the relationship between entities. <CrossRef idref="tbl004">Table 4</CrossRef> is my joining table. Student keys are on the left, and the keys from the courses table are on the right. To keep things simple, I am using the course code as the key although, as you saw in Activity 8, this is acceptable only under certain conditions.</Paragraph>
+					<Paragraph>I have annotated the table with names so that you can identify the records; but the annotations are not part of the table.</Paragraph>
+					<Table id="tbl004">
+						<TableHead>
+							Table 4
+						</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Joining table for students and courses</th>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Paragraph>
+						<InlineFigure>
+							<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_i001i.jpg" height="" x_imagesrc="t175_5_i001i.jpg" x_imagewidth="332" x_imageheight="324"/>
+							
+						</InlineFigure>
+					</Paragraph>
+					<Paragraph>You will notice in <CrossRef idref="tbl004">Table 4</CrossRef> that student keys can appear more than once on the left, and courses can appear more than once on the right. This follows from the fact that the relationship between the student entity and the course entity is <b>many-to-many</b>. That is to say, one student can enrol for many courses, and each course can be taken by many students.</Paragraph>
+					<Paragraph>The entity tables and joining table taken together constitute the relational database. A real example might have many entity tables and many joining tables. It might also have no joining tables &#x2013; for reasons I will come back to.</Paragraph>
+					<Paragraph>Notice how the new relational database solves the problems I identified with <CrossRef idref="tbl001">Table 1</CrossRef>. If someone enrols for several courses, we just add more records to <CrossRef idref="tbl004">Table 4</CrossRef>, as required. Each record in <CrossRef idref="tbl004">Table 4</CrossRef>, therefore, represents the enrolment of a student on a course. We do not need to have empty fields available to accommodate additional enrolments by a student, as we did in <CrossRef idref="tbl001">Table 1</CrossRef>. Also, if there is an administrative change to a course, such as the number of sessions, we need make only a single change, in <CrossRef idref="tbl003">Table 3</CrossRef>. (You will recall that in <CrossRef idref="tbl001">Table 1</CrossRef>, the repetition of the same piece of data in several places meant that administrative changes would require hunting out every occurrence of the data and modifying it.)</Paragraph>
+					<Paragraph>The process of organising data efficiently into tables, so that unnecessary repetition is avoided and so that each table represents a single entity and its attributes, is known as <b>normalisation</b>. The process we have gone through with <CrossRef idref="tbl001">Tables 1</CrossRef>, <CrossRef idref="tbl002">2</CrossRef>, <CrossRef idref="tbl003">3</CrossRef> and <CrossRef idref="tbl004">4</CrossRef> is a very simple example of part of the normalisation process.</Paragraph>
+					<Paragraph>In the light of the normalisation we have just done, we can criticise <CrossRef idref="tbl001">Table 1</CrossRef> in more appropriate language than before. The trouble with <CrossRef idref="tbl001">Table 1</CrossRef> is that:</Paragraph>
+					<UnNumberedList>
+						<ListItem>
+							<Paragraph>it contains data about more than one entity;</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>it attempts to capture the relationship between entities.</Paragraph>
+						</ListItem>
+					</UnNumberedList>
+					<Paragraph>It is therefore mixing different functions, and this is why it is unsatisfactory.</Paragraph>
+					<Activity id="act001_009"><Heading>Activity 9: (self-assessment)</Heading><Question>
+							<Paragraph>
+								<CrossRef idref="tbl005">Table 5</CrossRef> is a flat database relating to some regular committee meetings. What are the entities and their associated attributes?</Paragraph>
+							<Table id="tbl005">
+								<TableHead>
+									Table 5 Committee information</TableHead>
+								<tbody>
+									
+										<tr>
+											<th>Committee</th>
+											<th>Meeting time</th>
+											<th>Member</th>
+											<th>Telephone number</th>
+										</tr>
+										<tr>
+											<td>Planning</td>
+											<td>Every Monday a.m.</td>
+											<td>Jones</td>
+											<td>1239</td>
+										</tr>
+										<tr>
+											<td/>
+											<td/>
+											<td>Patel</td>
+											<td>4728</td>
+										</tr>
+										<tr>
+											<td/>
+											<td/>
+											<td>Robinson</td>
+											<td>3589</td>
+										</tr>
+										<tr>
+											<td>Recreation</td>
+											<td>Every Friday p.m.</td>
+											<td>Jones</td>
+											<td> 1239</td>
+										</tr>
+										<tr>
+											<td/>
+											<td/>
+											<td>Smith</td>
+											<td>4633</td>
+										</tr>
+										<tr>
+											<td>Education</td>
+											<td>Final Wednesday of month, p.m.</td>
+											<td>Patel</td>
+											<td>4728</td>
+										</tr>
+										<tr>
+											<td/>
+											<td/>
+											<td>Robinson</td>
+											<td>3589</td>
+										</tr>
+										<tr>
+											<td/>
+											<td/>
+											<td>Smith</td>
+											<td>4633</td>
+										</tr>
+									
+								</tbody>
+								<SourceReference/>
+							</Table>
+						</Question><Answer>
+							
+							<Paragraph>One entity is &#x2018;Committee&#x2019;. The associated attribute is &#x2018;Meeting time&#x2019;.</Paragraph>
+							<Paragraph>Another entity is &#x2018;Member&#x2019;. The associated attribute is &#x2018;Telephone number&#x2019;.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>I mentioned that some relational databases might have no joining tables. The following activity is designed to show how this might come about.</Paragraph>
+					<Activity id="act001_010"><Heading>Activity 10: (exploratory)</Heading><Question>
+							<Paragraph>What would happen to the joining table, <CrossRef idref="tbl004">Table 4</CrossRef>, if this particular local authority allowed people to enrol for only one course at a time? Write the first few rows of a new joining table on the assumption that each student takes only their &#x2018;Course1&#x2019; as shown in <CrossRef idref="tbl001">Table 1</CrossRef>.</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>
+								<CrossRef idref="tbl006">Table 6</CrossRef> shows the first five rows of the new joining table. Notice that in <CrossRef idref="tbl006">Table 6</CrossRef> each student key appears only once, reflecting the fact that students are allowed only one enrolment at a time.</Paragraph>
+							<Table id="tbl006">
+								<TableHead>
+									<b>Table 6</b>: Modified joining table: one course per student</TableHead>
+								<tbody>
+									
+										<tr>
+											<th>Student_index</th>
+											<th>Course_code</th>
+										</tr>
+										<tr>
+											<td>1</td>
+											<td>E01</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>E08</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>E02</td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>E05</td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td>E02</td>
+										</tr>
+									
+								</tbody>
+								<SourceReference/>
+							</Table>
+						</Discussion></Activity>
+					<Paragraph>The relationship between the keys in <CrossRef idref="tbl006">Table 6</CrossRef> could be captured by a simple amendment to the student table, which would remove the need for a joining table. <CrossRef idref="tbl007">Table 7</CrossRef> shows the first few rows of the modified student table.</Paragraph>
+					<Table id="tbl007">
+						<TableHead>
+							<b>Table 7</b>: Modified student entity table</TableHead>
+						<tbody>
+							
+								<tr>
+									<th>Student_index</th>
+									<th>Family_name</th>
+									<th>Given_name</th>
+									<th>Address</th>
+									<th>Postcode</th>
+									<th>Course_key</th>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Lodhi</td>
+									<td>Mona</td>
+									<td>22 The Grove, Newport</td>
+									<td>AB12 3CD</td>
+									<td>E01</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jones</td>
+									<td>Bob</td>
+									<td>2 High Street, Stratford</td>
+									<td>AB6 4PQ</td>
+									<td>E08</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Cherry</td>
+									<td>Colin</td>
+									<td>59 Acacia Avenue, Brompton</td>
+									<td>AB2 12ZY</td>
+									<td>E02</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Cherry</td>
+									<td>Colin</td>
+									<td>13 The Limes, Leighton</td>
+									<td>XY6 7LR</td>
+									<td>E05</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>Edwards</td>
+									<td>Delia</td>
+									<td>40 Eldon Court, Hampton</td>
+									<td>XY12 4TK</td>
+									<td>E02</td>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Paragraph>You can see that <CrossRef idref="tbl007">Table 7</CrossRef> now has a new field, for the course key. This new field links records in <CrossRef idref="tbl007">Table 7</CrossRef> to those in <CrossRef idref="tbl003">Table 3</CrossRef>, and lets us see enrolments at a glance. No joining table is needed.</Paragraph>
+					<Paragraph>The additional key in <CrossRef idref="tbl007">Table 7</CrossRef> (the course code) is known as a <b>foreign key</b>. Using a foreign key has enabled us to dispense with the joining table, but only because the relationship between students and courses is no longer many-to-many. When the relationship between entities is many-to-many, a joining table is needed.</Paragraph>
+					<Activity id="act001_011"><Heading>Activity 11 (self-assessment)</Heading><Question>
+							<Paragraph>Suppose <CrossRef idref="tbl005">Table 5</CrossRef> is to be normalised into separate tables for the &#x2018;Committee&#x2019; entity and the &#x2018;Member&#x2019; entity.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Why is a joining table needed?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Construct the joining table, using Committee as one key and Member as the other.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>A joining table is required because the relationship between &#x2018;Committee&#x2019; and &#x2018;Member&#x2019; is many-to-many. (A committee has several members, and each member can be on more than one committee.)</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>See <CrossRef idref="tbl008">Table 8</CrossRef>.</Paragraph>
+								</ListItem>
+							</NumberedList>
+							<Table id="tbl008">
+								<TableHead>
+									Table 8  Joining table for Activity 11</TableHead>
+								<tbody>
+									
+										<tr>
+											<th>Committee</th>
+											<th>Member</th>
+										</tr>
+										<tr>
+											<td>Planning</td>
+											<td>Jones</td>
+										</tr>
+										<tr>
+											<td>Planning</td>
+											<td>Patel</td>
+										</tr>
+										<tr>
+											<td>Planning</td>
+											<td>Robinson</td>
+										</tr>
+										<tr>
+											<td>Recreation</td>
+											<td>Jones</td>
+										</tr>
+										<tr>
+											<td>Recreation</td>
+											<td>Smith</td>
+										</tr>
+										<tr>
+											<td>Education</td>
+											<td>Patel</td>
+										</tr>
+										<tr>
+											<td>Education</td>
+											<td>Robinson</td>
+										</tr>
+										<tr>
+											<td>Education</td>
+											<td>Smith</td>
+										</tr>
+									
+								</tbody>
+								<SourceReference/>
+							</Table>
+						</Answer></Activity>
+					<Paragraph>This is as far as we shall go in constructing relational databases. The important point to appreciate from this brief introduction to the topic is that even a fairly simple example has called for a careful analysis of the nature of the information and how it is related. Many large-scale information systems succeed or fail on the quality of the analysis, and the quality of the design that follows from the analysis.</Paragraph>
+					<Paragraph>Some of the processes of database construction can be done automatically. For instance, if you construct a table like <CrossRef idref="tbl001">Table 1</CrossRef> in Microsoft Access, the program itself can make a reasonable attempt at creating entity tables and joining tables for you. However, for large-scale information systems, such as those involved in e-government, there is no substitute for a careful study of the nature of the information, its relationships, and its uses.</Paragraph>
+				</Section>
+				<Section id="sec003_004">
+					<Title>3.4 Using a query language</Title>
+					<Paragraph>When you search a large website for information, for instance when you search a large e-government site, very often, behind the scenes, a large relational database is being searched. I mentioned earlier the use of SQL as a way of extracting information from a database. Depending on the system being used, your enquiry may be converted into an SQL query, and this finds the information you need. For example, suppose we wanted to find the family names of all people enrolled on the digital photography course (E02) in the last section. Below is an SQL query to find this information. (There are other ways to construct this query using SQL.)</Paragraph>
+					<Paragraph>SELECT FAMILY_NAME</Paragraph>
+					<Paragraph>FROM TABLE_2 JOIN TABLE_4 ON TABLE_2.STUDENT_KEY=TABLE_4.STUDENT_KEY</Paragraph>
+					<Paragraph>WHERE COURSE_CODE=&#x2018;E02&#x2019;</Paragraph>
+					<Paragraph>I will briefly explain how the query works. It is based on the idea of merging Tables 2 and 4 (&#x2018;Table_2 join Table_4&#x2019;), subject to certain constraints. One constraint is that the student_keys must be equal (&#x2018;On Table_2.Student key=Table_4.Student_key&#x2019;). In effect, the merged table is like <CrossRef idref="tbl002">Table 2</CrossRef>, but with an extra column giving the course codes for each student. However, the only records included in this table are those for which the course code is E02, as specified in the condition &#x2018;Where course_code=&#x2018;E02&#x2019;&#x2019;. The first instruction (&#x2018;select family_name&#x2019;) retrieves the required information from this joint table.</Paragraph>
+				</Section>
+				<Section id="sec003_005">
+					<Title>3.5 Other kinds of data</Title>
+					<Paragraph>All the data we have had so far in the database has been text or numbers. I have mentioned that another type of data might be dates. Modern databases, however, can store other kinds of data than text, numbers and dates. They can also store graphics, moving pictures and sounds.</Paragraph>
+					<Activity id="act001_012"><Heading>Activity 12 (exploratory)</Heading><Question>
+							<Paragraph>What complications might there be when incorporating pictures, sound clips and moving pictures in a database?</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>The following three points occur to me:</Paragraph>
+							<Paragraph>Files for pictures, sound clips, etc., are often very big. This is not an insuperable problem, but often, rather than incorporate the file in the database, a link to it is incorporated. This is a pointer to where the file might be found.</Paragraph>
+							<Paragraph>Users of the database need to be able to view the data. This is not usually a problem if the data is text, numbers or dates, but needs special provision if it is not. Imaging and audio software might need to be incorporated, therefore, in the database software so that users can see graphics or hear sound.</Paragraph>
+							<Paragraph>Users of databases need to be able to search for data. With graphics, sound or video files it is usual to store associated descriptive text (or keywords) along with the file so that a search can find it.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>A common example of a database that incorporates non-text and non-numerical data is the photograph-album software that comes with many digital cameras. This enables the user to archive their digital photographs, along with textual data, such as title, date, camera settings and so on. On a bigger scale, databases relating to large groups of individuals, such as library users, employees, criminals and so on, increasingly include such non-text items as photographs, vocal recordings, fingerprints and iris scans. These are examples of biometric data, which we shall look at in the next section. Biometric data is used to help identification &#x2013; photographs being perhaps the most obvious example.</Paragraph>
+					<Activity id="act001_013"><Heading>Activity 13 (self-assessment)</Heading><Question>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>What are the two main types of database?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What is an entity?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What is the purpose of a joining table?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Flat databases and relational databases.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>An entity is a distinct thing for which we wish to store information.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>A joining table is a means of relating entities by relating the records of each table through their keys.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+				</Section>
+				<Section id="sec003_006">
+					<Title>3.6 Viewing the data</Title>
+					<Paragraph>Reverting to the relational database we constructed in Section 3.3, you might wonder what, from the user's point of view, has been gained by creating separate tables for the students and courses. With <CrossRef idref="tbl001">Table 1</CrossRef> you could see at a glance who was studying what. In the relational database it was hard to see the same information. However, with databases (relational and flat) the user does not normally view tables directly. Generally data is viewed in a &#x2018;form&#x2019;, which is a specially designed interface between the user and the database. <CrossRef idref="fig001_001">Figure 1</CrossRef> is an example.</Paragraph>
+					<Figure id="fig001_001">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_001i.jpg" height="" webthumbnail="true" x_imagesrc="t175_5_001i.jpg" x_imagewidth="573" x_imageheight="266" x_smallsrc="t175_5_001i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_001i.small.jpg" x_smallwidth="450" x_smallheight="209"/>
+						<Caption>
+							Figure 1 Form view of a database</Caption>
+							<Alternative>Figure 1</Alternative>
+							<Description>Figure 1</Description>
+						
+					</Figure>
+					<Paragraph>The rectangular boxes in <CrossRef idref="fig001_001">Figure 1</CrossRef> show the field values of a particular record or set of records. The user can scroll or jump forwards and backwards though the records, or search on any field for a particular piece of data.</Paragraph>
+					<Paragraph>Not all the fields of a database need be shown in the form; and some of the displayed data might be extracted from the database through the use of a query language, such as SQL, though generally the user is insulated from the complexities of the query language. The fields in <CrossRef idref="fig001_001">Figure 1</CrossRef> are labelled for ease of identification, for example &#x2018;Course centre postcode&#x2019;, &#x2018;Start date&#x2019;, and so on. These labels are design features of the form; they need not be the same as the entity names or attribute names. The arrangement of the fields in the form can easily be redesigned for ease of use without affecting the underlying data in the tables. In fact, there are few limits to the way data can be viewed in a form view.</Paragraph>
+					<Paragraph>Another way to view data is for it to be &#x2018;rendered&#x2019; for viewing on a web browser. This is a bit like a form view, except that the form is created by HTML code. For example, when you look at your Open University personal web page, you are viewing data that is taken from large relational databases, but rendered for viewing on a web browser. The same goes for some of the interactive facilities you would have seen on some of the government websites.</Paragraph>
+				</Section>
+				<Section id="sec003_007">
+					<Title>3.7 Databases and XML</Title>
+					<Paragraph>In <CrossRef idref="tbl001">Table 1</CrossRef>, it was easy to see which pieces of data belonged to which fields, where the records began and ended, and so on. The tabular layout enabled us to see at a glance the salient features. If you wanted to find a particular name in a table, you ran your eye down the &#x2018;name&#x2019; field. It is a different matter for a computer. How does a computer &#x2018;know&#x2019; which pieces of data belong to which field? How does it look in the right places? The data on the hard drive or in the RAM is not even arranged in a tabular way.</Paragraph>
+					<Paragraph>For a human user, a tabular layout gives a <b>structure</b> to the data. When data is structured, it is clear where a piece of data begins and ends, and which record and field a piece of data belongs to. For the computer to be able to work in a similar way with data, the data needs to be structured in a way that the computer (or rather, the program) can interpret. Different database systems have different ways of recording where data begins and ends, and which fields the data belongs to. Often additional data is incorporated into the database for this kind of &#x2018;housekeeping&#x2019;, but it is hidden from the user. This extra data is used by the program to encode the structure of the data. Word-processor files similarly contain data that is hidden from the user &#x2013; for instance, instructions to display certain pieces of text bold and other pieces as italic.</Paragraph>
+					<Paragraph>Different database programs demarcate the structure of data in different ways, and this has proved to be a major problem in the e-government projects of many countries. Consider, for instance, accessing a government portal in order to use a particular service. You might have to log on, supplying a username and password. Behind the scenes, verification processes will check these and either allow you to proceed or not. You might then move on to other parts of the system to investigate, for example, your entitlement to benefits or to check tax liability.</Paragraph>
+					<Paragraph>Although you may have entered the e-government website via a single portal, behind the scenes the data required for these activities will typically be held in several different proprietary database systems. This is because of the long history of piecemeal implementation of databases in entra and local government. Typically there will be no common standard for coding the data fields in these databases. For example, in one system addresses might have fields with names such as House umber, Streetname, Town, City, Postcode and so on. Another system might have Address1, Address2, Address3 instead. This is an example of the &#x2018;legacy problem&#x2019;. In many cases it is too expensive to replace these diverse systems with new, integrated systems operating to common standards. Somehow the older systems have to be incorporated into the newer e-government systems and have to be able to work together with them. A vital tool for enabling these diverse systems to work together has been <b>XML</b>, or extensible Markup Language, which I will briefly discuss.</Paragraph>
+					<Paragraph>The idea of marking up goes back to pre-computer printing technology The (human) printer would be supplied with a typescript of the document to be printed. The document would be &#x2018;marked up&#x2019; with handwritten tags or labels (<CrossRef idref="fig001_002">Figure 2</CrossRef>).</Paragraph>
+					<Figure id="fig001_002">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_002i.jpg" height="" webthumbnail="true" x_imagesrc="t175_5_002i.jpg" x_imagewidth="564" x_imageheight="275" x_smallsrc="t175_5_002i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_002i.small.jpg" x_smallwidth="450" x_smallheight="219"/>
+						<Caption>
+							Figure 2 Use of tags for marking up</Caption>
+							<Alternative>Figure 2</Alternative>
+							<Description>Figure 2</Description>
+						
+					</Figure>
+					<Paragraph>The tags were coded instructions for particular fonts and sizes, and an accompanying sheet explained what they represented. The meaning of the tags would change from typescript to typescript; the tags did not have fixed meanings that applied to all typescripts the printer would work on.</Paragraph>
+					<Paragraph>Tagging is a way of keeping appearance and content separate. In <CrossRef idref="fig001_002">Figure 2</CrossRef>, the typescript is the content, and the appearance (how the text should look on the page) is embodied in the tagging. XML uses this idea of tagging to indicate the form or structure. As with the print markup, XML tags have no fixed meaning, and so any particular XML document needs an accompanying definition of what the tags represent. This is usually done in a <b>schema</b>. Although to some extent XML resembles HTML, the need for a schema in connection with XML documents is a crucial difference. In HTML there is no schema, and the meanings of tags are set down in a standard.</Paragraph>
+					<Paragraph>One difference between XML coding and the old style of print mark-up is the embedding of XML tags within the content of the document itself, rather than their being in a reserved part of the document. (In the case of the print mark-up, the reserved area is the margins.)</Paragraph>
+					<Activity id="act001_014"><Heading>Activity 14 (exploratory)</Heading><Question>
+							<Paragraph>What safeguard is needed if tags are embedded in the text itself?</Paragraph>
+						</Question><Discussion>
+					<!--		<SubHeading>Comment</SubHeading>-->
+							<Paragraph>The most important safeguard is that the tag should not be interpreted as part of the content of the document. This is usually done by surrounding the tags with special characters (or symbols). XML uses angle brackets, &lt; and &gt;, as HTML does. Notice that in the print mark-up, the tags are encircled as a further aid to keeping them separate from the content.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>As an example of XML in practice, <CrossRef idref="fig001_003">Figure 3</CrossRef> shows a small StarOffice spreadsheet. (StarOffice uses XML coding in all its files.)</Paragraph>
+					<Figure id="fig001_003">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_003i.jpg" height="" x_imagesrc="t175_5_003i.jpg" x_imagewidth="366" x_imageheight="162"/>
+						<Caption>
+							Figure 3 StarOffice spreadsheet</Caption>
+							<Alternative>Figure 3</Alternative>
+							<Description>Figure 3</Description>
+						
+					</Figure>
+					<Paragraph>Below is a <i>small</i> part of the XML file for this table. Don't worry about trying to understand it. I have picked out some of the data items from <CrossRef idref="fig001_003">Figure 3</CrossRef> in bold. Notice how little of this extract is content, and this extract is just a small part of the entire file.</Paragraph>
+					<Table id="tblbox_005">
+						<TableHead/>
+						<tbody>
+							
+								<tr>
+									<td class="TableLeft">&lt;table:table-row table:style-name=&#x201C;ro1&#x201D;&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell&gt;&lt;text:p&gt;<b>Animal</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell&gt;&lt;text:p&gt;<b>Number</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell table:style-name=&#x201C;Default&#x201D;&gt;&lt;text:p&gt;<b>Date</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;/table:table-row&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-row table:style-name=&#x201C;ro1&#x201D;&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell&gt;&lt;text:p&gt;<b>Cat</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell table:value-type=&#x201C;float&#x201D; table:value=&#x201C;21&#x201D;&gt;&lt;text:p&gt;<b>21</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell table:value-type=&#x201C;date&#x201D; table:date-value=&#x201C;1953-05-01&#x201D;&gt;&lt;text:p&gt;<b>01/05/53</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;/table:table-row&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-row table:style-name=&#x201C;ro1&#x201D;&gt;&lt;table:table-cell&gt;&lt;text:p&gt;<b>Dog</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell table:value-type=&#x201C;float&#x201D; table:value=&#x201C;75&#x201D;&gt;&lt;text:p&gt;<b>75</b>&lt;/text:px/table:table-cell&gt;</td>
+								</tr>
+								<tr>
+									<td>&lt;table:table-cell table:value-type=&#x201C;date&#x201D; table:date-value=&#x201C;1964-07-25&#x201D;&gt;&lt;text:p&gt;<b>25/07/64</b>&lt;/text:p&gt;&lt;/table:table-cell&gt;</td>
+								</tr>
+							
+						</tbody>
+						<SourceReference/>
+					</Table>
+					<Paragraph>From what you have learned about HTML you will recognise the use of symbols like &lt; &gt; and / to distinguish parts of the file that deal with layout from parts that deal with content. HTML and XML have both evolved from an earlier mark-up language called SGML (Standard Generalized Markup Language), devised for use with print documents.</Paragraph>
+					<Paragraph>Many proprietary ICT systems use coding to keep information about appearance and content separate. Two things make XML different from proprietary equivalents:</Paragraph>
+					<BulletedList>
+						<ListItem>
+							<Paragraph>It is an open standard. Its openness means that it is not owned by any particular company.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>It is extremely adaptable to new ways of distributing and presenting information.</Paragraph>
+						</ListItem>
+					</BulletedList>
+					<Paragraph>These two factors make XML invaluable as a common language for exchanging structured data. However, by itself XML does not solve thel legacy problem. In addition, there need to be various types of <b>middleware</b> to translate legacy data into XML, and to translate in the opposite direction. (Middleware is a general name for software that canl enable separate systems to work together.) Middleware is specific tol particular systems, so solving the legacy problem also involves thel appropriate middleware. This might mean buying it, but in some casesl it means creating it specially.</Paragraph>
+					<Paragraph>XML is widely used where different systems need to operate together, and not just legacy systems. For instance, through the adoption of standard schemas for data exchange, banks can swap information easily among themselves, even though their information systems are very different. Many other types of business use XML to allow for standardised ways of transmitting information. XML has also been influential in the growth of <b>web services</b>. Web services are self-contained reusable programs that are components of online services. Examples are authentication of identity, currency conversion, shipping processing, etc. The programs that perform web services are self-contained units, and can be incorporated directly into a more complex online service.</Paragraph>
+					<Paragraph>These services need to be able to work on many different <b>platforms</b>, that is, in many different computing environments, with many different programming languages. The open nature of the XML standard has allowed this to happen. XML is also increasingly used &#x2018;behind the scenes&#x2019; in word-processing documents, spreadsheets, databases and online documents and forms.</Paragraph>
+					<Paragraph>The impact of XML on information exchange and online provision of services has been enormous and will almost certainly continue to grow. Bisson (2005) wrote:</Paragraph>
+					<Quote id="quo001_006">
+						<Paragraph>Tomorrow's XML will also be much more visible in the foreground of computing. Computer desktops will become canvases for active documents that mix XML data and formatting information &#x2013; and include links to web services. Your online tax return will be a document that looks like the paper forms the Inland Revenue sends, but it will be able to work with online calculation services, before delivering XML data directly into the Inland Revenue systems (and automatically transferring your refund into your bank account).</Paragraph>
+					</Quote>
+					<Paragraph>The development of XML has been very timely for the e-government project because it has allowed incompatible systems to work together. However, XML is only part of a much bigger picture. In the UK, the government has set up an e-GIF (e-government interoperability framework) initiative, which is a set of compulsory standards for the public sector of the UK. These standards define the way that data should be structured and accessed. For instance, the e-Gif framework specifies the use of web browsers for viewing data, the use of XML for integrating data, the use of internet and Web protocols, and so on. Systems that are &#x2018;e-Gif compliant&#x2019; (i.e. which conform to the e-Gif specifications) should be able to communicate between themselves. A European e-Gif system is under development at the time of writing.</Paragraph>
+					<Paragraph>The increasing ease of transfer of data is practical and convenient. But is it always in the best interest of the people whose data is held? People who have investigated the data held about them by, for instance, credit card companies, have often been surprised at the amount of data held, and questioned whether much of it was relevant to the business of credit card companies. In the context of e-government a particular concern is the ease of transfer of data from one government department to another, so that, for instance, a person's medical records or tax record might be viewable by other departments. Another concern is that personal information could be made available to private companies. With the contracting to private companies of work formerly done by government departments, private companies often need access to the information held in government databases.</Paragraph>
+				</Section>
+				<Section id="sec003_008">
+					<Title>3.8 Data modelling and databases</Title>
+					<Paragraph>The subject of databases becomes very complex with deeper study. This is not so much because database software requires great skill to make it do what is needed, but because database design begins with a deep understanding and analysis of what the entities and attributes are, and the relationships between entities. This is <b>data modelling</b>, and very little of it has anything to do with computers; rather it is much more about studying carefully how organisations work, how information is acquired and used, who uses it and how, and so on.</Paragraph>
+					<Paragraph>Databases probably impinge on our lives more than we realise. As we have seen, they underlie many websites of any complexity, but they also underlie great swathes of the e-government project, as well as billing systems from utility companies, booking systems for holidays, personal records held by employers, banks, credit card companies, and so on. The list of applications of databases goes on and on. In addition, databases are essential components of modern telecommunications, for instance in the routing of data packets on the internet. They are also essential to electronic systems of personal identification, which is what I will look at next.</Paragraph>
+				</Section>
+			</Session>
+			<Session id="sec004">
+				<Title>4 Biometrics, identification and verification</Title>
+				<Section id="sec004_001">
+					<Title>4.1 Data and biometric data</Title>
+					<Paragraph>Developing alongside the various e-government projects around the world are many biometric systems for authenticating identity. Governments have traditionally had a stake in the authentication of a citizen's identity through issuing passports, driving licences and other so-called identity documents. However, this is yet another area where ICTs are having a transforming effect, perhaps not to everyone's liking:</Paragraph>
+					<Quote id="quo001_007">
+						<Paragraph>At America's insistence, passports are about to get their biggest overhaul since they were introduced. They are to be fitted with computer chips that have been loaded with digital photographs of the bearer (so that the process of comparing the face on the passport with the face on the person can be automated), digitised fingerprints and even scans of the bearer's irises, which are as unique to people as their fingerprints.</Paragraph>
+						<Paragraph>A sensible precaution in a dangerous world, perhaps. But there is cause for concern. For one thing, the data on these chips will be readable remotely, without the bearer knowing. And &#x2013; again at America's insistence &#x2013; those data will not be encrypted, so anybody with a suitable reader, be they official, commercial, criminal or terrorist, will be able to check a passport holder's details. To make matters worse, biometric technology &#x2013; as systems capable of recognising fingerprints, irises and faces are known &#x2013; is still less than reliable, and so when it is supposed to work, at airports for example, it may not.</Paragraph>
+						
+					<Paragraph>
+							The Economist (2005)</Paragraph></Quote>
+					<Paragraph>In this section we shall look at some of the techniques and issues related to the authentication of identity using biometric data.</Paragraph>
+					<Paragraph>
+						<b>Biometric data</b> is derived from distinctive bodily features. Examples are fingerprints, photographs, iris patterns, and so on. &#x2018;Biometric data&#x2019; also covers data derived from characteristic behaviours or gestures, for example signatures or vocal characteristics. Converting this data to digital form allows it to be processed automatically by computers. This is a distinct change from older methods of identification which depended on a good deal of human inspection (for instance, visual inspection of fingerprints). Biometric data is increasingly incorporated into passports, driving licences and other identity documents.</Paragraph>
+					<Paragraph>Whatever method of identification is used, comparison of one piece of data with other data is involved. For instance, in criminal investigations, fingerprints collected from the scene of a crime are checked against records of fingerprints from known criminals.</Paragraph>
+					<Paragraph>For an identification system based on data comparison to work, there must be authoritative samples of data, from known individuals, to compare with. The bank of fingerprints held by the police is a collection of such data. But two specimens of data from the same person are hardly ever identical &#x2013; for instance, the signature I write on a cheque is not identical to the one on my cheque card. Whether my cheque card confirms the signature on my cheque is a matter of judgement.</Paragraph>
+					<Paragraph>In the following pages, I would like you to keep in mind these two essential components of identification systems:</Paragraph>
+					<BulletedList>
+						<ListItem>
+							<Paragraph>Authentic data, known to be associated uniquely with a particular individual, is required for comparison.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Reliable methods are required for comparing pieces of data and for deciding whether they are from the same person.</Paragraph>
+						</ListItem>
+					</BulletedList>
+					<Paragraph>We shall look more closely at the implications of these requirements shortly, but first I should say a little more about what I mean by &#x2018;data&#x2019; in the context of identification systems.</Paragraph>
+				</Section>
+				<Section id="sec004_002">
+					<Title>4.2 Data for identification</Title>
+					<Paragraph>I have already mentioned signatures, photographs and fingerprints as examples of the kinds of data that have been used for authenticating a person's identity. Many other types of data have been used or suggested. DNA is widely used, but mostly in criminal investigations. Iris recognition, which relies on distinctive patterns in the coloured part of the eye, is another technique. <CrossRef idref="fig001_004">Figure 4</CrossRef> shows a collage of iris patterns.</Paragraph>
+					<Figure id="fig001_004">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_004i.jpg" height="" x_imagesrc="t175_5_004i.jpg" x_imagewidth="428" x_imageheight="309"/>
+						<Caption>
+							Figure 4  Iris patterns (courtesy of Dr John Daugman, Cambridge University)</Caption>
+							<Alternative>Figure 4</Alternative>
+							<Description>Figure 4</Description>
+						
+					</Figure>
+					<Paragraph>Whatever type of personal data is used, it needs to be unique for each individual. The fingerprinting system depends on everyone having different fingerprints. Facial recognition depends on no two faces being the same. Iris patterns appear to be unique to each individual. In fact, the patterns in the left and right eyes of the same individual are different, and identical twins have different iris patterns.</Paragraph>
+					<Activity id="act001_015"><Heading>Activity 15 (exploratory)</Heading><Question>
+							<Paragraph>What advantages for identification does biometric data have over non-biometric data such as names and addresses, passwords, etc?</Paragraph>
+						</Question><Discussion>
+						<!--	<SubHeading>Comment</SubHeading>-->
+							<Paragraph>Two advantages occur to me. The first is that everyone's biometric data is (or is believed to be) unique, whereas non-biometric data sometimes cannot be guaranteed to be unique. The second is that biometric data should be harder to steal than non-biometric data.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>For many decades the only biometric data that was routinely used to authenticate someone's identity was photographic data. For instance, passports and membership cards have traditionally had photographs. However, the development of ICT has opened up possibilities for using other kinds of data. With biometric data in a digital form, comparison of data becomes a mathematical operation that can be computerised, rather than requiring human checking. I can illustrate this with a highly simplified example.</Paragraph>
+					<Paragraph>Suppose a piece of biometric data consists of a person's numerical scores on three different criteria (maybe eye separation, eye size and eye colour). One person's data might consist of the binary equivalent of the three numbers 24, 7 and 125, where each number represents the value of a different physical property. Another person's data might be 26, 6 and 122. Each number in the second set of data is close to the corresponding number in the first set. A computer could calculate how close this second set of data was to the first by comparing each of the three numbers in turn. A preset threshold can be applied such that if the two sets of data are closer than the threshold they are judged to be a match. If they are not closer than the threshold, they are not a match. Note that although the comparison can be computerised, the threshold itself is set by a human.</Paragraph>
+					<Paragraph>Biometric data is not immune from theft or forgery. There are cases of people making a cast of someone else's finger and using it to gain access to systems that use fingerprint recognition (Bowcott, 2004). A disadvantage of biometric data is the difficulty of restoring security once it has been breached. For instance, if a user's fingerprint has been copied, a replacement fingerprint cannot be offered, whereas a replacement password can easily be issued.</Paragraph>
+				</Section>
+				<Section id="sec004_003">
+					<Title>4.3 Identification systems</Title>
+					<Paragraph>At the time of writing, biometric identification is not in widespread use. although that situation is likely to change. There are, however, a few schemes which have been used, and I would like to look at two of these now. The first is the experimental EyeTicket JetStream iris-recognition system that was used for passport-free immigration control at Heathrow airport in the UK in 2002. The scheme, which ran for about six months, was used only on travellers who had enrolled in it. To enrol, applicants had iris scans taken of their eyes. <CrossRef idref="fig001_005">Figure 5</CrossRef> shows enrolment in a similar system at Schiphol airport.</Paragraph>
+					<Figure id="fig001_005">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_005i.jpg" height="" x_imagesrc="t175_5_005i.jpg" x_imagewidth="307" x_imageheight="236"/>
+						<Caption>
+							Figure 5  Enrolment in the iris-recognition system at Schiphol airport, Amsterdam. The woman at the back is having her iris scanned. The woman at the front enters the data into a database (courtesy of Dr John Daugman, Cambridge University)</Caption>
+							<Alternative>Figure 5</Alternative>
+							<Description>Figure 5</Description>
+						
+					</Figure>
+					<Paragraph>In the Heathrow scheme, and many others, the biometric data acquired during enrolment was stored as a <b>template</b> in a database of enrolled users. The template in this case was not a digital photograph of the eye, but a digital representation of data from the iris scan. An analogy would be a file that recorded eye colour, separation of eyes, diameter of iris, and so on. However, in the case of iris scans the data relates to the patterns of markings shown in <CrossRef idref="fig001_004">Figure 4</CrossRef>. The template can be quite small in data terms. In one system, the iris data in the template has a size of 256 bytes. In other systems, however, templates are digital photographs of the eyes.</Paragraph>
+					<Paragraph>Enrolment in the Heathrow scheme involved not just taking a scan from the applicant and entering it into the database, but also checking whether this person's scan matched any of the templates already in the database.</Paragraph>
+					<Activity id="act001_016"><Heading>Activity 16 (Exploratory)</Heading><Question>
+							<Paragraph>Why might the applicant's scan have matched a template already in the database? More than one answer is possible.</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>There are two possibilities to account for the person's biometric data matching an already existing template.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>The applicant's scan was similar enough to someone else's template to be within the threshold. This is always possible, although ideally it will be rare. (You will see why mismatching is possible shortly.)</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>The applicant was trying to enrol a second time, and matched their already existing template.</Paragraph>
+								</ListItem>
+							</NumberedList>
+							<Paragraph>In the first comment on Activity 16, the applicant is innocent of any subterfuge. In the second case, the applicant might or might not be innocent. For instance, the applicant might have forgotten their earlier enrolment, or might be enrolling under a different name having legitimately changed their name (for example through a change of marital status). On the other hand, the applicant might be dishonestly trying to enrol a second time under a different name. This last possibility is a particular concern with the issuing of identity cards, which in the UK will also serve as entitlement cards for benefits and other services.</Paragraph>
+							<Paragraph>In the Heathrow experimental scheme, if the enrolment happened without complications, then on subsequent visits to Heathrow the traveller would look into a scanner at immigration control. This would take an iris scan, which would be compared with all the templates in the database. If there was a match with one of the templates, then the person was regarded as having been identified, and passed through without needing to show a passport.</Paragraph>
+							<Paragraph>Similar systems to the Heathrow one are used at several airports to ensure that only authorised staff can get to restricted parts of the airport. In Japan they are also used for access control in some residential apartment blocks. At the entrance, the resident looks into a scanner, and if their scan matches a template in a database they are allowed in. A common feature of all identification systems is this process of taking a sample of data when authentication is needed and comparing it with an entire database of templates.</Paragraph>
+							<Paragraph>A rather different type of identification system is used in the United Arab Emirates. All inward travellers to the country at all entry points have iris scans taken with machines like that shown in <CrossRef idref="fig001_006">Figure 6</CrossRef>.</Paragraph>
+							<Figure id="fig001_006">
+								<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_006i.jpg" height="" x_imagesrc="t175_5_006i.jpg" x_imagewidth="265" x_imageheight="480"/>
+								<Caption>
+									Figure 6  Iris-recognition system in the United Arab Emirates. In the photograph, the scanner is obscured by the man's head</Caption>
+									<Alternative>Figure 6</Alternative>
+									<Description>Figure 6</Description>
+								
+							</Figure>
+							<Paragraph>These scans are checked against templates for a &#x2018;watchlist&#x2019; held on a central database. The watchlist consists of about 400 000 individuals who, for various reasons, are to be denied entry. If no match is found, then the traveller is allowed through and completes the normal immigration procedures.</Paragraph>
+						</Discussion></Activity>
+					<Activity id="act001_017"><Heading>Activity 17 (exploratory)</Heading><Question>
+							<Paragraph>In the Heathrow and United Arab Emirates systems, a match between the traveller's data and a template in the database had different outcomes. How did the outcomes differ?</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>In the Heathrow experimental system, a match with a template meant the traveller could proceed, whereas in the United Emirates System a match meant the traveller could not proceed.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>The difference mentioned in the last activity indicates that identification systems can be used in two different ways. In the Heathrow system, the assumption was that most checks result in a match, whereas in the United Arab Emirates system the presumption is that most checks do not result in a match. This difference is sometimes expressed in terms of <b>positive identification</b> and <b>negative identification</b> Positive identification is a check on whether someone is a member of a particular set of people. Negative identification is a check on whether someone is not a member of a set of people.</Paragraph>
+					<Paragraph>What characterises an identification system is that it checks whether a particular individual is known to the system. This is the check that was made in both the Heathrow experimental system and the United Arab Emirates system. An identification system does not necessarily identify the person. However, it is not difficult in principle to extend identification systems so that they do establish a person's identity. Suppose you have templates for every citizen of a country in a database, together with personal data about the people the templates were taken from. This system could theoretically act as a national identification scheme. At any point where identification was required, the person could supply a sample of biometric data (perhaps by looking into a scanner), and this would be checked against the entire national database. If there was a match, then the person's name and address could be shown. Through links to other databases, other personal information could theoretically also be brought up, such as medical records, police records, employment and social security records, and so on. Such a scheme, if it could be made to work, takes us into ethical and political issues, which I will return to later. For the moment, there are questions of feasibility to consider, arising from the problem of so-called false matches.</Paragraph>
+				</Section>
+				<Section id="sec004_004">
+					<Title>4.4 False matches and false non-matches</Title>
+					<Paragraph>I mentioned earlier that one of the essential components of an identification system was a reliable procedure for comparing data. Ideally, one person's biometric data would never be mistaken for another's, and one person's biometric data would always match another sample from the same person. Unfortunately such perfection cannot be achieved in practice. Errors happen because samples of biometric data taken from someone on different occasions are almost certain to be different, just as two specimens of my signature are different. This means that establishing someone's identity by looking for an exact match between biometric samples is not possible.</Paragraph>
+					<Paragraph>The practical solution is to look for a certain level of similarity rather than exact sameness. To count as a match, two samples of biometric data need to be sufficiently similar rather than identical. What are the implications of this fact? We can get an insight into their implications by thinking about <CrossRef idref="fig001_007">Figure 7</CrossRef>. The two faces represent samples of biometric data, and the arrow represents a comparison. Clearly the samples are different, but are they from the same person?</Paragraph>
+					<Paragraph>Let us suppose that these samples are from the same person. To be fairly sure of getting a &#x2018;Yes&#x2019; verdict in the comparison, we should set the threshold of similarity at a fairly low level. That is, our comparison system should be quite tolerant of differences between samples of biometric data. That increases the likelihood of the right verdict: &#x2018;Yes. These are from the same person.&#x2019;</Paragraph>
+					<Figure id="fig001_007">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_007i.jpg" height="" x_imagesrc="t175_5_007i.jpg" x_imagewidth="491" x_imageheight="204"/>
+						<Caption>
+							Figure 7  Comparison of biometric data</Caption>
+							<Alternative>Figure 7</Alternative>
+							<Description>Figure 7</Description>
+						
+					</Figure>
+					<Paragraph>But suppose the two samples of data in <CrossRef idref="fig001_007">Figure 7</CrossRef> are from <i>different</i> people. If the comparison is tolerant of differences, these samples will be judged to be from the same person, which is the wrong answer (in this case). To increase the likelihood of the correct verdict when the samples are from different people, the comparison needs to be <i>less</i> tolerant of differences.</Paragraph>
+					<Paragraph>As you can see, there are conflicting requirements here. To ensure that samples of data from the same person match we need a fairly relaxed criterion of similarity. But to ensure that difference is detected, we need a strict criterion.</Paragraph>
+					<Paragraph>These two types of error are known as false match and false non-match. They are illustrated in <CrossRef idref="fig001_008">Figure 8</CrossRef>.</Paragraph>
+					<Paragraph>A <b>false match</b> is when two pieces of biometric data from different people are judged to be from the same person, as in <CrossRef idref="fig001_008">Figure 8</CrossRef>(a). This type of error is sometimes called a <b>false accept</b>. It results from a comparison that is too tolerant of differences.</Paragraph>
+					<Paragraph>A <b>false non-match</b> is when two pieces of biometric data from the same person are judged to be from different people, as in <CrossRef idref="fig001_008">Figure 8</CrossRef>(b). This type of error is sometimes called a <b>false reject</b>. It results from a comparison that is too intolerant of differences.</Paragraph>
+					<Activity id="act001_018"><Heading>Activity 18 (self-assessment)</Heading><Question>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Which type of error is increased by relaxing the matching criterion, and why?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Which type of error is increased by making the matching criterion stricter, and why?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>False match. Relaxing the matching criterion means making the matching process more tolerant of difference. This increases the likelihood that biometric data from different people will be judged to be from the same person.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>False non-match. Making the matching criterion stricter means that the comparison is less tolerant of difference. This means that we are more likely to decide that samples of data from the same person are from different people.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+					<Figure id="fig001_008">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_008i.jpg" height="" x_imagesrc="t175_5_008i.jpg" x_imagewidth="452" x_imageheight="438"/>
+						<Caption>
+							Figure 8  Two types of matching error</Caption>
+							<Alternative>Figure 8</Alternative>
+							<Description>Figure 8</Description>
+						
+					</Figure>
+					<Paragraph>False matches and false non-matches are not caused by the use of ICT-based systems or by the use of biometric data. They can happen when any type of data is assessed for similarity by any type of inspector &#x2013; human or otherwise.</Paragraph>
+					<Paragraph>The performance of biometric systems is gauged by various statistics. One of these statistics is the false match rate. The following section looks at some typical false match rates.</Paragraph>
+				</Section>
+				<Section id="sec004_005">
+					<Title>4.5 Typical false match rates</Title>
+					<Paragraph>A false match rate is expressed as a statistic such as &#x2018;1 in 1000&#x2019;. A rate of 1 in 1000 means that if a sample of biometric data is compared with random selections of other data, a false match occurs, on average, once every 1000 comparisons. False match rates vary widely between different biometric systems. The following figures are taken from Mansfield and Rejman-Greene (2003).</Paragraph>
+					<Paragraph>Using good-quality fingerprints, a false match rate for single prints can be around 1 in 100,000. This rate can be improved by using more than one finger. Low-quality prints give worse rates.</Paragraph>
+					<Paragraph>Face recognition gives a false match rate of around 1 in 1000.</Paragraph>
+					<Paragraph>For single-eye iris recognition, Mansfield and Rejman-Greene (2003) quote a false-match rate of 1 in 1,000,000. Using two eyes improves the rate considerably.</Paragraph>
+					<Paragraph>These rates do not allow you to predict how many false matches there will be in any single small-scale test. For instance, a system with a false match rate of 1 in 1000 when tried on a group of 10 or 100 people might or might not produce false matches. The outcome is unpredictable. However, with a large group the result becomes more predictable. For instance, a system with a false match rate of 1 in 1000 when tried on a group of 1,000,000 people will produce about 1000 false matches. This figure comes from dividing the group size, 1,000,000, by 1000, which comes from the false match rate of 1 in 1000. However, this method is only an approximate one, and can be used only with large groups. What we mean by &#x2018;large group&#x2019; or &#x2018;small group&#x2019; depends on the false match statistic. For instance, if the false match rate is 1 in 100, a group size of 10 000 is quite large; but with a false match rate of 1 in 100,000, the same group size of 10,000 is small.</Paragraph>
+					<Activity id="act001_019"><Heading>Activity 19 (self-assessment)</Heading><Question>
+							<Paragraph>The false match rate of a particular biometric system is 1 in 100. A sample of data is compared against 1,000,000 other randomly chosen pieces of data. Approximately how many false matches can we expect?</Paragraph>
+						</Question><Answer>
+							
+							<Paragraph>Compared to the false match rate of 1 in 100, the group size of 1,000,000 qualifies as large, so we can use the approximate method described above. To find the answer we need to divide 1,000,000 by 100. This gives 10,000. This is <i>approximately</i> the number of false matches we can expect.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>The lesson to draw from the last activity is that if the number of comparisons is sufficiently large, then a lot of false matches can result, even if the false match rate appears to be quite low. This needs to be borne in mind when thinking about identification systems for a whole population.</Paragraph>
+					<Paragraph>Deciding which biometric system to use is not just a matter of picking the one with the best false match statistics. The figures given above are laboratory figures, and whether the same performance can be obtained in practice, when conditions are not ideal and the participants may be impatient or uncooperative, is another question. Also, there is the question of how a system would work in practice. Would it require people to stop and do something, potentially causing bottlenecks at busy places such as airports, or could it operate on people while they were doing something else, without their being aware that an identity check was being carried out, as with face recognition? Considerations like these play a part in deciding which system to use.</Paragraph>
+				</Section>
+				<Section id="sec004_006">
+					<Title>4.6 False identification</Title>
+					<Paragraph>If you think back to the Heathrow experimental system and the United Arab Emirates system described earlier, you can see that the false matches and false non-matches open up possibilities for these systems to malfunction. In the Heathrow scheme, a false match could mean that a person who was not enrolled might be allowed through. In the United Arab Emirates scheme, a false non-match might mean that a person who should be stopped is allowed through. These are examples of identification error.</Paragraph>
+					<Paragraph>Work through the animation below, then move on to the next Activity. (Click on the link below to view in a separate window.)</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_001.swf" type="flash" width="512" height="425" id="swf001">
+						
+					</MediaContent>
+					<Activity id="act020"><Heading>Activity 20</Heading><Question>
+							<Paragraph>Work your way through the animation above called <i>Identification and verification</i>. It will take around 15 minutes. The animation reviews the material you have already studied on identifiation, and introduces the concept of verification which you will study shortly.</Paragraph>
+						</Question><Discussion>
+							<SubHeading>Disc</SubHeading>
+							<Paragraph>The animation shows that the rate of false positive identification depends on two things: the false match rate and the size of the database. For example, if a system has a false match rate of 1 in 1000, when used on a database of 1000 (or bigger) it is virtually certain that there will be a false positive identification with someone in the database. Thus, the false positive identification rate in this case approaches 100 per cent (1 in 1), because of the large size of the database. A false positive identification rate of 100 per cent means that every time a sample is checked against an <i>entire</i> database, there is at least one false match somewhere in the comparisons.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>Besides reviewing the idea of identification, this has introduced the concept of verification, which we shall come to shortly.</Paragraph>
+					<Paragraph>To summarise, <b>false positive identification</b> arises from a false match with a template belonging to someone enrolled in a database, as shown in <CrossRef idref="fig001_009">Figure 9</CrossRef>.</Paragraph>
+					<Paragraph>The rate at which this happens depends on both the false match rate and the size of the database.</Paragraph>
+					<Paragraph>Note that it is possible for a piece of biometric data to falsely match more than one template in the database. It is also possible for a piece of biometric data to <i>correctly</i> match one template, and to falsely match one or more other templates.</Paragraph>
+					<Figure id="fig001_009">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_009i.jpg" height="" webthumbnail="true" x_imagesrc="t175_5_009i.jpg" x_imagewidth="564" x_imageheight="315" x_smallsrc="t175_5_009i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_009i.small.jpg" x_smallwidth="450" x_smallheight="251"/>
+						<Caption>
+							Figure 9  False positive identification error. The subject's data is tested against the entire database and falsely matches one of the templates</Caption>
+							<Alternative>Figure 9</Alternative>
+							<Description>Figure 9</Description>
+						
+					</Figure>
+					<Paragraph>We have probably all experienced false positive identification error when we see someone we think we know, say &#x2018;Hello&#x2019; to them, and then realise it is not the person we thought it was. Something about them looked familiar, but the similarity was deceptive.</Paragraph>
+					<Paragraph>
+						<b>False negative identification error</b> arises from failure to match the person with their own template in a database (<CrossRef idref="fig001_010">Figure 10</CrossRef>).</Paragraph>
+					<Paragraph>When there is false negative identification, it is conceivable that the person's data could falsely match someone else's template. However, this is irrelevant to the meaning of false negative identification, which is strictly about the failure of a person's data to match their own template.</Paragraph>
+					<Paragraph>We have probably all experienced false negative identification when we fail to recognise someone we already know, possibly because they have changed their appearance or because we meet them in an unfamiliar context.</Paragraph>
+					<Figure id="fig001_010">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_010i.jpg" height="" webthumbnail="true" x_imagesrc="t175_5_010i.jpg" x_imagewidth="570" x_imageheight="325" x_smallsrc="t175_5_010i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_010i.small.jpg" x_smallwidth="450" x_smallheight="257"/>
+						<Caption>
+							Figure 10  False negative identification error. The subject's data is tested against the entire database and fails to match the same person's template</Caption>
+							<Alternative>Figure 10</Alternative>
+							<Description>Figure 10</Description>
+						
+					</Figure>
+				</Section>
+				<Section id="sec004_007">
+					<Title>4.7 Identification errors and the national database</Title>
+					<Paragraph>The UK identity card scheme, and similar schemes in many other countries, is based on the idea of creating a national identification register. This is a database that will have templates of biometric data from all citizens. In the UK, the proposal is to have a photograph, some fingerprint data and iris scans from each citizen. There will also be other data in the register: name, address, national registration number, and much more besides. Identity cards will be issued only to people who are enrolled in the national identification register. This latter point is crucially important to the system envisaged for the UK.</Paragraph>
+					<Paragraph>Much of the controversy about identity cards relates more to this national database of personal data than to the cards themselves. In the next few activities, you will be looking at extracts from an article by Roger Dettmer that looks at the practicalities of creating a national identification register. As you will see, Dettmer is essentially concerned with identification errors, and his observations apply equally to any national-scale identification system.</Paragraph>
+					<Paragraph>Click on 'view document' below to read the first part of the article 'Safety in Numbers' (with thanks to R. Dettmer).</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\safetyinnumbers.pdf" type="pdf" width="" height="" id="med001_001">
+						
+					</MediaContent>
+					<Activity id="act001_021"><Heading>Activity 21 (self-assessment)</Heading><Question>
+							<Paragraph>Read the extract from Dettmer (2004). Note that in this and subsequent extracts you might not be able to understand all the details, but you will probably be able to follow the argument.</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Briefly explain why Dettmer sees false negative identification as a security problem, whereas false positive identification is not. Remember that false negative identification is failure to recognise someone already enrolled. False positive identification is misidentifying one person as another.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Why does usability require a low probability of false positive identification?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>False negative identification error enables someone to re-enrol in the system under a new identity, and thereby get a second identity card. This possibly enables fraudulent use of services and is a security problem. False positive identification means (in this context) that an applicant is wrongly thought to have already enrolled. A new identity document will not be issued until the applicant can prove his or her true identity by other means. False positive identification is not a security risk because no new documents are issued until the confusion is resolved.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>False positive identification creates extra work for the operators of the system sorting out the misidentification. Therefore a usable system should have a low probability of false positive identification.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+					<Box id="box001_006">
+						<Paragraph>
+							<b>Reading technical articles</b>
+						</Paragraph>
+						<Paragraph>The Dettmer extract for the last activity was quite short, and perhaps did not cause you undue trouble. The extract in the next activity is longer and might not be so straightforward.</Paragraph>
+						<Paragraph>It is easy to get demoralised if you are reading a technical article and find it hard going. If that is how you feel, you are in good company. Very few people find technical articles easy to read, and few experts would expect to be able to understand everything in an article. In fact understanding an article is not an &#x2018;all or nothing&#x2019; business. There are degrees of understanding, and for many experienced readers understanding is approached by stages. Very often the first read through is quick, to get a general impression. On the basis of that, there's a decision to be made: Do I persevere, or have I got everything from the article I want to get from it at the moment? If the decision is to persevere, then the next reading is more methodical. One of the jobs on subsequent readings is to isolate the parts that are hardest to understand. You might even need to go to other articles on the same subject to see if they have another approach that makes more sense to you. Alternatively, you might need to spend time thinking about what you have read and rephrasing it in your own words.</Paragraph>
+						<Paragraph>I am not expecting you to go looking for other articles on this subject, nor to spend a long time thinking about it. The important point to remember is that it is normal not to understand everything in an article like this. However, here are a few tips to help you.</Paragraph>
+						<BulletedList>
+							<ListItem>
+								<Paragraph>Generally each paragraph is making one main point, or maybe just a few related points. Try noting these down.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>The overall argument is usually carried by the main points, rather than the details, so try to see the story that the main points are telling.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>The last one or two paragraphs often contain the major points the author wants to make. It is all right to read those first, and to use that information to fill in some of the parts you are struggling with.</Paragraph>
+							</ListItem>
+							<ListItem>
+								<Paragraph>Often if you reread an article after a gap of a day or two, parts that were difficult to understand turn out not to be so difficult after all.</Paragraph>
+							</ListItem>
+						</BulletedList>
+					</Box>
+					<Paragraph>For the next extract, you need to know the meanings of a couple of the terms Dettmer uses. A <b>one-to-one</b> comparison is when you compare one piece of data with another. In this context, those pieces of data are biometric data. A <b>one-to-many</b> comparison is when you compare one piece of data with many others. In this context that might be when you compare a piece of biometric data with all the templates in a database.</Paragraph>
+					<Paragraph>Click on 'view document' to read the next extract from the article (with thanks to R. Dettmer).</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\onetoone.pdf" type="pdf" width="" height="" id="med001_002">
+						
+					</MediaContent>
+					<Activity id="act001_022"><Heading>Activity 22 (self-assessment)</Heading><Question>
+							<Paragraph>Now read the second extract from Dettmer (2004), and answer the following question: Why does Dettmer say that a biometric identity system will need to be based on taking iris scans from both eyes, or fingerprints from eight fingers?</Paragraph>
+						</Question><Answer>
+							
+							<Paragraph>Iris scans from a single eye, or fingerprints from a few fingers, do not give a sufficiently low false match rate. Using both eyes, or more fingers, improves the false match rate to a suitable value for a practical system.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>Before we look at a final extract from Dettmer, I want to make a short detour into verification. This is because documents such as identity cards, passports, driving licences and the like are, strictly speaking, for verification of identity rather than for identification. Increasingly these documents have biometric data in memory chips incorporated in the document.</Paragraph>
+				</Section>
+				<Section id="sec004_008">
+					<Title>4.8 Verification</Title>
+					<Paragraph>You will, perhaps, by now be getting a sense of the challenge of setting up an identification system on a national scale. However, for many routine purposes, establishing who a person is from an entire population of possibilities is not what is required. Instead what is required is confirmation that the person is who they claim to be. This is <b>verification</b>. An example of verification happens when you collect a parcel from a depot. You are sometimes asked to show your driving licence, passport or other suitable document. This document verifies your identity.</Paragraph>
+					<Paragraph>Verification, like identification, involves a comparison of data, at least when done properly. If I sign for the parcel when I collect it, my signature should be checked against the one in the verification document. Alternatively, if the verification document has a photograph of me, the person issuing the parcel should check me against the photograph.</Paragraph>
+					<Paragraph>What distinguishes verification from identification is the number of checks made. In identification, data I supply (or which is taken from me) is checked against an entire database of templates. With verification, my data is checked only against data in the verification document. To use the terms you have already met, identification involves one-to-many checking, whereas verification involves one-to-one checking.</Paragraph>
+					<Paragraph>Because verification involves just a single comparison, it offers some advantages over identification. One advantage is that a biometric template can be stored in the verification document itself, in a machine-readable chip. The Schiphol airport system shown in <CrossRef idref="fig001_005">Figure 5</CrossRef> uses this method. Travellers who enrol in the system receive a membership card containing a memory chip. The chip holds the member's biometric template. When passing through the airport, the traveller puts the card into a reader and stands in front of an iris scanner. If the scan matches the template on the card, the traveller passes through immigration control without further formalities.</Paragraph>
+					<Paragraph>Another advantage of verification over identification relates to false positive identification. In identification, biometric data has to be checked against every template in the database. The large size of a national database can make false identification quite likely. However, in verification there is only a single check &#x2013; against the template in the verification document. In fact, in verification we are much more likely to be concerned with false non-matches than with false matches. For example, an enrolled traveller at Schiphol airport would be highly inconvenienced if his or her iris scan did not match the template on the chip. This is a false non-match.</Paragraph>
+					<Paragraph>Naturally verification is only as reliable as the document used for verification. As the extracts from Dettmer's article have shown, enrolling users in the proposed UK national identity card scheme requires that the applicant be checked against an entire database of previous applicants before the card can be issued. In other words, enrolment depends on an identification system. Only when an applicant has been successfully checked against the entire database is the verification document issued. This feature distinguishes the UK identity card system from those of some other countries.</Paragraph>
+					<Paragraph>Click on 'view document' to read the final extract from Dettmer's article (with thanks to R. Dettmer).</Paragraph><MediaContent src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\comment.pdf" type="pdf" width="" height="" id="med001_003">
+						
+					</MediaContent>
+					<Activity id="act001_023"><Heading>Activity 23 (self-assessment)</Heading><Question>
+							<Paragraph>Now read the final extract from Dettmer (2004), and answer the following question.</Paragraph>
+							<Paragraph>Dettmer foresees problems in setting up a national identity card scheme. Does he see these problems as relating to identification or to verification? Illustrate your answer with one or two short quotations. (There is no need to supply references for your quotations.)</Paragraph>
+						</Question><Answer>
+							
+							<Paragraph>The problems Dettmer mentions nearly all relate to setting up a national database for an identification system. For instance, he mentions uncertainty over &#x2018;how long it will take to enrol users in a real system&#x2019; and &#x2018;what percentage of the population will be unable to travel to their local biometric registration centre&#x2019;. He says very little about the use of the card for verification.</Paragraph>
+						</Answer></Activity>
+					<Paragraph>Dettmer's anxieties, as revealed in the article, relate to the practicalities of the system. Will there be so many identification errors as to make it unworkable and undermine the public's trust? Can people be enrolled fast enough? And so on. However, for many other critics, anxiety is based much more on the principles than on the practicalities. I shall look at some of these concerns now.</Paragraph>
+				</Section>
+				<Section id="sec004_009">
+					<Title>4.9 Ethical, social and political aspects</Title>
+					<Paragraph>The introduction of identity cards has proved controversial in several countries, for example France (where identity papers have long been a requirement) and Australia. Generally the issues have related to the questions like: &#x2018;What are these cards actually for?&#x2019;, &#x2018;Whose interests do they serve?&#x2019; and &#x2018;What use will be made of the underlying database of identity data?&#x2019; Opponents of identity schemes have pointed out that totalitarian regimes have always found identity systems very useful &#x2013; Nazi Germany and South Africa under apartheid being frequently cited. Even if a present-day government is trustworthy, what assurance is there that a future government will not abuse an identification system? Debates in this field are thus as much ethical, political and social issues as they are technical.</Paragraph>
+					<Box id="box001_007">
+						<Heading>Ethical, political and social issues</Heading>
+						<Paragraph>Ethical, political and social issues differ in many ways from purely scientific or technical ones. With purely scientific and technical disagreements, there is usually a route to a solution that is agreed on by the disagreeing parties. Thus, although all parties may be convinced of their rightness, they can usually agree on what would be required to settle the dispute. For instance, they might agree that performing a particular experiment or building a prototype device would settle the argument. Behind this &#x2018;agreed route&#x2019; idea is the notion that accumulating more facts, or evidence or data will settle the dispute. (In the event, this new data might not settle the disagreement, but the parties will nevertheless agree that this is the way disagreements are settled.)</Paragraph>
+						<Paragraph>Ethical, political and social disputes, in contrast, have a different character. With them there is usually no agreed route to a resolution. Although the parties in the dispute may cite data and facts to support their positions, there is not likely to be any crucial evidence that will settle the dispute. In fact, the basis of the dispute often relates to the significance of factual evidence, for instance, whether a particular fact is more or less significant than another. In other words, the debate is about the value that should be attached to factual data.</Paragraph>
+						<Paragraph>In technology, issues often arise that inextricably mix science, ethics, politics and social questions. Biometric identification is a good example, but there are many more. As you have seen, there are concerns about gathering personal information about citizens and about the uses such information might be put to. These are ethical issues. Underlying them are questions of rightness or wrongness in a moral sense, rather than in a scientific or technical sense.</Paragraph>
+						<Paragraph>You have also seen that there are concerns about whether the state should be able to do certain things, such as compelling citizens to participate in an identification scheme. Questions such as these, which relate to the holding and exercising of power, are examples of political issues.</Paragraph>
+						<Paragraph>Finally, as you have seen, there are concerns about the type of society that might result from national (and international) identity schemes. Will some sections of society be disadvantaged relative to others, and will individual liberty be infringed unacceptably? These are examples of social questions, as they relate to thel organisation and running of society.</Paragraph>
+						<Paragraph>Distinguishing between the technical aspects and the ethical, political and social aspects of an issue is often not easy. To help to clarify the distinction, it can be useful to think how a dispute could be resolved. If there is a route based on factual data, then it is probably a technical matter. If there is no clear route involving factual data, then there are probably ethical, political and social aspects. For instance, deciding how many fingers need to be used to achieve a particular performance level in a fingerprint identification system looks like a technical matter; but deciding whether national fingerprint data should be made available to the police does not. Even purely technical matters, though, often need to be seen within a larger ethical, political or social context. For instance, a technical question about identification might have very different implications within a totalitarian regime compared with a tolerant regime.</Paragraph>
+					</Box>
+					<Paragraph>In this section I am going to look briefly at some of the issues in a UK context, although they are not confined to the UK. I am drawing heavily on an article by Dempsey (2005) for this section although I am not quoting him.</Paragraph>
+					<Paragraph>Dempsey (2005) points out that in the UK, government arguments for an identification scheme have shifted. At one time identity cards were promoted as part of the campaign against terrorism. This argument has tended to be played down in favour of arguments about reducing benefits fraud. It is claimed that the careful checking of identity that precedes the issuing of a card will make it harder for fraudsters to make multiple claims with different identities. Commentators have questioned both of these arguments. Unless suspected terrorists are on a watch list, it is hard to see how identity cards can thwart them. Furthermore, many authorities have pointed out that benefit fraud usually results from dishonest declaration of income by the fraudster. The fraudster's identity is usually not false, so the usefulness of an identity card looks questionable in this case too. Other critics have pointed out that forged identity cards will almost certainly be available to anyone with the time and money to acquire them, so an identity card system could lead to a false sense of security.</Paragraph>
+					<Paragraph>There is certainly a case to be made for the practical usefulness of identity cards. For many low-level verification tasks, UK citizens currently have to use passports and driving licences in the absence of anything more suitable. This suggests a need for some sort of identity document. Many critics worry, however, that cards will come to be required for all sorts of activities that have not needed them traditionally, such as booking a hotel or buying travel tickets. This might seem no more than a nuisance, but many people who are not criminals nevertheless have good reasons to want their true identity kept secret (for instance, if they have fled from abusive domestic circumstances). Life for them would be more difficult. Criminals, on the other hand, who will always be able to get forged cards, will hardly be inconvenienced.</Paragraph>
+					<Paragraph>Although the controversy over identification schemes is usually expressed in terms of identity cards, what is at issue is often not so much the cards themselves as the national database, or national identity register, that would underpin the scheme. For many objectors, the creation of a large database containing everyone's photographs, fingerprints and other personal data looks like an erosion of traditional liberties. Hitherto, the only people who have had their fingerprints routinely collected have been criminals. Does collecting biometric data from everyone turn them, potentially, into suspects?</Paragraph>
+					<Paragraph>The creation of a national identity register could be argued to be consistent with &#x2018;modernisation of government&#x2019; &#x2013; the justification for so much of the e-government project. Almost any large business nowadays gathers information on its customers and stores it in a database. Compiling information on customers is part of the modern way of doing business. Why should it be different for a government? Managing a country could certainly be much simpler and more efficient if accurate, up-to-date information on the population was available all the time from a national database, rather than only intermittently via periodic censuses.</Paragraph>
+					<Paragraph>The convenience and usefulness provided by a national database, however, would not be confined to government. Many private organisations would find access to that kind of information attractive, and might be willing to pay for it. Critics of the identity card scheme suspect that information from the national identification register would find its way into private hands.</Paragraph>
+					<Paragraph>Other anxieties centre on the blurred distinction between identification and surveillance. It would, for instance, be possible for a facial-recognition system to be used in conjunction with surveillance cameras, so that a particular individual's movements could be automatically tracked in an area surveyed by cameras. Dempsey (2005) records that traffic cameras from the UK were used for surveillance of student demonstrations in Tiananmen Square in Beijing, China, in 1989.</Paragraph>
+					<Paragraph>Looking to the future, it looks likely that identification systems in different countries will require some degree of standardisation. Within Europe, for instance, some countries&#x2019; identity cards contain only a photograph of the owner and name and address. In some cases the cards are not backed up by a national database of biometric data.</Paragraph>
+					<Paragraph>My final point relates to cost. A national-scale identification system will be expensive. A UK identity card scheme, for instance, would be one of the largest IT projects ever undertaken. If the justification for the system is, say, crime reduction, could a better result be obtained by spending the money in other ways? Many critics of an identity system argue that it could, although the UK scheme is intended to be largely self-financed from the cost of enrolment.</Paragraph>
+					<Paragraph>This section has given only a brief coverage of some of the ethical, political and social issues involved with an identity system. However, there is plenty of further material on the Web.</Paragraph>
+					<Activity id="act001_024"><Heading>Activity 24 (self-assessment)</Heading><Question>
+							<Paragraph>Which of the following questions clearly raise ethical, political or social issues, and why?</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>Which biometric system has the best false match rate?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>What information should be held on an identity card?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>How much should citizens be charged for their identity cards in order to cover the cost of setting it up?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Which type of data chip on an identity document is most easily read remotely?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>During enrolment, how should cases of false positive identification best be handled?</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>On what occasions should citizens be required to identify themselves, and who should have the right to demand identification?</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<NumberedList>
+								<ListItem>
+									<Paragraph>This can be resolved experimentally, so looks like a technical matter.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>It is hard to answer this without asking further questions about what the information will be used for and why. These look like ethical, social and political questions.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>This looks like a technical matter. However, if differential pricing is used, deciding how much different categories of people should be charged takes on ethical, political and social aspects.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>This looks as though it could be settled by experiment, so it looks like a technical matter.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>This does not look as though it could be resolved with a purely factual input, so it has ethical, political and social aspects.</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Again, these do not look as though they could be resolved with a purely factual input, so ethical, political and social issues are raised.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Answer></Activity>
+				</Section>
+			</Session>
+			<Session id="sec005">
+				<Title>5 Usability and accessibility</Title>
+				<Section id="sec005_001">
+					<Title>5.1 Introduction</Title>
+					<Paragraph>The word <b>usability</b> has cropped up a few times already in this unit. In the context of biometric identification, usability referred to the smoothness of enrolment and other tasks associated with setting up an identification system. A system that produced few false matches during enrolment of applicants was described as usable.</Paragraph>
+					<Paragraph>Another meaning of usability is related to the ease of use of an interface. Although this meaning of the term is often used in the context of computer interfaces, there is no reason to confine it to computers. The concept of usability applies equally well to the design of tools and implements, or to noticeboards, for example <CrossRef idref="fig001_011">Figure 11</CrossRef>.</Paragraph>
+					<Figure id="fig001_011">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_011i.jpg" height="" x_imagesrc="t175_5_011i.jpg" x_imagewidth="455" x_imageheight="355"/>
+						<Caption>
+							Figure 11 Noticeboard in a park</Caption>
+							<Alternative>Figure 11</Alternative>
+							<Description>Figure 11</Description>
+						
+					</Figure>
+					<Activity id="act001_025"><Heading>Activity 25 (exploratory)</Heading><Question>
+							<Paragraph>How would you rate the usability of the noticeboard in <CrossRef idref="fig001_011">Figure 11</CrossRef>? If you think it would not be easy to use, what is the cause of the problem or problems?</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>When I came across this sign, I was puzzled for a while, so I did not rate its usability very highly.</Paragraph>
+							<Paragraph>All the distances are on the right of the board and aligned. It makes for a consistent style of presentation, so that distances can always be found on the same part of the board (there were other noticeboards like this one in the park). From that point of view the board conforms to generally accepted principles of &#x2018;good design&#x2019;. However, as a user, my first impression was that the right-hand side of the board related to things to the right of the sign, and the left-hand side of the board related to things to the left of the sign. The arrows seemed to support this view (especially the puzzling second line of the board, which has arrows in both directions).</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>In the context of e-government, usability is of particular concern because the public is unlikely to adopt the new systems of delivery of services if they are difficult to use.</Paragraph>
+				</Section>
+				<Section id="sec005_002">
+					<Title>5.2 Usability principles</Title>
+					<Paragraph>Usability as a field of study has grown rapidly with the spread of computers, the Web, mobile phones and other portable ICT devices. Although there are some basic principles of good, usable design, there are no rules that guarantee a good design. In this respect design for usability is like other branches of design, such as industrial design, book design or interior design.</Paragraph>
+					<Paragraph>Usability design draws on ideas from psychology, ergonomics, typography and so on, and makes extensive use of feedback from users. Feedback is gathered using various techniques, such as questionnaires, observation of users, interviews and recordings of users in action. Recordings of users can take many forms also, for example timing, video recording, recording users&#x2019; spoken commentaries, and tracking software that records all the key strokes made by a user.</Paragraph>
+					<Paragraph>Like virtually all areas of design, usability design is (or should be) <b>iterative</b>. That is, a prototype is tried, evaluated, modified in the light of evaluation, tried again, and so on. It is especially important to try a prototype with the kind of people who will use the finished product. Sara Bly, who designs and evaluates interfaces, says:</Paragraph>
+					<Quote id="quo001_008">
+						<Paragraph>Recently I was asked to design and evaluate an application for setting up personal preferences and purchasing services on the web. I was told it would be hard to test the interface &#x2018;in the field&#x2019; because it was difficult to get a 45&#x2013;60 minute test period when the user wasn't being interrupted. When I pointed out that interruptions were normal in the environment in which the product would be used and therefore should occur in the evaluation too, the client looked aghast. There was a moment of silence as he realised, for the first time, that this hadn't been taken into account in the design and that the interface timed out [that is, closed down after a period of inactivity, with loss of data already entered] after 60 seconds. It was unusable because the user would have to start all over again after each timeout.</Paragraph>
+						
+					<Paragraph>Bly (1997)</Paragraph></Quote>
+					<Paragraph>This focus on the users of the system is an example of the <b>human-centred design (HCD)</b> approach. The HCD approach is intended to ensure that aims of the interface or service are fulfilled for real users. The term &#x2018;users&#x2019; is understood to mean not just the customers or members of the public who use the interface for a particular service (sometimes referred to as <b>end users)</b>, but also the people who have to operate and maintain the system.</Paragraph>
+					<Paragraph>The principles of good design for e-government systems are not significantly different from those for other systems. For instance, Cabinet Office (2003), <i>Quality Framework for UK Government Website Design</i>, offers these pieces of advice (among others):</Paragraph>
+					<Quote id="quo001_009">
+						<Paragraph>A good government website should have some content that has been specifically written for the Web [&#x2026;][and] should not simply repeat printed brochures [&#x2026;]</Paragraph>
+						<Paragraph>Writing for the Web is a specific skill.</Paragraph>
+						
+					<Paragraph>Cabinet Office (2003), p. 30.</Paragraph></Quote>
+					<Paragraph>Jakob Nielsen, who has written extensively about usability, similarly says that writing for the Web is very different from writing for the page:</Paragraph>
+					<Quote id="quo001_010">
+						<Paragraph>People rarely read Web pages word by word; instead, they scan the page, picking out individual words and sentences. [&#x2026;] As a result, Web pages have to employ scannable text [&#x2026;]</Paragraph>
+						
+					<Paragraph>Nielsen (1997)</Paragraph></Quote>
+					<Activity id="act001_026"><Heading>Activity 26 (self-assessment)</Heading><Question>
+							<Paragraph>The following two pieces of text are directed at managers of an e-government project, and offer advice on dealing with web designers. Which would be better suited for online presentation, and why?</Paragraph>
+							<NumberedList>
+								<ListItem>
+									<Paragraph>&#x2018;A web designer should make it clear from the start what they will need you to do to quickly and effectively build your website. Content will be the major requirement. Indeed, it is often this aspect of putting together a website that takes the greatest amount of time, as the content must be collated and optimised for the Web. Ensure you have your content completed to the deadline you have agreed. This will ensure the designer/agency has no excuse concerning the completion of the project on time.&#x2019; (Cabinet Office, 2003, p. 44)</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>A web designer should make it clear what you need to do. Content will be your major contribution to the site.</Paragraph>
+									<Paragraph>Assembling content often takes longer than anything else. This isl because it needs to be:</Paragraph>
+									<BulletedSubsidiaryList>
+										<SubListItem>
+											<Paragraph>collated</Paragraph>
+										</SubListItem>
+										<SubListItem>
+											<Paragraph>optimised for the Web.</Paragraph>
+										</SubListItem>
+									</BulletedSubsidiaryList>
+									<Paragraph>Be sure to observe your deadlines, so that the designer/agency cannot blame you if the project runs late.</Paragraph>
+								</ListItem>
+							</NumberedList>
+						</Question><Answer>
+							
+							<Paragraph>Text 2 is much more scannable (to use Nielsen's term) than 1. It is easier to take in text 2 at a glance than text 1. This is because the paragraphs are shorter, the sentences are shorter (and simpler), and important sequences of ideas are listed (&#x2018;collated&#x2019; and &#x2018;optimised for the Web&#x2019;).</Paragraph>
+						</Answer></Activity>
+					<Paragraph>Nielsen's reason for advocating scannable text is not just because it is easier to read, but because it helps the viewer decide whether the text is worth reading. This is important because Web use is as much about deciding whether a page looks useful as it is about reading what is on the page. As further aids to scannability, Nielsen advises the use of:</Paragraph>
+					<Quote id="quo001_011">
+						<Paragraph>highlighted keywords (hypertext links serve as one form of highlighting; typeface variations and colour are others)</Paragraph>
+						<Paragraph>meaningful sub-headings (not &#x2018;clever&#x2019; ones)</Paragraph>
+						<Paragraph>bulleted lists</Paragraph>
+						<Paragraph>one idea per paragraph (users will skip over any additional ideas if they are not caught by the first few words in the paragraph)</Paragraph>
+						<Paragraph>the inverted pyramid style, starting with the conclusion</Paragraph>
+						<Paragraph>half the word count (or less) than conventional writing</Paragraph>
+						
+					<Paragraph>Nielsen (1997)</Paragraph></Quote>
+					<Paragraph>The price paid for concise web pages is loss of context and detail, but these can sometimes be supplied in other ways, for instance by headings, clear links and highlighted keywords, all of which Nielsen advocates.</Paragraph>
+					<Paragraph>The authors of <i>Quality Framework for UK Government Website Design</i> point to the importance of a search engine:</Paragraph>
+					<Quote id="quo001_012">
+						<Paragraph>[A]n effective site-specific search engine is crucial to most good government websites.</Paragraph>
+						
+					<Paragraph>Cabinet Office (2003), p. 33</Paragraph></Quote>
+					<Paragraph>Once again, this advice agrees with Nielsen's view of good practice:</Paragraph>
+					<Quote id="quo001_013">
+						<Paragraph>Search is the user's lifeline when navigation fails. Even though advanced search can sometimes help, simple search usually works best, and search should be presented as a simple box, since that's what users are looking for.</Paragraph>
+						
+					<Paragraph>Nielsen (1998)</Paragraph></Quote>
+					<Paragraph>In fact, for many users a search facility is not a second choice, to use when navigation fails, but a first choice that is often quicker and simpler than the navigation facilities.</Paragraph>
+					<Paragraph>Nielsen has at various times summarised his thoughts on usability in a list of principles. Here is one such list, slightly simplified by Preece et al. (2002).</Paragraph>
+					<NumberedList>
+						<ListItem>
+							<Paragraph>Visibility of system status. Always keep users informed about what is going on, through providing appropriate feedback within reasonable time.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Match between system and the real world. Speak the users' language, using words, phrases and concepts familiar to the user, rather than system-oriented terms.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>User control and freedom. Provide ways of allowing users to easily escape from places they unexpectedly find themselves, by using clearly marked &#x2018;emergency exits&#x2019;.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Consistency and standards. Avoid making users wonder whether different words, situations, or actions mean the same thing.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Help users recognise, diagnose, and recover from errors. Use plain language to describe the nature of the problem and suggest a way of solving it.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Error prevention. Where possible prevent errors occurring in the first place.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Recognition rather than recall. Make objects, actions, and options visible.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Flexibility and efficiency of use. Provide accelerators [for example, keyboard shortcuts] that are invisible to novice users, but allow more experienced users to carry out tasks more quickly.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Aesthetic and minimalist design. Avoid using information that is irrelevant or rarely needed.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Help and documentation. Provide information that can be easily searched and provides help in a set of concrete steps that can easily be followed.</Paragraph>
+						</ListItem>
+					</NumberedList>
+					<Paragraph>Nielsen's principles apply to all types of computer interface, for example the interfaces to operating systems, word processors, calculators and so on, not just web interfaces.</Paragraph>
+					<Paragraph>Principles like these give you an evaluative framework, but they are not in themselves a quick tool for evaluating an interface. For instance, an interface that falls short on two of these principles is not automatically better than one that falls short on three. The evaluation has to take into account the way the interface is used, which will probably (among other things) lead to some principles counting for more than others.</Paragraph>
+					
+				</Section>
+				<Section id="sec005_003">
+					<Title>5.3 Accessibility</Title>
+					<Paragraph>In Section 5.1 you assessed the usability of <CrossRef idref="fig001_011">Figure 11</CrossRef>, the noticeboard in a public park. For a visually impaired person, that noticeboard might not be usable at all, as you may have commented. This raises the issue of <b>accessibility</b>. Accessibility relates to how well a service is adapted to the diverse abilities of all potential users. Disabled people and people with various kinds of impairment have an interest in accessibility, but accessibility is not exclusively concerned with their needs. For example, users of online services might be using mobile phones or PDAs (personal digital assistants) to access the services, or might have slow connection speeds. If people have difficulties using the services because of their equipment, then they have accessibility problems. Accessibility therefore overlaps to some degree with usability.</Paragraph>
+					<Activity id="act001_028"><Heading>Activity 27 (Exploratory)</Heading><Question>
+							<Paragraph>How might a web designer cater for users with slow connections?</Paragraph>
+						</Question><Discussion>
+						<!--	<SubHeading>Comment</SubHeading>-->
+							<Paragraph>One of the most useful ways of catering for users with slow connections is minimising the total size of files that are downloaded when web pages are accessed. Large files take a long time to download and therefore cause delay. The solution is usually to avoid large graphics files, sound files or video files. Sometimes a text-only version should be offered.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>Generally designers want their sites to be usable and accessible by all users, in so far as that is feasible. In the UK, at the time of writing, there is also a legal dimension: disabled people have a strong legal case if they can show that failure to take account of their needs has disadvantaged them.</Paragraph>
+					<Paragraph>Some of the features required for good accessibility are easy to envisage. For instance, some users need to be able to adjust font sizes, screen resolution, and so on. Other users might find particular combinations of foreground and background colour make text hard to read. However, the accessibility implications of other features of interfaces are not so readily apparent. Some users, for instance, have a screen reader, which uses a synthesised voice to read on-screen text aloud. Other users have a speech-driven web browser, in which commands are spoken into a microphone. These are examples of <b>adaptive technology</b> or <b>assistive technology</b>, and the design of a website can considerably help or hinder their use. For example, many web pages have a panel on the left or at the top with links to other parts of the site. The sighted user can easily ignore these if they are of no interest. Screen readers, however, often begin by reading out these links. This can be useful on the first visit to a site, but on subsequent visits it can be frustrating for the user to have to endure the same recitation of links. A &#x2018;skip navigation&#x2019; link or button right at the start of the page allows the user of a screen reader to skip this part of the page. In an accessible design, this &#x2018;skip navigation&#x2019; facility can be invisible to a sighted user, but so placed that it is the first thing read by a screen reader.</Paragraph>
+					<Paragraph>For people who use a keyboard rather than a mouse, navigation is made easier if there are <b>access keys</b>. These are more-or-less standard keyboard shortcuts that can be incorporated into web pages. For instance, Alt 1 generally jumps to the homepage, Alt 4 jumps to a search facility. Alt 2 is generally a &#x2018;skip navigation&#x2019; link, taking the user straight to the main content of a page.</Paragraph>
+					<Activity id="act001_029"><Heading>Activity 28 (exploratory)</Heading><Question>
+							<Paragraph>There are some optional accessibility features built into Windows, and you should spend a few minutes investigating them. If you go to the Control Panel (reached from the Start button, and possibly then via &#x2018;Settings&#x2019;), you should see an icon labelled &#x2018;Accessibility Options&#x2019;. These give you options relating mainly to your mouse and keyboard. If there is an option &#x2018;Configure Windows to work for your vision, hearing and mobility needs&#x2019;, note this will launch a &#x2018;wizard&#x2019; that allows you to change your settings. If you are concerned that you might not be able to undo any changes, be sure not to select any modifications that are offered.</Paragraph>
+							<Paragraph>Depending on your version of Windows, you may find further accessibility tools if you go to the Windows Start button, choose &#x2018;Programs&#x2019;, select &#x2018;Accessories&#x2019;, and then select &#x2018;Accessibility&#x2019;.</Paragraph>
+						</Question><Discussion>
+							<!--<SubHeading>Comment</SubHeading>-->
+							<Paragraph>When I looked at these I was struck that the options available were quite modest: changes in text size in menus and dialogue boxes, the option to drive the cursor using the keypad rather than a mouse, and so on. I was interested to see that &#x2018;sticky keys&#x2019; allows keys that sometimes have to be pressed simultaneously with other keys (mainly shift-, control- and alt-) to be pressed in sequence. I was very surprised that no single action can be used as a substitute for double-clicking.</Paragraph>
+						</Discussion></Activity>
+					<Paragraph>
+						<CrossRef idref="fig001_012">Figures 12</CrossRef> and <CrossRef idref="fig001_013">13</CrossRef> show an example of an accessibility tool, developed in New Zealand. The Lomak (&#x2018;light operated Mouse and Keyboard&#x2019;) replaces a standard computer keyboard and mouse. The user directs a light source at the keyboard to get standard keyboard and mouse functions. The light source can be worn on the head or be hand-held.</Paragraph>
+					<Figure id="fig001_012">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_012i.jpg" height="" webthumbnail="true" x_imagesrc="t175_5_012i.jpg" x_imagewidth="509" x_imageheight="263" x_smallsrc="t175_5_012i.small.jpg" x_smallfullsrc="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_012i.small.jpg" x_smallwidth="450" x_smallheight="233"/>
+						<Caption>
+							Figure 12  The Lomak keyboard. Standard keyboard and mouse functions are obtained by directing a light source at the keyboard</Caption>
+							<Alternative>Figure 12</Alternative>
+							<Description>Figure 12</Description>
+						
+					</Figure>
+					<Figure id="fig001_013">
+						<Image src="\\DCTM_FSS\content\Teaching and curriculum\Modules\Shared Resources\OpenLearn\T175_5\1.0\t175_5_013i.jpg" height="" webthumbnail="false" x_imagesrc="t175_5_013i.jpg" x_imagewidth="511" x_imageheight="376"/>
+						<Caption>
+							Figure 13  Lomak keyboard in use. The user is wearing the light source on her head, and directing it with head movements</Caption>
+							<Alternative>Figure 13</Alternative>
+							<Description>Figure 13</Description>
+						
+					</Figure>
+					<Paragraph>Further information on accessibility aids can be found by searching the Web with terms such as &#x2018;adaptive technology&#x2019;, &#x2018;accessibility aids&#x2019; and &#x2018;accessibility software&#x2019;.</Paragraph>
+				</Section>
+			</Session>
+			<Session id="sec006">
+				<Title>6 E-government: other views</Title>
+				<Paragraph>As you come to the end of this unit, I would like to offer some alternative views of what e-government could or should be. What these views have in common is the notion that ICTs have the power to transform radically the way things are done.</Paragraph>
+				<Paragraph>We saw at the start of unit that in the UK the e-government project grew out of ideas about modernising government. This is true of many other countries&#x2019; e-government projects also. What &#x2018;modernisation&#x2019; means is not entirely clear, although it presumably involves managerial and organisational changes as well as the use of ICTs. But, whatever it involves, for many critics of e-government there is a feeling that the institutions of government will remain in control of the way ICTs are used by government.</Paragraph>
+				<Paragraph>There are other views of what e-government should be like. Implicit in many of these views is the idea that democratic e-government is not just about government services being put online. Instead, there is a view that democracy involves critical scrutiny of government. From this point of view, ICTs are seen to offer new tools for this critical scrutiny, and new ways of interacting with government. ICTs therefore open the way for a different kind of e-government. The following extract, from the <i>Guardian</i> newspaper, gives a flavour of this other view:</Paragraph>
+				<Quote id="quo001_014">
+					<Paragraph>Tom Steinberg, director of mySociety and a former adviser to No 10, wants the project to show off the success of the people he calls &#x2018;civic coders&#x2019;. Their grassroots projects typically run queries on data already published by the state, returning relevant information which is fed onto elegant, minimalist websites. Simple social software tools &#x2013; email, blogs, message boards, wikis &#x2013; add the crucial layer of interactivity, and in one swift hack, citizen is brought closer to state.</Paragraph>
+					<Paragraph>FaxYourMP is the canonical example. Stefan Magdalinski, one of the site's volunteers, says the site came about because, &#x2018;we don't see why people should have to jump through hoops to contact their elected MP&#x2019;. The site runs a postcode query to establish who your MP is, then presents you with a simple email form that quickly becomes a fax appearing in the MP's office. Run completely by volunteers, the site won the 2004 Future UK Internet Hero award and recently sent its 100,000th fax.</Paragraph>
+					<Paragraph>FaxYourMP and the websites that followed it picked up tricks the government had missed. The sites have seen ways to recycle data the government already publishes, increasing the usefulness of that data, without incurring much further cost.</Paragraph>
+					
+				<Paragraph>Hogge (2004)</Paragraph></Quote>
+				<Paragraph>mySociety is an umbrella organisation of 'grassroots' e-government projects. No. 10 refers to 10 Downing Street, the official home of the British Prime Minister.</Paragraph>
+				<Paragraph>These &#x2018;grassroots&#x2019; e-government organisations often criticise governments for not presenting information in a useful way:</Paragraph>
+				<Quote id="quo001_015">
+					<Paragraph>One thing he [Stefan Magdalinski, responsible for www.theyworkforyou.com] himself wants is for the Government to get out of the business of creating portals that the public is supposed to use as a gateway &#x2013; [&#x2026;]. &#x2018;They should get good at search-engine optimisation and which service-delivery points they want to optimise. If they want serious uptake, promote the places where you can actually pay your road tax above all the other areas.&#x2019;</Paragraph>
+					<Paragraph>More than that, says Magdalinski, they need to do a lot more to make data feeds available in formats that third parties can use. His own website is a case in point. &#x2018;The e-government framework has been going on for some years, but they still publish everything in PDF.&#x2019; PDF, Adobe's portable document format that preserves formatting and can be read on almost any computing device, is good for forms and material that is going to be printed. But why produce the recent listing of MPs&#x2019; expenses in that way, which makes it impossible to search them and to sort them meaningfully?</Paragraph>
+					<Paragraph>For the kinds of services Magdalinski builds, PDF is a hindrance. He wants data published in standard machine-readable formats designed to allow re-use by third parties. By the next general election, theyworkforyou.com should be able to provide a detailed scorecard on every MP: voting record, speeches made in Parliament, expenses claims. And why shouldn't charities like the Royal National Institute for the Blind be able to scrape all relevant government information &#x2013; legislation, direct links to benefits &#x2013; into a website that is designed to make life easier for its members?</Paragraph>
+					
+				<Paragraph>Grossman (2004)</Paragraph></Quote>
+				<Paragraph>You can perhaps see here the emergence of a different view of the role of ICT in relation to government. In the &#x2018;conventional&#x2019; view, ICT does not fundamentally change the relationship between government and the public, but allows government to do more efficiently and cheaply the kind of thing that it has always done, such as supplying information, collecting taxes, and so on. In the other, more subversive view, ICT has the potential to change the relationship between government and public, and to lead to different kinds of democratic process.</Paragraph>
+				<Paragraph>It seems particularly appropriate to end this block, by thinking about ICT's capacity for transformation. Like many new technologies, ICTs at first offer quicker or cheaper or more efficient ways of doing what is already done in other ways. But the cheapness, speed and accessibility of these technologies have a way of encouraging novel applications, by new groups of users &#x2013; as demonstrated by the grassroots organisations mentioned in this section. ICTs can thus transform the world in ways that could not have been predicted at the outset. The early proponents of e-government would almost certainly not have viewed e-activism as part of their agenda.</Paragraph>
+<!--<Box id="box00a">
+  <Heading>Do this</Heading> 
+  <Paragraph>Now you have completed this unit, you might like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+  <Paragraph>Post a message to the unit forum.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Review or add to your Learning Journal.</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Rate this unit.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>
+<Box id="box00b">
+  <Heading>Try this</Heading> 
+  <Paragraph>You might also like to:</Paragraph> 
+<BulletedList>
+<ListItem>
+<Paragraph>Find out more about the related Open University course</Paragraph>
+  </ListItem>
+<ListItem>
+  <Paragraph>Book a FlashMeeting to talk live with other learners</Paragraph> 
+  </ListItem>
+<ListItem>
+  <Paragraph>Create a Knowledge Map to summarise this topic.</Paragraph> 
+  </ListItem>
+  </BulletedList>
+  </Box>-->
+		
+		</Session>
+		
+		<Session id="ses007">
+<Title>Next steps</Title>
+<Paragraph>After completing this unit you may wish to study another OpenLearn Study Unit or find out more about this topic. Here are some suggestions:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1509">ICTs: device to device communication (T175_1) </a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/course/view.php?id=1666">ICTs in everyday life (T175_2) </a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/openlearn/science-maths-technology">Science, Maths and Technology</a></ListItem>
+</UnNumberedList>
+<Paragraph>If you wish to study formally at The Open University, you may wish to explore the courses we offer in this curriculum area:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/course/tu100.htm">My digital life (TU100) </a></ListItem>
+<ListItem><a href="http://www3.open.ac.uk/study/undergraduate/computing-and-ict/index.htm">Computing and ICT</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or find out about studying and developing your skills with The Open University:</Paragraph>
+<UnNumberedList>
+<ListItem><a href="http://www3.open.ac.uk/study/">OU study explained</a></ListItem>
+<ListItem><a href="http://www.open.ac.uk/skillsforstudy">Skills for study</a></ListItem>
+</UnNumberedList>
+<Paragraph>Or you might like to:</Paragraph>
+<UnNumberedList>
+<ListItem>Post a message to the <a href="http://openlearn.open.ac.uk/mod/forumng/view.php?id=397022">unit forum</a>, to share your thoughts about the unit or talk to other OpenLearners</ListItem>
+<ListItem>Review or add to your <a href="http://openlearn.open.ac.uk/mod/oublog/view.php?">Learning Journal</a></ListItem>
+<ListItem><a href="http://openlearn.open.ac.uk/blocks/rate_course/rate.php?courseid=1617">Rate this unit</a></ListItem>
+</UnNumberedList>
+</Session>
+
+		<BackMatter>
+			<References>
+				<Reference>Bisson, S. (2005) &#x2018;Mark of success&#x2019;, <i>Guardian</i> 'Life&#x2019; supplement. 10 February, p. 16.</Reference>
+				<Reference>Bly, S. (1997) &#x2018;Field work: Is it Product Work?&#x2019;, <i>ACM Interactions Magazine</i>, January and February, pp. 25&#x2013;30; quoted in Preece et al. (2002), p. 387.</Reference>
+				<Reference>Bowcott, O. (2004) &#x2018;Top security jails install fingerprint scan at gates&#x2019;, <i>Guardian</i>, 5 August, 2004.</Reference>
+				<Reference>Cabinet Office (1999) <i>Modernising Government</i>, London, Cabinet Office. (The Cabinet Office documents are available online and can be downloaded as PDF documents from http://www.cabinetoffice.gov.uk/publications/ [accessed 11 September 2006]. Use the search facility to find a document by title.)</Reference>
+				<Reference>Cabinet Office (2000) <i>e-Government: a Strategic Framework for Public Services in the Information Age</i>, London, Cabinet Office.</Reference>
+				<Reference>Cabinet Office (2003) <i>Quality Framework for UK Government Website Design: Usability Issues for Government Websites</i>, London, Cabinet Office.</Reference>
+				<Reference>Cross, M. (2005) &#x2018;Local solution to the Identity Crisis&#x2019;, <i>Guardian</i>, Online supplement, 31 March 2005, p. 16.</Reference>
+				<Reference>Dempsey, P. (2005) &#x2018;Knowing me, knowing you&#x2019;, <i>IFF Information Professional</i>, Institution of Electrical Engineers, February/March 2005, pp. 14&#x2013;18.</Reference>
+				<Reference>Dettmer, R. (2004) &#x2018;Safety in Numbers&#x2019;, <i>IEE Review</i>, vol. 50, no.ll, November, pp. 28&#x2013;9.</Reference>
+				<Reference>
+					<i>The Economist</i> (2005) &#x2018;New Look Passports&#x2019;, 19 February, p. 83.</Reference>
+				<Reference>Grossman, W. (2004) &#x2018;Are We E-fficient?&#x2019;, <i>The Independent</i>, Science &amp; Technology, 24 November, p. 11.</Reference>
+				<Reference>Hogge, B. (2004) &#x2018;Closer to the state&#x2019;, <i>Guardian</i> Online supplement, 2 December, p. 19.</Reference>
+				<Reference>Mansfield, A. and Rejman-Greene, M., (2003) <i>Feasibility Study on the Use of Biometrics in An Entitlement Scheme</i>, National Physical Laboratory, Teddington, version 3. Available online at http://www.npl.co.uk/scientific_software/research/biometrics/ [accessed 11 September 2006]</Reference>
+				<Reference>Musgrave, S. (2005) &#x2018;Community portals &#x2013; the UK experience&#x2019;, <i>Journal of Community Informatics</i>, vol. 1, no. 2, p. 35.</Reference>
+				<Reference>Nielsen, J. (1997) &#x2018;How users read on the Web&#x2019; [online] http://www.useit.com/alertbox/9710a.html [accessed 11 September 2006].</Reference>
+				<Reference>Nielsen, J. (1998) &#x2018;Top Ten Mistakes in Web Design&#x2019; [online] http://www.useit.com/alertbox/9605.html [accessed 11 September 2006].</Reference>
+				<Reference>Preece, J., Rogers, Y. and Sharp, H. (2002), <i>Interaction Design</i>, Hoboken, Wiley &amp; Sons, p. 27.</Reference>
+				<Reference>Say, M. (2005) &#x2018;The Information Man&#x2019;, <i>Government Computing</i>, Vol. 19, No. 2, February 2005, p. 16.</Reference>
+				<Reference>Silcock, R. (2001) &#x2018;What is e-government?&#x2019;, <i>Parliamentary Affairs</i>, Vol. 54, No. 1, January, p. 97.</Reference>
+			</References>
+			<Acknowledgements>
+				<Heading/>
+				<Paragraph>Except for third party materials and otherwise stated (see <a href="http://www.open.ac.uk/conditions">terms and conditions</a>), this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Licence</a></Paragraph>
+				<Paragraph>Grateful acknowledgement is made to the following sources for permission to reproduce material within this book.</Paragraph>
+				<SubHeading>Text</SubHeading>
+				<Paragraph>Roger Dettmer, &#x2018;Safety in Numbers&#x2019;, <i>IEE Review</i>, vol. 50, no. 11, Nov 2004.</Paragraph>
+				<Paragraph>Hogge B., (2004) &#x2018;Closer to the State&#x2019;. The <i>Guardian</i> Newspaper issued 2 December 2004.</Paragraph>
+				<SubHeading>Figures</SubHeading>
+				<Paragraph>
+					Figure 12  By permission of Lomak International</Paragraph>
+				<Paragraph>
+					Figure 13  By permission of Lomak International</Paragraph>
+					
+					<Heading>Don't miss out</Heading>
+<Paragraph>1. Join the 200,000 students currently studying with<a href="http://www3.open.ac.uk/study/"> The Open University</a>.</Paragraph>
+<Paragraph>2. Enjoyed this? Browse through our host of free course materials on <a href="http://openlearn.open.ac.uk"> LearningSpace</a>.</Paragraph>
+<Paragraph>3. Or browse more topics on <a href="http://www.open.ac.uk/openlearn"> OpenLearn</a>.
+</Paragraph>
+
+
+			</Acknowledgements>
+		</BackMatter>
+	</Unit>
+<settings>
+                <numbering>
+                    <Session autonumber="false"/>
+                    <Section autonumber="false"/>
+                    <SubSection autonumber="false"/>
+                    <SubSubSection autonumber="false"/>
+                    <Activity autonumber="false"/>
+                    <Exercise autonumber="false"/>
+                    <Box autonumber="false"/>
+                    <CaseStudy autonumber="false"/>
+                    <Quote autonumber="false"/>
+                    <Extract autonumber="false"/>
+                    <Dialogue autonumber="false"/>
+                    <ITQ autonumber="false"/>
+                    <Reading autonumber="false"/>
+                    <StudyNote autonumber="false"/>
+                    <Example autonumber="false"/>
+                    <Verse autonumber="false"/>
+                    <SAQ autonumber="false"/>
+                    <KeyPoints autonumber="false"/>
+                    <ComputerDisplay autonumber="false"/>
+                    <ProgramListing autonumber="false"/>
+                    <Summary autonumber="false"/>
+                    <Tables autonumber="false"/>
+                    <Figures autonumber="false"/>
+                    <MediaContent autonumber="false"/>
+                  </numbering>
+                <discussion_alias>Discussion</discussion_alias>
+                <session_prefix>Session</session_prefix>
+            </settings></Item>
