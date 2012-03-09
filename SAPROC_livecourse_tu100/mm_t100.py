@@ -126,7 +126,7 @@ def parsePage(courseRoot,root):
 	fo=open('reports/figures.txt','wb+')
 	writer=csv.writer(fo)
 	writer.writerow(['xsrc','caption','desc'])
-
+	#Note that acknowledgements to figures are provided at the end of the XML file with only informal free text/figure number identifers available for associating a particular acknowledgement/copyright assignment with a given image. It would be so much neater if this could be bundled up with the figure itself, or if the figure and the acknowledgement could share the same unique identifier?
 	for figure in figures:
 		img=figure.find('Image')
 		src=img.get('src')
