@@ -138,6 +138,18 @@ def parsePage(courseRoot,root):
 		print xsrc,caption,desc
 		writer.writerow([courseCode.encode('ascii','ignore'),src,xsrc,caption.encode('ascii','ignore'),desc.encode('ascii','ignore')])
 	fo.close()
+	
+	#Grab references
+	references=courseRoot.findall('.//References/Reference')
+	fo=open('reports/references.txt','wb+')
+	writer=csv.writer(fo)
+	writer.writerow(['coursecode','reference'])
+	#Note that references are provide with no semantic markup, though there may be presentational styling used to denote, eg the title of a book.
+	for reference in references:
+		ref=flatten(reference)
+		print ref
+		writer.writerow([courseCode.encode('ascii','ignore'),ref.encode('ascii','ignore')])
+	fo.close()
 
 
 mm=freemindRoot('tu100_1.xml')
