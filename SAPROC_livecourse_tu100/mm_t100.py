@@ -120,6 +120,24 @@ def parsePage(courseRoot,root):
 		#fudge the output for now to ignore non-ascii characters
 		writer.writerow([courseCode.encode('ascii','ignore'),term.encode('ascii','ignore'),definition.encode('ascii','ignore')])
 	fo.close()
+	
+	#Grab figures
+	figures=courseRoot.findall('.//Figure')
+	fo=open('reports/figures.txt','wb+')
+	writer=csv.writer(fo)
+	writer.writerow(['xsrc','caption','desc'])
+
+	for figure in figures:
+		img=figure.find('Image')
+		src=img.get('src')
+		xsrc=img.get('x_imagesrc')
+		caption=flatten(figure.find('Caption'))
+		#in desc, need to find a way of stripping <Number> element from start of description
+		desc=flatten(figure.find('Description'))
+		print xsrc,caption,desc
+		writer.writerow([courseCode.encode('ascii','ignore'),xsrc,caption.encode('ascii','ignore'),desc.encode('ascii','ignore')])
+	fo.close()
+
 
 mm=freemindRoot('tu100_1.xml')
 #print etree.tostring(mm, pretty_print=True)
