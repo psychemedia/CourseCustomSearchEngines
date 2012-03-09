@@ -125,17 +125,18 @@ def parsePage(courseRoot,root):
 	figures=courseRoot.findall('.//Figure')
 	fo=open('reports/figures.txt','wb+')
 	writer=csv.writer(fo)
-	writer.writerow(['xsrc','caption','desc'])
+	writer.writerow(['coursecode','src','xsrc','caption','desc'])
 	#Note that acknowledgements to figures are provided at the end of the XML file with only informal free text/figure number identifers available for associating a particular acknowledgement/copyright assignment with a given image. It would be so much neater if this could be bundled up with the figure itself, or if the figure and the acknowledgement could share the same unique identifier?
 	for figure in figures:
 		img=figure.find('Image')
+		#Is there a way I can actually generate a behind the firewall at least URL for embedding actual images?
 		src=img.get('src')
 		xsrc=img.get('x_imagesrc')
 		caption=flatten(figure.find('Caption'))
 		#in desc, need to find a way of stripping <Number> element from start of description
 		desc=flatten(figure.find('Description'))
 		print xsrc,caption,desc
-		writer.writerow([courseCode.encode('ascii','ignore'),xsrc,caption.encode('ascii','ignore'),desc.encode('ascii','ignore')])
+		writer.writerow([courseCode.encode('ascii','ignore'),src,xsrc,caption.encode('ascii','ignore'),desc.encode('ascii','ignore')])
 	fo.close()
 
 
